@@ -1,0 +1,222 @@
+{
+  "version": "0.2",
+  "fields": {
+    "gdp_real_billion_2011_intl": {
+      "label": "ВВП реальный",
+      "unit": "млрд международных $ 2011"
+    },
+    "gdp_growth_pct": {
+      "label": "Рост ВВП",
+      "unit": "%"
+    },
+    "gdp_per_capita_2011_intl": {
+      "label": "ВВП на душу населения",
+      "unit": "международные $ 2011"
+    },
+    "consumer_inflation_pct": {
+      "label": "Инфляция",
+      "unit": "%"
+    },
+    "investment_share_gdp_pct": {
+      "label": "Инвестиции",
+      "unit": "% ВВП"
+    },
+    "productivity_hour_index": {
+      "label": "Производительность за час",
+      "unit": "индекс, база 100"
+    },
+    "industry_share_pct": {
+      "label": "Промышленность",
+      "unit": "% ВВП"
+    },
+    "agriculture_share_pct": {
+      "label": "Сельское хозяйство",
+      "unit": "% ВВП"
+    },
+    "services_share_pct": {
+      "label": "Услуги",
+      "unit": "% ВВП"
+    },
+    "science_technology_index": {
+      "label": "Научно-технологический потенциал",
+      "unit": "0–100, игровая оценка"
+    },
+    "fiscal_tax_billion": {
+      "label": "Налоговые доходы",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_nontax_billion": {
+      "label": "Неналоговые доходы",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_spend_social_billion": {
+      "label": "Расходы: социальные",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_spend_economy_billion": {
+      "label": "Расходы: экономика",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_spend_defense_billion": {
+      "label": "Расходы: оборона",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_spend_admin_billion": {
+      "label": "Расходы: управление",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_spend_other_billion": {
+      "label": "Расходы: прочее",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_debt_domestic_billion": {
+      "label": "Долг в своей валюте",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_debt_fx_billion": {
+      "label": "Валютный долг",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_interest_rate_pct": {
+      "label": "Средняя ставка обслуживания долга",
+      "unit": "%"
+    },
+    "policy_rate_pct": {
+      "label": "Ключевая/политическая ставка",
+      "unit": "% или неприменимо"
+    },
+    "fx_external_value_index": {
+      "label": "Внешняя стоимость валюты",
+      "unit": "индекс 100"
+    },
+    "reserves_billion": {
+      "label": "Внешние резервы",
+      "unit": "млрд игровых внешних ед."
+    },
+    "exports_billion": {
+      "label": "Экспорт",
+      "unit": "млрд международных игровых ед."
+    },
+    "imports_billion": {
+      "label": "Импорт",
+      "unit": "млрд международных игровых ед."
+    },
+    "net_capital_inflow_billion": {
+      "label": "Чистый приток капитала",
+      "unit": "млрд международных игровых ед."
+    },
+    "fdi_inflow_billion": {
+      "label": "Прямые инвестиции извне",
+      "unit": "млрд международных игровых ед."
+    },
+    "population": {
+      "label": "Население",
+      "unit": "человек на 01.01.1955"
+    },
+    "birth_rate_per_1000": {
+      "label": "Рождаемость",
+      "unit": "на 1000 чел./год"
+    },
+    "death_rate_per_1000": {
+      "label": "Смертность",
+      "unit": "на 1000 чел./год"
+    },
+    "net_migration_people": {
+      "label": "Сальдо миграции",
+      "unit": "человек/год"
+    },
+    "age_0_14_pct": {
+      "label": "Дети 0–14",
+      "unit": "% населения"
+    },
+    "age_15_64_pct": {
+      "label": "Возраст 15–64",
+      "unit": "% населения"
+    },
+    "age_65_plus_pct": {
+      "label": "Возраст 65+",
+      "unit": "% населения"
+    },
+    "labor_participation_pct": {
+      "label": "Участие в рабочей силе",
+      "unit": "% населения 15–64"
+    },
+    "unemployment_pct": {
+      "label": "Безработица",
+      "unit": "% рабочей силы или неприменимо"
+    },
+    "employment_people": {
+      "label": "Занятость",
+      "unit": "человек, грубое приближение"
+    },
+    "real_household_income_index": {
+      "label": "Реальные доходы",
+      "unit": "индекс, база 100"
+    },
+    "income_gini": {
+      "label": "Джини",
+      "unit": "0–100 или нет данных"
+    },
+    "education_index": {
+      "label": "Образование",
+      "unit": "0–100, игровая оценка"
+    },
+    "healthcare_index": {
+      "label": "Здравоохранение",
+      "unit": "0–100, игровая оценка"
+    },
+    "fiscal_revenue_total_billion": {
+      "label": "Доходы бюджета, всего",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_spending_total_billion": {
+      "label": "Расходы бюджета, всего",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_budget_balance_billion": {
+      "label": "Баланс бюджета",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_debt_total_billion": {
+      "label": "Госдолг, всего",
+      "unit": "млрд игровых реальных ед."
+    },
+    "fiscal_debt_gdp_pct": {
+      "label": "Долг / ВВП",
+      "unit": "%"
+    },
+    "net_exports_billion": {
+      "label": "Торговое сальдо",
+      "unit": "млрд международных игровых ед."
+    },
+    "institutional_capacity_index": {
+      "label": "Дееспособность бюрократии",
+      "unit": "0–100, игровая экспертная оценка",
+      "update": "только утверждённым судейством",
+      "direction": "выше = сильнее исполнение"
+    },
+    "corruption_exposure_index": {
+      "label": "Коррупционные риски",
+      "unit": "0–100, игровая экспертная оценка",
+      "update": "только утверждённым судейством",
+      "direction": "выше = выше риск захвата ресурсов"
+    }
+  },
+  "trade_categories": [
+    "energy",
+    "food",
+    "raw_materials",
+    "machinery_technology",
+    "finished_goods",
+    "services"
+  ],
+  "value_status": [
+    "historical_referenced",
+    "derived_historical_proxy",
+    "scenario_assumption",
+    "calculated_scenario",
+    "not_applicable",
+    "missing"
+  ],
+  "baseline_date": "1955-01-01"
+}

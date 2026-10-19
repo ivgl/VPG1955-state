@@ -1,0 +1,46 @@
+{
+  "as_of": "1955-01-01",
+  "country_sources": {
+    "USA": [
+      "https://history.house.gov/Congressional-Overview/Profiles/84th/",
+      "https://www.senate.gov/history/partydiv.htm?lv=true"
+    ],
+    "URS": [
+      "https://www.britannica.com/place/Soviet-Union"
+    ],
+    "GBR": [
+      "https://www.ukpolitical.info/1951-general-election"
+    ],
+    "FRA": [
+      "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/quatrieme-republique/un-regime-instable-1947-1951",
+      "https://www.france-politique.fr/assemblee-nationale-1951.htm"
+    ],
+    "FRG": [
+      "https://bundeswahlleiterin.de/bundestagswahlen/1953.html"
+    ],
+    "JPN": [
+      "https://en.wikipedia.org/wiki/1953_Japanese_general_election",
+      "https://en.wikipedia.org/wiki/1955_Japanese_general_election"
+    ],
+    "CHN": [
+      "https://en.wikipedia.org/wiki/1st_National_People%27s_Congress"
+    ],
+    "EGY": [
+      "https://history.state.gov/historicaldocuments/frus1955-57v14/d411"
+    ],
+    "IND": [
+      "https://www.eci.gov.in/statistical-reports",
+      "https://en.wikipedia.org/wiki/1951%E2%80%9352_Indian_general_election"
+    ],
+    "ISR": [
+      "https://en.idi.org.il/israeli-elections-and-parties/elections/1951/"
+    ],
+    "ITA": [
+      "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_1953"
+    ],
+    "YUG": [
+      "https://www.britannica.com/place/Yugoslavia-former-federated-nation-1929-2003"
+    ]
+  },
+  "usage": "Снимки последних выборов и исторические институты; не использовать выборы после 1955 как заранее известный результат"
+}

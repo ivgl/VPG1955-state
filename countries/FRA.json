@@ -1,0 +1,418 @@
+{
+  "schema_version": "vpi_1955_country_state_v1.0",
+  "id": "FRA",
+  "name_ru": "Франция",
+  "turn_year": 1955,
+  "as_of": "1955-01-01",
+  "lifecycle": "OFFICIAL_START_1955",
+  "data_policy": "Стартовые значения G$ и исторические пропорции согласованы для игры; изменения после 01.01.1955 зависят от игрового судейства. Полный макроэкономический движок не применяется.",
+  "economy": {
+    "stats": {
+      "gdp_real_billion_2011_intl": 422.695,
+      "gdp_growth_pct": 4.4,
+      "gdp_per_capita_2011_intl": 9428.00107061605,
+      "consumer_inflation_pct": 3,
+      "investment_share_gdp_pct": 20,
+      "productivity_hour_index": 100,
+      "industry_share_pct": 42,
+      "agriculture_share_pct": 16,
+      "services_share_pct": 42,
+      "science_technology_index": 70,
+      "fiscal_tax_billion": 96.06320969,
+      "fiscal_nontax_billion": 10.67365256,
+      "fiscal_spend_social_billion": 47.79443798,
+      "fiscal_spend_economy_billion": 23.89717861,
+      "fiscal_spend_defense_billion": 23.89717861,
+      "fiscal_spend_admin_billion": 10.2416249,
+      "fiscal_spend_other_billion": 10.2416249,
+      "fiscal_debt_domestic_billion": 152.1702,
+      "fiscal_debt_fx_billion": 21.1348,
+      "fiscal_interest_rate_pct": 4,
+      "policy_rate_pct": 3.7,
+      "fx_external_value_index": 100,
+      "reserves_billion": 17.4217088,
+      "exports_billion": 59.599995,
+      "imports_billion": 59.177,
+      "net_capital_inflow_billion": 0.845,
+      "fdi_inflow_billion": 0.634,
+      "population": 44834000,
+      "birth_rate_per_1000": 19,
+      "death_rate_per_1000": 12,
+      "net_migration_people": 90000,
+      "age_0_14_pct": 25,
+      "age_15_64_pct": 63,
+      "age_65_plus_pct": 12,
+      "labor_participation_pct": 67,
+      "unemployment_pct": 2,
+      "employment_people": 18545943,
+      "real_household_income_index": 100,
+      "income_gini": 37,
+      "education_index": 69,
+      "healthcare_index": 70,
+      "fiscal_revenue_total_billion": 106.7368623,
+      "fiscal_spending_total_billion": 123.004245,
+      "fiscal_budget_balance_billion": -16.26738275,
+      "fiscal_debt_total_billion": 173.305,
+      "fiscal_debt_gdp_pct": 41.00001183,
+      "net_exports_billion": 0.422995,
+      "institutional_capacity_index": 63,
+      "corruption_exposure_index": 43
+    },
+    "trade_export_shares": {
+      "energy": 3,
+      "food": 14,
+      "raw_materials": 13,
+      "machinery_technology": 35,
+      "finished_goods": 23,
+      "services": 12
+    },
+    "trade_import_shares": {
+      "energy": 18,
+      "food": 9,
+      "raw_materials": 27,
+      "machinery_technology": 23,
+      "finished_goods": 15,
+      "services": 8
+    },
+    "currency_regime": "fixed_bretton_woods",
+    "currency_global_role": "ordinary",
+    "trade_note": "Шесть долей по 100%, значения — сценарные допущения; экспорт/импорт выражены в игровых сопоставимых единицах, не фактические доллары 1954.",
+    "reserve_coverage": {
+      "months": 3.84,
+      "year": 1954,
+      "role": "game_context_not_automatic_hard_fx_cap",
+      "imports_scope": "goods",
+      "method": "reserve ratio and unit context described in trade sheet"
+    },
+    "monetary_unit": "G$",
+    "external_financing_rule": "Кредиты, помощь и инвестиции не являются экспортом; новые закупки и клиринг судятся в RP."
+  },
+  "features": [
+    "industry.steel",
+    "industry.automotive",
+    "industry.chemicals",
+    "infra.passenger_rail",
+    "infra.ports",
+    "tech.research_base"
+  ],
+  "feature_notes": [
+    "Фрагментированная Национальная ассамблея, нестабильные коалиции; Алжирская война уже началась в 1954."
+  ],
+  "politics": {
+    "system": "parliamentary_republic_fragmented",
+    "head_of_government": "Пьер Мендес-Франс (председатель Совета министров), Рене Коти (президент)",
+    "governing_force": "Коалиция Четвёртой республики",
+    "last_national_election": "1951-06",
+    "next_election_not_before_historic": "1956-01",
+    "parliamentary_seats": null,
+    "electoral_support": null,
+    "note": "Фрагментированная Национальная ассамблея, нестабильные коалиции; Алжирская война уже началась в 1954.",
+    "status": "RESEARCHED_BASELINE_WITH_UNVERIFIED_CHANGES",
+    "electoral_system": "Многомандатные списки по департаментам с пропорциональной системой и apparentements (предвыборными объединениями). Частая смена правительств без новых всеобщих выборов.",
+    "legislature": "Национальное собрание IV Республики; фракции менялись после выборов 1951 года",
+    "last_election_reference_date": "1951-06-17",
+    "next_election_rule": "Плановый конец легислатуры 1956; исторически досрочные выборы прошли 1956-01-02, но роспуск не предрешён.",
+    "historical_party_seat_snapshots": {
+      "groups_1951_reference": {
+        "Коммунисты и близкие": 103,
+        "Социалисты SFIO": 107,
+        "Радикалы": 74,
+        "MRP и союзники": 94,
+        "Голлистский RPF": 121,
+        "Различные центристские и правые группы": null
+      }
+    },
+    "political_mood_1955": "Кабинет Мендес-Франса ищет поддержку в раздробленной Ассамблее. Вопрос Алжира и реформ колониальной политики раскалывает даже формально союзные группы. Данные 1951 года — только исходная электоральная опора: фракции и лидеры за три года успели измениться.",
+    "political_faultline": "Коалиционная неустойчивость, Алжир, европейская интеграция.",
+    "judge_reference_private": "Исторические выборы и падение IV Республики — не заданная траектория.",
+    "political_sources": [
+      "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/quatrieme-republique/un-regime-instable-1947-1951",
+      "https://www.france-politique.fr/assemblee-nationale-1951.htm"
+    ],
+    "seat_data_status": "referenced_snapshot_not_guaranteed_current_seating",
+    "future_ir_likelihood_policy": "Исторические выборы после 1955 служат лишь административной справкой, исход не копируется в игру."
+  },
+  "military": {
+    "active_personnel": 850000,
+    "reserve_personnel": 700000,
+    "equipment": {
+      "tanks": null,
+      "artillery": null,
+      "fighters": null,
+      "bombers": null,
+      "transport_aircraft": null,
+      "capital_surface_ships": null,
+      "aircraft_carriers": null,
+      "submarines": null,
+      "nuclear_warheads": null
+    },
+    "readiness": "STANDARD",
+    "logistics": "not_assessed",
+    "production_capacity": "not_assessed",
+    "count_status": "missing_historical_inventory",
+    "rule": "Запрещать численные оперативные судейства, пока не утверждён инвентарь техники и размещение сил.",
+    "force_balance_qualitative": {
+      "land": "высокая",
+      "air": "высокая",
+      "navy": "высокая",
+      "note": "Ресурсы отвлечены на колониальные конфликты и восстановление.",
+      "quality": "scenario_judicial_band_unverified"
+    },
+    "personnel_count_unit": "persons (source public sheet values measured in thousand people)",
+    "partial_mobilization_window": "3–6 недель",
+    "large_scale_mobilization_window": "3–6 месяцев",
+    "personnel_count_status": "GAME_ESTIMATE",
+    "trained_reserve_game_estimate": 700000,
+    "operational_constraints": "Точные вооружение и комплектность соединений отдельно не подтверждены; численность и сроки мобилизации не гарантируют техническую оснащённость."
+  },
+  "active_processes": [
+    {
+      "id": "FRA-HIST-01",
+      "kind": "historical_process",
+      "name": "Алжирский конфликт",
+      "since": 1954,
+      "scheduled_end": null,
+      "status": "active",
+      "description": "Боевые действия начались до игрового старта; дальнейшее развитие определяется игрой.",
+      "approved_numeric_effects": [],
+      "effects_status": "NOT_YET_ADJUDICATED"
+    }
+  ],
+  "country_modules": [
+    "fourth_republic_cabinets",
+    "algerian_war",
+    "european_integration"
+  ],
+  "provenance": {
+    "gdp_real_billion_2011_intl": {
+      "status": "derived_historical_proxy",
+      "source": "https://nationsinquiry.com/datasets/historical-gdp-per-capita/1954",
+      "reference_year": 1954,
+      "caveat": "1954 Maddison gdppc × population on 1955-01-01; территориальное покрытие проверить."
+    },
+    "gdp_growth_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "gdp_per_capita_2011_intl": {
+      "status": "derived_historical_proxy",
+      "source": "https://nationsinquiry.com/datasets/historical-gdp-per-capita/1954",
+      "reference_year": 1954,
+      "caveat": "Округлённое ВВП 1954 на человека / население 01.01.1955; ВВП 1954 относится к прошлому завершённому году."
+    },
+    "consumer_inflation_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "investment_share_gdp_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "productivity_hour_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "industry_share_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "agriculture_share_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "services_share_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "science_technology_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_tax_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_nontax_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_social_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_economy_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_defense_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_admin_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_other_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_debt_domestic_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_debt_fx_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_interest_rate_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "policy_rate_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fx_external_value_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "reserves_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "exports_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "imports_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "net_capital_inflow_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fdi_inflow_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "population": {
+      "status": "historical_referenced",
+      "source": "https://www.jetpunk.com/data/population/countries-by-population/1955?device=desktop",
+      "reference_date": "1955-01-01",
+      "caveat": "Современное географическое определение ООН; совпадение с границами 1955 требует проверки для отдельных стран."
+    },
+    "birth_rate_per_1000": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "death_rate_per_1000": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "net_migration_people": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "age_0_14_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "age_15_64_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "age_65_plus_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "labor_participation_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "unemployment_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "employment_people": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "real_household_income_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "income_gini": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "education_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "healthcare_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_revenue_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_spending_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_budget_balance_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_debt_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_debt_gdp_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "net_exports_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "institutional_capacity_index": {
+      "status": "scenario_assumption",
+      "source": null,
+      "caveat": "Условная игровая оценка 0–100, не исторический индекс."
+    },
+    "corruption_exposure_index": {
+      "status": "scenario_assumption",
+      "source": null,
+      "caveat": "Условная игровая оценка 0–100, не исторический индекс."
+    },
+    "economy_refresh": "18.10.2026 Google Drive latest canonical player-source Sheets, economic audit v0.5"
+  },
+  "political_source": "https://www.britannica.com/place/France/The-Fourth-Republic",
+  "readiness": {
+    "administrative_template": true,
+    "numeric_seed_available": true,
+    "historically_calibrated": false,
+    "military_inventory_complete": false,
+    "parliamentary_seats_complete": false,
+    "safe_to_publish_as_historical": false,
+    "aligned_with_1955_player_sheet": true,
+    "military_baseline_published": true
+  },
+  "institutions": {
+    "capacity_interpretation": "Квалифицированная администрация при частых кабинетных кризисах и колониальной нагрузке.",
+    "judging_rules_file": "rules/INSTITUTIONS.md",
+    "review_triggers": [
+      "крупные административные реформы",
+      "коррупционные расследования",
+      "перестройка госслужбы",
+      "региональные кризисы"
+    ]
+  },
+  "player_sheet_url": "https://docs.google.com/spreadsheets/d/1fmnf4_XDzAbCCL3K0FYsLiWiUp6WP8KnrNz0ZHJpR2s/edit",
+  "player_sheet_tab": "1955",
+  "release_id": "VPI1955-1955-START-R1",
+  "approval_source": "User instruction on 2026-10-18 to synchronize internal state and activate independent 1955 HEAD."
+}

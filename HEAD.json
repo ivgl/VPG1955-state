@@ -1,0 +1,23 @@
+{
+  "schema": "vpi1955-head-1",
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1955,
+  "start_date": "1955-01-01",
+  "release_id": "VPI1955-1955-START-R1",
+  "manifest_path": "manifest_1955.json",
+  "manifest_sha256": "d310f7d9006b6cfb9141e63619ff1a9919ee4930ecec107be82cc51e825bfa7d",
+  "official": true,
+  "phase": "PREPARE",
+  "status": "OFFICIAL_START_1955",
+  "rules_version": "RC0.8",
+  "next_year": 1956,
+  "note": "First official VPI1955_MAIN startup. Former 1977 pilot HEAD unchanged. World background includes existing pre-1955 institutions, country processes in separate country_state files.",
+  "manifest_drive_file_id": "18hwXZm1VjetoLU2DPlAqYzkIDsGXl2f4",
+  "manifest_drive_url": "https://drive.google.com/file/d/18hwXZm1VjetoLU2DPlAqYzkIDsGXl2f4/view",
+  "world_drive_file_id": "1C7QVQTG6sXKqx3v7ZL4ECUu8akuil7HJ",
+  "country_count": 12,
+  "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
+  "release_folder_url": "https://drive.google.com/drive/folders/1T13GK2q--rFg871dOhuxzM3I3TJamskh",
+  "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
+  "updated_note": "Military 12/12 baseline imported from verified player source; all major statistics synchronized before first real turn."
+}

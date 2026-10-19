@@ -1,0 +1,407 @@
+{
+  "schema_version": "vpi_1955_country_state_v1.0",
+  "id": "CHN",
+  "name_ru": "КНР",
+  "turn_year": 1955,
+  "as_of": "1955-01-01",
+  "lifecycle": "OFFICIAL_START_1955",
+  "data_policy": "Стартовые значения G$ и исторические пропорции согласованы для игры; изменения после 01.01.1955 зависят от игрового судейства. Полный макроэкономический движок не применяется.",
+  "economy": {
+    "stats": {
+      "gdp_real_billion_2011_intl": 628.748,
+      "gdp_growth_pct": 5.5,
+      "gdp_per_capita_2011_intl": 1049.0007974934015,
+      "consumer_inflation_pct": 2,
+      "investment_share_gdp_pct": 22,
+      "productivity_hour_index": 100,
+      "industry_share_pct": 23,
+      "agriculture_share_pct": 60,
+      "services_share_pct": 17,
+      "science_technology_index": 35,
+      "fiscal_tax_billion": 96.749605,
+      "fiscal_nontax_billion": 82.703419,
+      "fiscal_spend_social_billion": 25.332908,
+      "fiscal_spend_economy_billion": 90.454805,
+      "fiscal_spend_defense_billion": 42.548453,
+      "fiscal_spend_admin_billion": 15.824833,
+      "fiscal_spend_other_billion": 4.201779,
+      "fiscal_debt_domestic_billion": 12.575,
+      "fiscal_debt_fx_billion": 18.8624,
+      "fiscal_interest_rate_pct": 1,
+      "policy_rate_pct": null,
+      "fx_external_value_index": 100,
+      "reserves_billion": 2.237149984,
+      "exports_billion": 29.87565038,
+      "imports_billion": 33.04880658,
+      "net_capital_inflow_billion": 3.144,
+      "fdi_inflow_billion": 0,
+      "population": 599378000,
+      "birth_rate_per_1000": 36,
+      "death_rate_per_1000": 18,
+      "net_migration_people": 0,
+      "age_0_14_pct": 38,
+      "age_15_64_pct": 58,
+      "age_65_plus_pct": 4,
+      "labor_participation_pct": 80,
+      "unemployment_pct": null,
+      "employment_people": null,
+      "real_household_income_index": 100,
+      "income_gini": null,
+      "education_index": 27,
+      "healthcare_index": 23,
+      "fiscal_revenue_total_billion": 179.453024,
+      "fiscal_spending_total_billion": 178.677152,
+      "fiscal_budget_balance_billion": 0.775872,
+      "fiscal_debt_total_billion": 31.4374,
+      "fiscal_debt_gdp_pct": 5,
+      "net_exports_billion": -3.173156199,
+      "institutional_capacity_index": 48,
+      "corruption_exposure_index": 59
+    },
+    "trade_export_shares": {
+      "energy": 4,
+      "food": 22,
+      "raw_materials": 38,
+      "machinery_technology": 22,
+      "finished_goods": 12,
+      "services": 2
+    },
+    "trade_import_shares": {
+      "energy": 10,
+      "food": 5,
+      "raw_materials": 19,
+      "machinery_technology": 57,
+      "finished_goods": 8,
+      "services": 1
+    },
+    "currency_regime": "administrative",
+    "currency_global_role": "nonconvertible",
+    "trade_note": "Шесть долей по 100%, значения — сценарные допущения; экспорт/импорт выражены в игровых сопоставимых единицах, не фактические доллары 1954.",
+    "reserve_coverage": {
+      "months": 0.8205128205,
+      "year": 1954,
+      "role": "game_context_not_automatic_hard_fx_cap",
+      "imports_scope": "goods",
+      "method": "reserve ratio and unit context described in trade sheet"
+    },
+    "monetary_unit": "G$",
+    "external_financing_rule": "Кредиты, помощь и инвестиции не являются экспортом; новые закупки и клиринг судятся в RP."
+  },
+  "features": [
+    "industry.heavy",
+    "infra.freight_rail",
+    "agri.irrigation_dependency",
+    "finance.state_banks",
+    "trade.critical_imports"
+  ],
+  "feature_notes": [
+    "Первая пятилетка; развитие кооперации. КНР не контролирует Тайвань, который является отдельным неигровым субъектом."
+  ],
+  "politics": {
+    "system": "one_party_planned",
+    "head_of_government": "Мао Цзэдун (председатель КНР), Чжоу Эньлай (премьер Госсовета)",
+    "governing_force": "КПК",
+    "last_national_election": "1954-09",
+    "next_election_not_before_historic": null,
+    "parliamentary_seats": null,
+    "electoral_support": null,
+    "note": "Первая пятилетка; развитие кооперации. КНР не контролирует Тайвань, который является отдельным неигровым субъектом.",
+    "status": "RESEARCHED_BASELINE_WITH_UNVERIFIED_CHANGES",
+    "electoral_system": "Непрямые многоступенчатые выборы и политическое руководство КПК; формальное участие демократических партий не означает свободной конкуренции за власть.",
+    "legislature": "Всекитайское собрание народных представителей первого созыва, избранное в 1954 году; политическое господство КПК",
+    "last_election_reference_date": "1954-09",
+    "next_election_rule": "Следующий формальный цикл ВСНП ориентировочно 1958, не конкурентная смена правительства.",
+    "historical_party_seat_snapshots": {},
+    "political_mood_1955": "Власть консолидирована вокруг Мао и партийного аппарата, но существуют реальные разногласия о темпах коллективизации, индустриализации и границах заимствования советского опыта.",
+    "political_faultline": "Центр КПК, местный партийный аппарат, крестьяне, городские специалисты.",
+    "judge_reference_private": "Нельзя автоматически запускать ни Большой скачок, ни Культурную революцию.",
+    "political_sources": [
+      "https://en.wikipedia.org/wiki/1st_National_People%27s_Congress"
+    ],
+    "seat_data_status": "referenced_snapshot_not_guaranteed_current_seating",
+    "future_ir_likelihood_policy": "Исторические выборы после 1955 служат лишь административной справкой, исход не копируется в игру."
+  },
+  "military": {
+    "active_personnel": 3000000,
+    "reserve_personnel": 1800000,
+    "equipment": {
+      "tanks": null,
+      "artillery": null,
+      "fighters": null,
+      "bombers": null,
+      "transport_aircraft": null,
+      "capital_surface_ships": null,
+      "aircraft_carriers": null,
+      "submarines": null,
+      "nuclear_warheads": null
+    },
+    "readiness": "STANDARD",
+    "logistics": "not_assessed",
+    "production_capacity": "not_assessed",
+    "count_status": "missing_historical_inventory",
+    "rule": "Запрещать численные оперативные судейства, пока не утверждён инвентарь техники и размещение сил.",
+    "force_balance_qualitative": {
+      "land": "высокая",
+      "air": "растущая",
+      "navy": "ограниченная",
+      "note": "Большие сухопутные силы при технологических и логистических ограничениях.",
+      "quality": "scenario_judicial_band_unverified"
+    },
+    "personnel_count_unit": "persons (source public sheet values measured in thousand people)",
+    "partial_mobilization_window": "4–8 недель",
+    "large_scale_mobilization_window": "4–8 месяцев",
+    "personnel_count_status": "GAME_ESTIMATE",
+    "trained_reserve_game_estimate": 1800000,
+    "operational_constraints": "Точные вооружение и комплектность соединений отдельно не подтверждены; численность и сроки мобилизации не гарантируют техническую оснащённость."
+  },
+  "active_processes": [
+    {
+      "id": "CHN-HIST-01",
+      "kind": "historical_process",
+      "name": "Первая пятилетка КНР",
+      "since": 1953,
+      "scheduled_end": 1957,
+      "status": "active",
+      "description": "Развитие тяжёлой промышленности, советское техническое содействие.",
+      "approved_numeric_effects": [],
+      "effects_status": "NOT_YET_ADJUDICATED"
+    }
+  ],
+  "country_modules": [
+    "first_five_year_plan",
+    "cpc_party_state",
+    "taiwan_strait"
+  ],
+  "provenance": {
+    "gdp_real_billion_2011_intl": {
+      "status": "derived_historical_proxy",
+      "source": "https://nationsinquiry.com/datasets/historical-gdp-per-capita/1954",
+      "reference_year": 1954,
+      "caveat": "1954 Maddison gdppc × population on 1955-01-01; территориальное покрытие проверить."
+    },
+    "gdp_growth_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "gdp_per_capita_2011_intl": {
+      "status": "derived_historical_proxy",
+      "source": "https://nationsinquiry.com/datasets/historical-gdp-per-capita/1954",
+      "reference_year": 1954,
+      "caveat": "Округлённое ВВП 1954 на человека / население 01.01.1955; ВВП 1954 относится к прошлому завершённому году."
+    },
+    "consumer_inflation_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "investment_share_gdp_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "productivity_hour_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "industry_share_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "agriculture_share_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "services_share_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "science_technology_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_tax_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_nontax_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_social_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_economy_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_defense_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_admin_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_other_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_debt_domestic_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_debt_fx_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_interest_rate_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "policy_rate_pct": {
+      "status": "not_applicable",
+      "source": null
+    },
+    "fx_external_value_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "reserves_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "exports_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "imports_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "net_capital_inflow_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fdi_inflow_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "population": {
+      "status": "historical_referenced",
+      "source": "https://www.jetpunk.com/data/population/countries-by-population/1955?device=desktop",
+      "reference_date": "1955-01-01",
+      "caveat": "Современное географическое определение ООН; совпадение с границами 1955 требует проверки для отдельных стран."
+    },
+    "birth_rate_per_1000": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "death_rate_per_1000": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "net_migration_people": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "age_0_14_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "age_15_64_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "age_65_plus_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "labor_participation_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "unemployment_pct": {
+      "status": "not_applicable",
+      "source": null
+    },
+    "employment_people": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "real_household_income_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "income_gini": {
+      "status": "missing",
+      "source": null
+    },
+    "education_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "healthcare_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_revenue_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_spending_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_budget_balance_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_debt_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_debt_gdp_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "net_exports_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "institutional_capacity_index": {
+      "status": "scenario_assumption",
+      "source": null,
+      "caveat": "Условная игровая оценка 0–100, не исторический индекс."
+    },
+    "corruption_exposure_index": {
+      "status": "scenario_assumption",
+      "source": null,
+      "caveat": "Условная игровая оценка 0–100, не исторический индекс."
+    },
+    "economy_refresh": "18.10.2026 Google Drive latest canonical player-source Sheets, economic audit v0.5"
+  },
+  "political_source": "https://www.britannica.com/place/China/The-first-five-year-plan",
+  "readiness": {
+    "administrative_template": true,
+    "numeric_seed_available": true,
+    "historically_calibrated": false,
+    "military_inventory_complete": false,
+    "parliamentary_seats_complete": false,
+    "safe_to_publish_as_historical": false,
+    "aligned_with_1955_player_sheet": true,
+    "military_baseline_published": true
+  },
+  "institutions": {
+    "capacity_interpretation": "Способность к массовой мобилизации при крайне неравной компетенции региональных аппаратов.",
+    "judging_rules_file": "rules/INSTITUTIONS.md",
+    "review_triggers": [
+      "крупные административные реформы",
+      "коррупционные расследования",
+      "перестройка госслужбы",
+      "региональные кризисы"
+    ]
+  },
+  "player_sheet_url": "https://docs.google.com/spreadsheets/d/109y3wB9wwCQUm4GR4hL5C1mVGuPKPDaNo0cJTR5bhKo/edit",
+  "player_sheet_tab": "1955",
+  "release_id": "VPI1955-1955-START-R1",
+  "approval_source": "User instruction on 2026-10-18 to synchronize internal state and activate independent 1955 HEAD."
+}
