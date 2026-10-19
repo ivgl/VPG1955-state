@@ -1,0 +1,48 @@
+{
+  "schema": "vpi1955-factions-proposal-v1",
+  "country": "USA",
+  "as_of": "1955-01-01",
+  "status": "PROPOSED_FOR_ADMIN_REVIEW",
+  "historical_party_seats_verified": true,
+  "faction_seats_provisional": true,
+  "methodology": "Модель пяти доминирующих внутрипартийных ориентаций для игровых переговоров. В реальности либеральные и городские демократы пересекались: группы сделаны условно непересекающимися лишь для механики. Их размеры требуют отдельного утверждения администратором.",
+  "house": {
+    "total": 435,
+    "majority": 218,
+    "party_actual": {
+      "democrats": 232,
+      "republicans": 203
+    },
+    "factions": {
+      "southern_democrats": 95,
+      "liberal_democrats": 71,
+      "urban_democrats": 66,
+      "moderate_republicans": 110,
+      "conservative_republicans": 93
+    }
+  },
+  "senate": {
+    "total": 96,
+    "majority": 49,
+    "party_actual": {
+      "democrats": 48,
+      "republicans": 47,
+      "independent": 1
+    },
+    "factions": {
+      "southern_democrats": 20,
+      "liberal_democrats": 16,
+      "urban_democrats": 12,
+      "moderate_republicans": 24,
+      "conservative_republicans": 23,
+      "independent": 1
+    }
+  },
+  "references": [
+    "https://history.house.gov/Congressional-Overview/Profiles/84th/",
+    "https://www.senate.gov/history/partydiv.htm"
+  ],
+  "public_preview": "https://ivgl.github.io/VPG1955/countries/usa.html",
+  "official_head_unchanged": true,
+  "release_manifest_unchanged": true
+}
