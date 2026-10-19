@@ -1,0 +1,107 @@
+{
+  "schema": "vpi1955-ussr-influence-review-v1",
+  "campaign_id": "VPI1955_MAIN",
+  "country": "URS",
+  "as_of": "1955-01-01",
+  "status": "DRAFT_FOR_ADMIN_REVIEW_NOT_CANONICAL",
+  "approval_required": true,
+  "canon_head_unchanged": true,
+  "source": "Old experimental public interface figures, now restored for side-by-side readability after user design feedback; figures NOT independently historical or admin approved.",
+  "meaning": "For each institution: relative estimated backing for political group associated with Khrushchev, government group associated with Malenkov, and independent institutional leaders. Sum 100. Third category belongs to actors outside both player groups; not unallocated influence, not automatically capturable. The fractions are NOT percentages of memberships or guaranteed voting success.",
+  "institutions": [
+    {
+      "id": "presidium",
+      "name": "Президиум ЦК",
+      "khrushchev": 43,
+      "malenkov": 37,
+      "independent": 20
+    },
+    {
+      "id": "secretariat",
+      "name": "Секретариат ЦК",
+      "khrushchev": 63,
+      "malenkov": 18,
+      "independent": 19
+    },
+    {
+      "id": "sovmin",
+      "name": "Совет министров",
+      "khrushchev": 20,
+      "malenkov": 62,
+      "independent": 18
+    },
+    {
+      "id": "gosplan",
+      "name": "Госплан СССР",
+      "khrushchev": 25,
+      "malenkov": 60,
+      "independent": 15
+    },
+    {
+      "id": "army",
+      "name": "Вооружённые силы",
+      "khrushchev": 25,
+      "malenkov": 33,
+      "independent": 42
+    },
+    {
+      "id": "security",
+      "name": "КГБ",
+      "khrushchev": 35,
+      "malenkov": 25,
+      "independent": 40
+    },
+    {
+      "id": "regions",
+      "name": "Партийные организации",
+      "khrushchev": 53,
+      "malenkov": 25,
+      "independent": 22
+    }
+  ],
+  "eastern_europe": {
+    "status": "DRAFT_QUALITATIVE_COMPARISON_INDICES_NOT_APPROVED",
+    "scores": [
+      {
+        "code": "gdr",
+        "relations": 76,
+        "stability": 48
+      },
+      {
+        "code": "pol",
+        "relations": 74,
+        "stability": 58
+      },
+      {
+        "code": "cze",
+        "relations": 82,
+        "stability": 72
+      },
+      {
+        "code": "hun",
+        "relations": 66,
+        "stability": 37
+      },
+      {
+        "code": "rou",
+        "relations": 72,
+        "stability": 64
+      },
+      {
+        "code": "bgr",
+        "relations": 83,
+        "stability": 71
+      },
+      {
+        "code": "alb",
+        "relations": 75,
+        "stability": 62
+      }
+    ],
+    "notes": "Non-state player governments have autonomous interests and are NOT direct Soviet provinces; index scores do not grant command over their policies."
+  },
+  "site_commit": "0baa656e16787ff51cc48d7122ae660985a307f2",
+  "site_url": "https://ivgl.github.io/VPG1955/countries/ussr.html",
+  "official_state_updates": "NONE",
+  "game_mechanics_governing_approval": "Only the administrator can approve numeric scenario estimates and later turn deltas."
+}
