@@ -1,0 +1,17 @@
+{
+  "schema": "vpi1955-state-migration-v1",
+  "campaign_id": "VPI1955_MAIN",
+  "source_release_id": "VPI1955-1955-START-R1",
+  "source_manifest_sha256": "d310f7d9006b6cfb9141e63619ff1a9919ee4930ecec107be82cc51e825bfa7d",
+  "repository": "ivgl/VPG1955-state",
+  "repository_visibility": "private",
+  "imported_released_state": true,
+  "source_byte_verification": "PASS_32_OF_32_GIT_BLOBS",
+  "documentation_imported": true,
+  "canonical_source_switched": false,
+  "stage": "AWAITING_FINAL_POST_IMPORT_VERIFY",
+  "public_website_repository": "ivgl/VPG1955",
+  "automatic_adjudication": false,
+  "automatic_state_mutation": false,
+  "old_drive_head_preserved": true
+}
