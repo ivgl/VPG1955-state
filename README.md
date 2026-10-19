@@ -19,6 +19,6 @@
 
 Проверка после загрузки: `python3 scripts/verify_release.py`.
 
-Переход исходника истины из Google Drive на этот репозиторий должен быть подтверждён проверкой всего релиза и отдельной отметкой в `MIGRATION_STATUS.json`; прежний официальный HEAD в Drive остаётся сохранённым архивом и не удаляется.
+**Миграция завершена:** GitHub `ivgl/VPG1955-state@main` — текущий источник истины. Реквизиты Drive в импортированном HEAD сохранены для происхождения и восстановления. Старый официальный HEAD Drive не изменён. См. `STATE_WORKFLOW.md` и `MIGRATION_STATUS.json`.
 
 Папка оригинального релиза: https://drive.google.com/drive/folders/1T13GK2q--rFg871dOhuxzM3I3TJamskh

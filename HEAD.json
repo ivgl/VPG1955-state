@@ -19,5 +19,21 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://drive.google.com/drive/folders/1T13GK2q--rFg871dOhuxzM3I3TJamskh",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "Military 12/12 baseline imported from verified player source; all major statistics synchronized before first real turn."
+  "updated_note": "Military 12/12 baseline imported from verified player source; all major statistics synchronized before first real turn.",
+  "storage": {
+    "provider": "github",
+    "repository": "ivgl/VPG1955-state",
+    "visibility": "private",
+    "branch": "main",
+    "current_manifest": "manifest_1955.json",
+    "current_world": "world_1955.json",
+    "country_directory": "countries/",
+    "mechanics_directory": "modules/",
+    "effective_date": "2026-10-19",
+    "baseline_commit": "1eddd38fa5b62f8f738927633b792ce11fc96481",
+    "drive_locations": "archived_provenance_only",
+    "administrator_approval_required": true,
+    "automatic_adjudication": false,
+    "automatic_state_update": false
+  }
 }
