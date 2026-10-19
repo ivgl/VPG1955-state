@@ -2,7 +2,7 @@
 
 СТАТУС: 1955 START / OFFICIAL PREPARE. Опубликован отдельный HEAD 1955 https\://drive.google.com/file/d/1npjztHH-CLG772KqY\_t6VuKeMO8YSkts/view ; manifest https\://drive.google.com/file/d/18hwXZm1VjetoLU2DPlAqYzkIDsGXl2f4/view ; 12 country\_state, world\_state и modules (в том числе базовая численность войск, готовность и мобилизация) находятся https\://drive.google.com/drive/folders/1T13GK2q--rFg871dOhuxzM3I3TJamskh . Этот Doc — навигатор, не источник истины.
 
-campaign\_id: VPI1955\_MAIN ; world\_date: 1955-01-01 ; turn\_year: 1955 ; current\_phase: PREPARE ; rules\_version: RC0.8 \+ simplification G\$ ; judge: Игорь ; final\_admin: владелец игры.
+campaign\_id: VPI1955\_MAIN ; world\_date: 1955-01-01 ; turn\_year: 1955 ; current\_phase: PREPARE ; rules\_version: RC0.8 \+ simplification G\$ ; judge_assistant: ИИ (черновики и анализ) ; final\_admin: владелец игры.
 
 НЕ использовать: старый HEAD.json, release\_id 1977-RLIVE02-V2, ALT/BOR, OPERATIONS/1976, утверждения старого экономического движка о политике.
 
