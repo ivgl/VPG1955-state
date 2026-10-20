@@ -1,0 +1,149 @@
+{
+  "schema": "vpi1955-gbr-trade-regime-proposal-v1",
+  "country_id": "GBR",
+  "as_of": "1955-01-01",
+  "status": "PROPOSED_FOR_ADMIN_REVIEW_NOT_CANONICAL",
+  "approved": false,
+  "referenced_public_commit": "749b4c96fafb68584d2a0d82f660327ecc6320ab",
+  "public_source": "https://github.com/ivgl/VPG1955/blob/main/data/gbr-trade-zones-1955.js",
+  "canonical_baseline_source": "countries/GBR.json economy.stats and economy.trade_export_shares/trade_import_shares",
+  "canonical_baseline": {
+    "exports_billion_GUSD": 112.228,
+    "imports_billion_GUSD": 124.698,
+    "net_exports_billion_GUSD": -12.47,
+    "reserves_billion_GUSD": 32.172084,
+    "export_shares": {
+      "energy": 3,
+      "food": 4,
+      "raw_materials": 13,
+      "machinery_technology": 35,
+      "finished_goods": 26,
+      "services": 19
+    },
+    "import_shares": {
+      "energy": 13,
+      "food": 16,
+      "raw_materials": 28,
+      "machinery_technology": 17,
+      "finished_goods": 12,
+      "services": 14
+    }
+  },
+  "zone_scenario_status": "ESTIMATED_ANALYTICAL_ALLOCATION_NOT_HISTORICAL_OR_APPROVED",
+  "zone_names": [
+    {
+      "id": "sterling",
+      "name": "Стерлинговая зона",
+      "description": "Британия, ряд независимых участников Содружества и зависимые территории. Стерлинговые балансы, валютный контроль и общая заинтересованность в устойчивости фунта."
+    },
+    {
+      "id": "dollar",
+      "name": "Долларовая зона",
+      "description": "США и Канада — важнейшие направления платежей в свободно конвертируемой валюте, включая поставки техники, продовольствия и материалов."
+    },
+    {
+      "id": "europe",
+      "name": "Европейский платёжный союз",
+      "description": "Значительная часть западноевропейских взаимных платежей сводилась через Европейский платёжный союз: вместо отдельного расчёта по каждой паре стран сопоставлялись многосторонние позиции."
+    },
+    {
+      "id": "other",
+      "name": "Прочие расчёты",
+      "description": "Страны вне трёх основных контуров: расчёты могли идти через двусторонние соглашения, переводные фунты, другие валюты и специальные режимы."
+    }
+  ],
+  "allocation_by_sector_pct": {
+    "exports": {
+      "energy": {
+        "sterling": 30,
+        "dollar": 5,
+        "europe": 45,
+        "other": 20
+      },
+      "food": {
+        "sterling": 40,
+        "dollar": 10,
+        "europe": 30,
+        "other": 20
+      },
+      "raw_materials": {
+        "sterling": 45,
+        "dollar": 12,
+        "europe": 25,
+        "other": 18
+      },
+      "machinery_technology": {
+        "sterling": 28,
+        "dollar": 12,
+        "europe": 45,
+        "other": 15
+      },
+      "finished_goods": {
+        "sterling": 37,
+        "dollar": 10,
+        "europe": 40,
+        "other": 13
+      },
+      "services": {
+        "sterling": 42,
+        "dollar": 16,
+        "europe": 27,
+        "other": 15
+      }
+    },
+    "imports": {
+      "energy": {
+        "sterling": 25,
+        "dollar": 34,
+        "europe": 20,
+        "other": 21
+      },
+      "food": {
+        "sterling": 48,
+        "dollar": 28,
+        "europe": 10,
+        "other": 14
+      },
+      "raw_materials": {
+        "sterling": 47,
+        "dollar": 25,
+        "europe": 12,
+        "other": 16
+      },
+      "machinery_technology": {
+        "sterling": 10,
+        "dollar": 32,
+        "europe": 47,
+        "other": 11
+      },
+      "finished_goods": {
+        "sterling": 23,
+        "dollar": 20,
+        "europe": 44,
+        "other": 13
+      },
+      "services": {
+        "sterling": 40,
+        "dollar": 13,
+        "europe": 31,
+        "other": 16
+      }
+    }
+  },
+  "methodology": {
+    "methodology": "Каждый сектор распределён между четырьмя торгово-расчётными контурами. Сумма долей сектора равна 100%; суммы по контурам складываются в официальный общий экспорт/импорт. Это не статистика валюты каждой сделки.",
+    "map": "География на основе современных контуров. В 1955 году границы и суверенный статус ряда территорий отличались. Цвет обозначает ведущую институциональную связь, а не единственную валюту торговли.",
+    "history": "Платежи между стерлинговой зоной и европейскими странами могли использовать переводные фунты; зоны на карте являются аналитическими категориями, а не взаимоисключающими валютными системами."
+  },
+  "historical_sources": [
+    {
+      "title": "МВФ: соглашения и переводные фунты, январь 1955",
+      "url": "https://www.elibrary.imf.org/view/journals/024/1955/002/article-A001-en.xml"
+    },
+    {
+      "title": "Банк Англии: годовой отчёт 1955",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/annual-report/1955/boe-1955.pdf"
+    }
+  ],
+  "official_changes": "NONE. HEAD.json, manifests, canon country state and module untouched. Admin approval needed before treating as an official gameplay state or a base for future turns."
+}
