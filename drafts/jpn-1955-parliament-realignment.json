@@ -1,0 +1,76 @@
+{
+  "schema": "jpn-parliament-baseline-1955-review-v1",
+  "country_id": "JPN",
+  "snapshot_at": "1955-01-01",
+  "status": "PROPOSED_FOR_ADMIN_REVIEW_NOT_CANONICAL",
+  "approved": false,
+  "official_release": "VPI1955-1955-START-R1",
+  "canonical_country_ref": "countries/JPN.json",
+  "reason": "Replace 1953 election results on player site with 1954 post-realignment House factions. Preserve the immutable startup release until reviewed and approved.",
+  "parliament": {
+    "institution": "Палата представителей",
+    "constitutional_seats": 466,
+    "occupied_seats": 456,
+    "vacant_seats": 10,
+    "majority_threshold": 234,
+    "groups": [
+      {
+        "id": "dem",
+        "name": "Демократическая партия Хатоямы",
+        "seats": 124
+      },
+      {
+        "id": "lib",
+        "name": "Либеральная партия",
+        "seats": 180
+      },
+      {
+        "id": "left",
+        "name": "Левые социалисты",
+        "seats": 74
+      },
+      {
+        "id": "right",
+        "name": "Правые социалисты",
+        "seats": 61
+      },
+      {
+        "id": "workers",
+        "name": "Рабоче-крестьянская партия",
+        "seats": 5
+      },
+      {
+        "id": "jcp",
+        "name": "Коммунистическая партия",
+        "seats": 1
+      },
+      {
+        "id": "ind",
+        "name": "Прочие партии и независимые",
+        "seats": 11
+      },
+      {
+        "id": "vacant",
+        "name": "Вакантные места",
+        "seats": 10
+      }
+    ],
+    "governing_party": "Японская демократическая партия",
+    "prime_minister": "Итиро Хатояма",
+    "government_seats": 124,
+    "seats_short_of_majority": 110,
+    "current_cabinet": "Minority cabinet formed 1954-12-10",
+    "dissolution": "Not yet occurred by 1955-01-01. Any dissolution and subsequent election must follow player/admin decisions."
+  },
+  "source_notes": [
+    "Tokyo University Modern Japanese Economic History (pre-1955 election totals), https://ch.u-tokyo.ac.jp/ocw-files/lecture_files/eco_05/9/notes/ja/JEH-22.pdf",
+    "National Diet Library, 1955 political system, https://www.ndl.go.jp/modern/e/cha6/description07.html",
+    "The Liberal Democratic Party history on the Hatoyama government, https://www.jimin.jp/english/about-ldp/history/104228.html"
+  ],
+  "reconciliation": {
+    "total_groups": 466,
+    "seats_occupied_by_parties": 456,
+    "ministry_deficit": 110
+  },
+  "impact": "Research note; player-facing parliament can display researched starting caucuses. Official adjudication and canonical politics.parliamentary_seats remain unchanged pending explicit approval."
+}
