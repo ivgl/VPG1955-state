@@ -2,8 +2,8 @@
   "schema": "vpi1955-gbr-trade-regime-proposal-v1",
   "country_id": "GBR",
   "as_of": "1955-01-01",
-  "status": "PROPOSED_FOR_ADMIN_REVIEW_NOT_CANONICAL",
-  "approved": false,
+  "status": "ARCHIVED_AFTER_FINAL_APPROVAL",
+  "approved": true,
   "referenced_public_commit": "749b4c96fafb68584d2a0d82f660327ecc6320ab",
   "public_source": "https://github.com/ivgl/VPG1955/blob/main/data/gbr-trade-zones-1955.js",
   "canonical_baseline_source": "countries/GBR.json economy.stats and economy.trade_export_shares/trade_import_shares",
@@ -29,7 +29,7 @@
       "services": 14
     }
   },
-  "zone_scenario_status": "ESTIMATED_ANALYTICAL_ALLOCATION_NOT_HISTORICAL_OR_APPROVED",
+  "zone_scenario_status": "PROMOTED_TO_APPROVED_GAMEPLAY_BASELINE",
   "zone_names": [
     {
       "id": "sterling",
@@ -145,5 +145,9 @@
       "url": "https://www.bankofengland.co.uk/-/media/boe/files/annual-report/1955/boe-1955.pdf"
     }
   ],
-  "official_changes": "NONE. HEAD.json, manifests, canon country state and module untouched. Admin approval needed before treating as an official gameplay state or a base for future turns."
+  "official_changes": "Approved additive national mechanic in private modules/ registry. Base 1955 release and all 12 canonical country-statistic files, HEAD and manifest remain byte-for-byte unchanged.",
+  "approved_on": "2026-10-20",
+  "approved_for": "GBR player-facing trade geography and numeric sector-by-zone game model",
+  "approved_record": "modules/GBR_1955_trade_regimes_approved.json",
+  "previous_proposal_status": "PROPOSED_FOR_ADMIN_REVIEW_NOT_CANONICAL"
 }
