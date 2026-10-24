@@ -5,7 +5,7 @@
   "start_date": "1955-01-01",
   "release_id": "VPI1955-1955-START-R1",
   "manifest_path": "manifest_1955.json",
-  "manifest_sha256": "d310f7d9006b6cfb9141e63619ff1a9919ee4930ecec107be82cc51e825bfa7d",
+  "manifest_sha256": "fa7daa423dcb788864d528725ffb5aaf066e932b8e2dbe18bb48b630dc25611b",
   "official": true,
   "phase": "PREPARE",
   "status": "OFFICIAL_START_1955",
@@ -19,7 +19,7 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://drive.google.com/drive/folders/1T13GK2q--rFg871dOhuxzM3I3TJamskh",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "Military 12/12 baseline imported from verified player source; all major statistics synchronized before first real turn.",
+  "updated_note": "2026-10-24 audit: 12/12 national mechanics connected to approved public pages; 12/12 countries now contain the RC0.10 15-class military equipment GAME ESTIMATE baseline (180 categories); authoritative SHA-256 manifest verified 30/30. No play adjudication or automated history. PREPARE remains.",
   "storage": {
     "provider": "github",
     "repository": "ivgl/VPG1955-state",
@@ -29,11 +29,24 @@
     "current_world": "world_1955.json",
     "country_directory": "countries/",
     "mechanics_directory": "modules/",
-    "effective_date": "2026-10-19",
+    "effective_date": "2026-10-24",
     "baseline_commit": "1eddd38fa5b62f8f738927633b792ce11fc96481",
     "drive_locations": "archived_provenance_only",
     "administrator_approval_required": true,
     "automatic_adjudication": false,
-    "automatic_state_update": false
-  }
+    "automatic_state_update": false,
+    "current_manifest_sha256": "fa7daa423dcb788864d528725ffb5aaf066e932b8e2dbe18bb48b630dc25611b",
+    "military_game_baseline_approved": true,
+    "public_mechanics_approved": 12
+  },
+  "approval_history": [
+    {
+      "date": "2026-10-24",
+      "scope": "Promote RC0.10 inventory game estimates into canonical 1955 country states and link approved national mechanics; user request",
+      "manifest_sha256": "fa7daa423dcb788864d528725ffb5aaf066e932b8e2dbe18bb48b630dc25611b",
+      "baseline_12_countries": true,
+      "source_quality": "game scenario estimates, not exact historical inventory"
+    }
+  ],
+  "drive_metadata_status": "ARCHIVED_PROVENANCE_ONLY; all subsequent authoritative country, modules, world and manifest reads must use GitHub."
 }
