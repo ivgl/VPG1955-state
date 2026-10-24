@@ -53,7 +53,7 @@
     "YUG": "modules/YUG.json"
   },
   "rules_version": "RC0.8",
-  "approval_status": "APPROVED_FOR_FIRST_TURN_BY_USER_2026_10_18",
+  "approval_status": "USER_APPROVED_START_1955_AND_RC010_MILITARY_2026_10_24",
   "files": [
     {
       "path": "POLITICAL_SOURCES.json",
@@ -61,111 +61,139 @@
       "drive_url": "https://drive.google.com/file/d/1wuzeslQNS0Bxwmi9k2ka678yMyAd8BDe/view",
       "drive_stored_name": "POLITICAL_SOURCES.json",
       "sha256": "a45fdcd26f1e01e9836fe005979c8744600451afcb33de873c90627973bed51b",
-      "bytes": 1676
+      "bytes": 1676,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "campaign_config.json",
       "drive_file_id": "1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq",
       "drive_url": "https://drive.google.com/file/d/1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq/view",
       "drive_stored_name": "campaign_config.json",
-      "sha256": "183212443cb0d9e4849b243b1e759a8fdd122f4debe0a8eea717c6625283fe1e",
-      "bytes": 3109
+      "sha256": "1a3eb79d37faef31be1505314690e0b354627ed0281a5dbe2ad25db8b1969612",
+      "bytes": 4252,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/CHN.json",
       "drive_file_id": "1Vo9JqoKiOWjf0BGhAAT6_xmgUeepjhpm",
       "drive_url": "https://drive.google.com/file/d/1Vo9JqoKiOWjf0BGhAAT6_xmgUeepjhpm/view",
       "drive_stored_name": "CHN.json",
-      "sha256": "40abadf626d9ae3961f8777b76aa37980d304b7c156c0ad7bc82f451757cc1c6",
-      "bytes": 16161
+      "sha256": "c5cd7819bf8aa895d087537a188b6fe5cb77b507ef26b3b275b3e6f4b0e17bb8",
+      "bytes": 21899,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/EGY.json",
       "drive_file_id": "1ENODN09o74fXXzzttW5V67xk0dctZG05",
       "drive_url": "https://drive.google.com/file/d/1ENODN09o74fXXzzttW5V67xk0dctZG05/view",
       "drive_stored_name": "EGY.json",
-      "sha256": "e0a626fbbb1fd10816fc9713479dfc1b3a3884c5999dbda035d643295cc0ac7e",
-      "bytes": 16494
+      "sha256": "3eb3cd4e9379869b32e0d381d4a8acfdf507886f760a59df6e7793c97dac8a43",
+      "bytes": 22166,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/FRA.json",
       "drive_file_id": "1OvgNitxKcnsKChzA_GtHvthEyvVIqEPc",
       "drive_url": "https://drive.google.com/file/d/1OvgNitxKcnsKChzA_GtHvthEyvVIqEPc/view",
       "drive_stored_name": "FRA.json",
-      "sha256": "82f840f64e651ef923dfaf74635f6bda281da1c66e5499a9f106b1875d4f67a6",
-      "bytes": 16780
+      "sha256": "7a16d6810b27e4d75d9b3141b03f3520cf72d953b01b5016e52a172ba94ddbc1",
+      "bytes": 22527,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/FRG.json",
       "drive_file_id": "1FIjc7P6aDJpjEoL8KBD7hSHNjHwGR4Uw",
       "drive_url": "https://drive.google.com/file/d/1FIjc7P6aDJpjEoL8KBD7hSHNjHwGR4Uw/view",
       "drive_stored_name": "FRG.json",
-      "sha256": "729b164f3360d075855dbf418781071531877693154d75a904775780879630a6",
-      "bytes": 15900
+      "sha256": "bc90abe12f7e2f51a2b9031e3e57b47bff712c10d88cb8ca26b13f2756f7006b",
+      "bytes": 21524,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/GBR.json",
       "drive_file_id": "1Vom64zo5x2HnvxGu296RW_-RQWAjBuXA",
       "drive_url": "https://drive.google.com/file/d/1Vom64zo5x2HnvxGu296RW_-RQWAjBuXA/view",
       "drive_stored_name": "GBR.json",
-      "sha256": "d32f4e8c849a80b6145a97477f5af1c97a859840d1323d2dc03319d3b51e8f65",
-      "bytes": 16287
+      "sha256": "f0c277ed4a4d64cb26445492a3fc454dffcd6102bfe53a3f4f0fb98953834c4d",
+      "bytes": 22051,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/IND.json",
       "drive_file_id": "1vRZdC_oLN1cZ7In16NhEuyGmjVVt0tNu",
       "drive_url": "https://drive.google.com/file/d/1vRZdC_oLN1cZ7In16NhEuyGmjVVt0tNu/view",
       "drive_stored_name": "IND.json",
-      "sha256": "b8356cd62d934852812c0295decfc674c3236b7fe6fcbdbe27375f489fafba05",
-      "bytes": 16250
+      "sha256": "b4908fed2ab503a6e0091669bedc02d4677e3abcb8e9b3541ef68c79dbc49105",
+      "bytes": 21965,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/ISR.json",
       "drive_file_id": "18E4l0v_5xyEFi2N5cusDMhV1Aunab7YN",
       "drive_url": "https://drive.google.com/file/d/18E4l0v_5xyEFi2N5cusDMhV1Aunab7YN/view",
       "drive_stored_name": "ISR.json",
-      "sha256": "7e62830a4f309f3c12862a1f9f942799705cbfcb0d1a0444504c5aed0b270ffe",
-      "bytes": 16582
+      "sha256": "730af60789fddbde0d52355400a98b05321ab94c41bb79f0b4296fd859eaff90",
+      "bytes": 22267,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/ITA.json",
       "drive_file_id": "11Hj4TmvQhmnZAmy9XiFR3ogLBVjt_IO8",
       "drive_url": "https://drive.google.com/file/d/11Hj4TmvQhmnZAmy9XiFR3ogLBVjt_IO8/view",
       "drive_stored_name": "ITA.json",
-      "sha256": "83230c2df23c94ec2286f2ccfca9d37056ecf11d53a764a848676d62ca9c7b2b",
-      "bytes": 16497
+      "sha256": "a51acfc17edcf3613512c82fbb15a08a8f6a0de05b17f0de2039781ba8b737d4",
+      "bytes": 22230,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/JPN.json",
       "drive_file_id": "1u6PpRxvy0OzKURlvWGc5RSNDQGWzuWDY",
       "drive_url": "https://drive.google.com/file/d/1u6PpRxvy0OzKURlvWGc5RSNDQGWzuWDY/view",
       "drive_stored_name": "JPN.json",
-      "sha256": "f8c5d071c897e9ee3d32d344da1d7a826b82be37a8fb24ddb81a3910f5eddb84",
-      "bytes": 16613
+      "sha256": "0357cdc3c804bc595cdc324c8c6c9b79adc6f8e3d26f011abced302df40dd9b0",
+      "bytes": 22285,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/URS.json",
       "drive_file_id": "1OxUp-Rnp-mroFpRrkpAlVKgaqTeFqS1b",
       "drive_url": "https://drive.google.com/file/d/1OxUp-Rnp-mroFpRrkpAlVKgaqTeFqS1b/view",
       "drive_stored_name": "URS.json",
-      "sha256": "0b1c15c32c2ee76f60efbab1a043eb47d9964639f4b08f8dd3862fcb37838f32",
-      "bytes": 15738
+      "sha256": "f9d12a5751e3dffbd2e88faee9b7477225f22ee4f8125894f6d4f7de7ade66bd",
+      "bytes": 21530,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/USA.json",
       "drive_file_id": "1cjwnozFZAot-P5IZtblr-PMNdr8GzMpr",
       "drive_url": "https://drive.google.com/file/d/1cjwnozFZAot-P5IZtblr-PMNdr8GzMpr/view",
       "drive_stored_name": "USA.json",
-      "sha256": "a3c28522b09fbe44342939389b30bec3048f904d3935633380d2813e6480e293",
-      "bytes": 16626
+      "sha256": "8eca3f81609be1d2bc3300cdcc31cc95ca4e054567b88776aba7d7d323014888",
+      "bytes": 22424,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "countries/YUG.json",
       "drive_file_id": "1h5O_lGuYmxKxf21Z_qzIXZ42hsKwePRf",
       "drive_url": "https://drive.google.com/file/d/1h5O_lGuYmxKxf21Z_qzIXZ42hsKwePRf/view",
       "drive_stored_name": "YUG.json",
-      "sha256": "a2bfe6a840594e20b7048b0b49ce15d30154dd59c37dbc345d433dc4ba302de0",
-      "bytes": 15100
+      "sha256": "e0ce40372bba645a7c3be9e31afbc7fb3bc94385384756752187ee3f74b3cd60",
+      "bytes": 20820,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "field_dictionary.json",
@@ -173,103 +201,129 @@
       "drive_url": "https://drive.google.com/file/d/1FtJWMVyVdzZoJdRcATIjaI_uioxb0uJL/view",
       "drive_stored_name": "field_dictionary.json",
       "sha256": "b27b3df5dd295eeae3a7f63ddbaa9197709d0c11f01bddcfba4998086e6a4770",
-      "bytes": 7475
+      "bytes": 7475,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/CHN.json",
       "drive_file_id": "1WKLq8NwE09XegAO8RTrzJcFPWUoRLsjs",
       "drive_url": "https://drive.google.com/file/d/1WKLq8NwE09XegAO8RTrzJcFPWUoRLsjs/view",
       "drive_stored_name": "mechanics_CHN.json",
-      "sha256": "e6a05cd46424d38098837d2401a86dc3486407a230233c89bac98d51b5f87765",
-      "bytes": 4831
+      "sha256": "b8d21061d1554a395f1029cfabcda0d088298e7cf2a7f3811fd301fe14f3158e",
+      "bytes": 5417,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/EGY.json",
       "drive_file_id": "1JYvLoP7dRX-utu7GCZmv73sztzyx6EPo",
       "drive_url": "https://drive.google.com/file/d/1JYvLoP7dRX-utu7GCZmv73sztzyx6EPo/view",
       "drive_stored_name": "mechanics_EGY.json",
-      "sha256": "5b718019918875884366267cbd820eb9b844655d9476d7b21d8dc68c06bf1e0c",
-      "bytes": 4857
+      "sha256": "7e4401b6bf61d8f6c276a1212e6bc2de3f076d614b33fe5c204f95737b63a8aa",
+      "bytes": 5443,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/FRA.json",
       "drive_file_id": "1t1CAuwPf-GIFezKds2kS2yw3lJ_kvLPE",
       "drive_url": "https://drive.google.com/file/d/1t1CAuwPf-GIFezKds2kS2yw3lJ_kvLPE/view",
       "drive_stored_name": "mechanics_FRA.json",
-      "sha256": "4923ddbe9921a0d187da2bca34ec59fe1c53b4d67b6cccc1c34b6960ea35c181",
-      "bytes": 5045
+      "sha256": "70ec95a4787d293bafc3422e3a02ee4ef785bca1bac52a6c668adcb406ce1bed",
+      "bytes": 5631,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/FRG.json",
       "drive_file_id": "1DQXOWPe-6eKUWV-xxB5XkXuOAE3Qf8ny",
       "drive_url": "https://drive.google.com/file/d/1DQXOWPe-6eKUWV-xxB5XkXuOAE3Qf8ny/view",
       "drive_stored_name": "mechanics_FRG.json",
-      "sha256": "374439f99db72f6941c225f3c7cb5e2996ce584a96cd5cea0cf6394713b721ac",
-      "bytes": 4926
+      "sha256": "559ac0ac5fc1bcf78f3daf3235ef21341ea2bc8473353c1dd62a4ad7ff346cce",
+      "bytes": 5512,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/GBR.json",
       "drive_file_id": "1mT1T4L-vpKS8CDKZu74Ds8DvY6n0f-bE",
       "drive_url": "https://drive.google.com/file/d/1mT1T4L-vpKS8CDKZu74Ds8DvY6n0f-bE/view",
       "drive_stored_name": "mechanics_GBR.json",
-      "sha256": "a4f1e8238e5bcbc1157f2cac56860f13a82b4c48c00ce5dcbb1a388e9201cd04",
-      "bytes": 4933
+      "sha256": "a98b08b2a1b9a946047be9918bb7b98b4981ab24217099bc1f17e2090000252a",
+      "bytes": 5519,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/IND.json",
       "drive_file_id": "1J9Gz2YiFgJq1uotB6OizbJUFvZcBNhqx",
       "drive_url": "https://drive.google.com/file/d/1J9Gz2YiFgJq1uotB6OizbJUFvZcBNhqx/view",
       "drive_stored_name": "mechanics_IND.json",
-      "sha256": "ee9b53d7638df9a4039be07a316b56d002cb5631c21fca3ae283fad94487e0eb",
-      "bytes": 4922
+      "sha256": "57734a49416e59f8fb8ba17e50ac51bab486a471c3d990592689f421a47a7c55",
+      "bytes": 5508,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/ISR.json",
       "drive_file_id": "1V0KVrvdc34jzZvCaNcFWu7wcFSxxnKGk",
       "drive_url": "https://drive.google.com/file/d/1V0KVrvdc34jzZvCaNcFWu7wcFSxxnKGk/view",
       "drive_stored_name": "mechanics_ISR.json",
-      "sha256": "8b05d98b2028b7a8caef5d041c74d24599d836a88d13f36894a60392cb9ac2a8",
-      "bytes": 4704
+      "sha256": "00366f21ac0da42caefd3286f326d04328d0d558c8f5f33918f5f29421c94327",
+      "bytes": 5290,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/ITA.json",
       "drive_file_id": "157CN6BzatRrmbpffrfuAICHvjJgwdIe4",
       "drive_url": "https://drive.google.com/file/d/157CN6BzatRrmbpffrfuAICHvjJgwdIe4/view",
       "drive_stored_name": "mechanics_ITA.json",
-      "sha256": "0afd1f7c4613beb0b02455af948e7ecc3e2a0e6e90c5acb656399a2f645dc58a",
-      "bytes": 4740
+      "sha256": "232335186c2b019e49a555e63f9953ceb8d404ebf20f7b1c7304a52c2b79525a",
+      "bytes": 5326,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/JPN.json",
       "drive_file_id": "1ooM9Rr24XfwVzqT8BTwwsnY3MZg3sIcm",
       "drive_url": "https://drive.google.com/file/d/1ooM9Rr24XfwVzqT8BTwwsnY3MZg3sIcm/view",
       "drive_stored_name": "mechanics_JPN.json",
-      "sha256": "0f483662da4a2deb2008fafa0ae6c1283c36fc451a8cfa473acd49fbbff8d245",
-      "bytes": 4814
+      "sha256": "cc6ddff0c6a3a9e3b2db0c08b0a3746e1c5edb5f47b04967c7dae20db6dbf6f4",
+      "bytes": 5400,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/URS.json",
       "drive_file_id": "1TTPq-TiC3G6xm8AoWNo6FkEoPQSvwmor",
       "drive_url": "https://drive.google.com/file/d/1TTPq-TiC3G6xm8AoWNo6FkEoPQSvwmor/view",
       "drive_stored_name": "mechanics_URS.json",
-      "sha256": "21e2abf64ccf831205e7c5abe7b1aae852b6ed303ce16756dc02b8f0276a5f34",
-      "bytes": 5183
+      "sha256": "f14f2804d1c0ef5592d6f1f2a163e68e689e9fc1cac082d67aecf82b4dc65d2e",
+      "bytes": 5770,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/USA.json",
       "drive_file_id": "13nLcG_O31UyyZs51b_kRN47PORTlKt6f",
       "drive_url": "https://drive.google.com/file/d/13nLcG_O31UyyZs51b_kRN47PORTlKt6f/view",
       "drive_stored_name": "mechanics_USA.json",
-      "sha256": "c0d81ee67ab485e823422f5a1036456acbe149eb0af12b1447e08bafc3897030",
-      "bytes": 5905
+      "sha256": "fcfea000030b24ad7d9242446e1f4fc795b071d2544d6bfc6e5e4b6f7e67f8a7",
+      "bytes": 6491,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "modules/YUG.json",
       "drive_file_id": "1gf3AUuoVgzolU8oKqWS806EW8PMylxOg",
       "drive_url": "https://drive.google.com/file/d/1gf3AUuoVgzolU8oKqWS806EW8PMylxOg/view",
       "drive_stored_name": "mechanics_YUG.json",
-      "sha256": "c2124d196f68f3aa898a8aba9dcdb06fb854d137c4ef5828e91ece6de7ee1ca9",
-      "bytes": 4931
+      "sha256": "037511774cbc52c2c155af8500f8f9e947a418e830c65b18a3030af0d6f7c405",
+      "bytes": 5517,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "sources.json",
@@ -277,15 +331,19 @@
       "drive_url": "https://drive.google.com/file/d/1CrmZPB34DEtIPW2B2M3UJYgaDrvvGKcb/view",
       "drive_stored_name": "sources.json",
       "sha256": "c39ec1e539371d25485bc02879ee048baac70c180060d2d195a933b39941296a",
-      "bytes": 669
+      "bytes": 669,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "validation_report.json",
       "drive_file_id": "1EhVEDMfprxQkXp_HJOfOSN_0TVxoBE_H",
       "drive_url": "https://drive.google.com/file/d/1EhVEDMfprxQkXp_HJOfOSN_0TVxoBE_H/view",
       "drive_stored_name": "validation_report.json",
-      "sha256": "3fa25ebc0e5a59f5f96d5ded841bfcd45bf5ccb70d7c033dd6a5f4f7453bf48c",
-      "bytes": 18962
+      "sha256": "fddf3db1a16a6262eeac0b3891e10c525bf2c82a0393e4a2e10c481d0cf35506",
+      "bytes": 20512,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
       "path": "world_1955.json",
@@ -293,7 +351,9 @@
       "drive_url": "https://drive.google.com/file/d/1C7QVQTG6sXKqx3v7ZL4ECUu8akuil7HJ/view",
       "drive_stored_name": "world_1955.json",
       "sha256": "4a6e0e75e04068efbb3b7fcca435059d3c12b891ce9364bf7c688cc9952e9596",
-      "bytes": 5769
+      "bytes": 5769,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     }
   ],
   "drive_folder_id": "1T13GK2q--rFg871dOhuxzM3I3TJamskh",
@@ -326,15 +386,29 @@
     "ITA": "157CN6BzatRrmbpffrfuAICHvjJgwdIe4",
     "YUG": "1gf3AUuoVgzolU8oKqWS806EW8PMylxOg"
   },
-  "source_of_truth": "HEAD_1955.json -> manifest_1955.json -> separate raw country/world/modules JSON bytes; Google Sheets derived.",
-  "publication_state": "READY_FOR_FINAL_READBACK_AND_HEAD_SWITCH_AFTER_MILITARY_SYNC",
+  "source_of_truth": "GitHub ivgl/VPG1955-state main: HEAD.json -> manifest_1955.json -> countries/*.json, modules/*.json, world_1955.json. Google Sheets are derived.",
+  "publication_state": "OFFICIAL_GITHUB_CANONICAL_START_1955_PREPARE_WITH_RC010_BASELINE",
   "integrity_checks": {
     "country_json_count": 12,
     "national_mechanics_json_count": 12,
     "all_payload_file_count": 30,
-    "payload_total_size_bytes": 292479,
+    "payload_total_size_bytes": 370865,
     "source_numeric_changes_from_v02": 160,
     "arithmetic_checks_failed": 0,
-    "military_country_files_synced": 12
+    "military_country_files_synced": 12,
+    "military_equipment_categories_synced": 180,
+    "national_mechanics_public_links": 12
+  },
+  "current_audit": {
+    "date": "2026-10-24",
+    "revision": "R1_RC010_APPROVED_AMENDMENT",
+    "country_files": 12,
+    "module_files": 12,
+    "world_files": 1,
+    "equipment_categories": 180,
+    "public_mechanics_approved": 36,
+    "playable_military_estimates": "YES_NOT_EXACT_HISTORICAL",
+    "phase": "PREPARE",
+    "public_launch_open": false
   }
 }
