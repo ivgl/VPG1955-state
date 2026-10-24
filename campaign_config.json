@@ -35,7 +35,7 @@
   "numeric_quality": "MIXED_REFERENCED_AND_SCENARIO_ESTIMATES; provenance per field",
   "no_double_counting": true,
   "non_player_countries": "world compact profiles",
-  "military_simulation": "narrative judgment + audited inventories",
+  "military_simulation": "expert adjudication using approved 15-class equipment game baseline in countries/*.json, plus readiness, logistics and theater deployment assessments",
   "version": "1.0-start-candidate",
   "national_spirits": "3 literary mechanics per country; no fixed stat bonus",
   "institutions": "institutional_capacity_index and corruption_exposure_index; rule-based expert adjudication",
@@ -62,5 +62,33 @@
     "YUG": "https://docs.google.com/spreadsheets/d/1UQphmyOQlQ-ZfpnZLVA9DwC8Zmdqvk8dgYbo8nMdg4M/edit"
   },
   "release_id": "VPI1955-1955-START-R1",
-  "official_head_policy": "Dedicated VPI1955_MAIN HEAD, never overwrite test campaign HEAD year 1977."
+  "official_head_policy": "Dedicated VPI1955_MAIN HEAD, never overwrite test campaign HEAD year 1977.",
+  "military_inventory_baseline": {
+    "source": "RC0.10_GAMESHEET_IMPORTED_TO_COUNTRY_JSON",
+    "status": "ADMIN_APPROVED_START_GAME_ESTIMATE",
+    "effective_date": "1955-01-01",
+    "approved_on": "2026-10-24",
+    "country_count": 12,
+    "categories_per_country": 15,
+    "total_category_rows": 180,
+    "industrial_capacity": "estimated theoretical, not guaranteed output",
+    "operational_readiness": "requires adjudication for actual deployment and supply"
+  },
+  "approved_public_mechanics": {
+    "source_repository": "ivgl/VPG1955",
+    "countries": 12,
+    "mechanics_per_country": 3,
+    "module_links": "modules/{country}.json.public_mechanics.public_url",
+    "approval_on": "2026-10-24",
+    "legacy_module_rules": "background context, not competing operative rules",
+    "stat_effects": "none automatic"
+  },
+  "turn_duration": {
+    "days": 7,
+    "submission_days": 3,
+    "judging_days": 4,
+    "appeals_default_hours": 48,
+    "appeal_window_within_judging_period": true,
+    "dates_to_be_announced": true
+  }
 }
