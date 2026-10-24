@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3-1955-rc010",
   "fields": {
     "gdp_real_billion_2011_intl": {
       "label": "ВВП реальный",
@@ -218,5 +218,34 @@
     "not_applicable",
     "missing"
   ],
-  "baseline_date": "1955-01-01"
+  "baseline_date": "1955-01-01",
+  "military_equipment_1955": {
+    "source": "countries/{ID}.json.military.equipment_inventory_1955",
+    "approved_game_baseline": "RC0.10_2026-10-24",
+    "not_exact_archival_counts": true,
+    "categories": 15,
+    "category_fields": {
+      "total": "Общий парк единиц категории, включая небоеготовые. Единица: штуки.",
+      "combat_ready": "Боеготовая часть общего парка на стартовую дату; не суммируется с total.",
+      "generations.modern": "Современное по состоянию на 1955 год, входит в total.",
+      "generations.previous": "Предыдущее поколение по состоянию на 1955 год, входит в total.",
+      "generations.obsolete": "Устаревшее по состоянию на 1955 год, входит в total."
+    },
+    "checks": [
+      "modern + previous + obsolete == total",
+      "combat_ready <= total",
+      "all counts are nonnegative integers"
+    ],
+    "missing_data_meaning": "null (legacy transport-aircraft and nuclear-warhead fields) means not reliably determined, not zero; detailed deployed-by-theater inventory unavailable.",
+    "annual_production_capacity": "industrial_military_capacity_1955 gives estimated theoretical tank/aircraft capacity, not actual production, not guaranteed deliveries.",
+    "expert_adjudication": "Consider logistics, basing, reserve training, readiness, timeline, theater and administrative permission; no automatic combat bonuses."
+  },
+  "approved_mechanics_1955": {
+    "canonical_link": "modules/{ID}.json.public_mechanics.public_url",
+    "linked_countries": 12,
+    "status": "ADMIN_APPROVED_2026-10-24",
+    "legacy_module_rules": "context_only",
+    "supplemental_index": "modules/APPROVED_EXTENSIONS.json",
+    "supplement_precedence": "GBR approved trade regimes supplement is active; canonical country GDP/trade totals take priority."
+  }
 }
