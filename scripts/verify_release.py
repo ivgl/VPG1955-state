@@ -45,7 +45,7 @@ def main():
         errors.append("Expected 32 distinct manifest files, including two approved extensions")
     if any(x not in names for x in SPECIAL):
         errors.append("The approved GBR extension/index are missing from the manifest")
-    if sum(str(x).startswith("countries/") for x in names)!=12 or sum(str(x).startswith("modules/") and x.endswith(".json") and "/" not in x[8:] and x.split("/")[-1][:3] in IDS for x in names)!=12:
+    if sum(str(x).startswith("countries/") for x in names)!=12 or sum(x in names for x in (f"modules/{country_id}.json" for country_id in IDS))!=12:
         errors.append("Expected twelve countries and twelve country modules")
     for item in files:
         path=ROOT/item.get("path","")
