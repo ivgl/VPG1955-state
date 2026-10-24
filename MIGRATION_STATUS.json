@@ -25,6 +25,16 @@
   "drive_source_role": "ARCHIVE_READ_ONLY",
   "next_phase": "PREPARE",
   "site_unchanged": true,
-  "public_player_data_sync": "NOT_YET_PERFORMED",
-  "manual_approval_required_for_future_changes": true
+  "public_player_data_sync": "12_PLAYER_GOOGLE_SHEETS_UPDATED_AND_READBACK_VERIFIED_2026_10_24",
+  "manual_approval_required_for_future_changes": true,
+  "current_canonical_revision": {
+    "date": "2026-10-24",
+    "manifest_sha256": "b43c6e254fcdf2a1b8ac8b9ca1c2b46e647a3197e9068d4c72d769122698bfdb",
+    "payload_count": 32,
+    "rc010_military_categories": 180,
+    "approved_public_mechanics": 12,
+    "approved_trade_addenda": 1,
+    "source_role": "GitHub canonical; Drive release is original archive",
+    "phase": "PREPARE"
+  }
 }
