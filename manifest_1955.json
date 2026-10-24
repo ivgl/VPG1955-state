@@ -56,16 +56,6 @@
   "approval_status": "USER_APPROVED_START_1955_AND_RC010_MILITARY_2026_10_24",
   "files": [
     {
-      "path": "POLITICAL_SOURCES.json",
-      "drive_file_id": "1wuzeslQNS0Bxwmi9k2ka678yMyAd8BDe",
-      "drive_url": "https://drive.google.com/file/d/1wuzeslQNS0Bxwmi9k2ka678yMyAd8BDe/view",
-      "drive_stored_name": "POLITICAL_SOURCES.json",
-      "sha256": "a45fdcd26f1e01e9836fe005979c8744600451afcb33de873c90627973bed51b",
-      "bytes": 1676,
-      "git_authoritative": true,
-      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
-    },
-    {
       "path": "campaign_config.json",
       "drive_file_id": "1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq",
       "drive_url": "https://drive.google.com/file/d/1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq/view",
@@ -200,10 +190,17 @@
       "drive_file_id": "1FtJWMVyVdzZoJdRcATIjaI_uioxb0uJL",
       "drive_url": "https://drive.google.com/file/d/1FtJWMVyVdzZoJdRcATIjaI_uioxb0uJL/view",
       "drive_stored_name": "field_dictionary.json",
-      "sha256": "b27b3df5dd295eeae3a7f63ddbaa9197709d0c11f01bddcfba4998086e6a4770",
-      "bytes": 7475,
+      "sha256": "51b79f4b3ea5ae0421293d6c707e2df94f0e73c99e862f3e7a7020200c1f577d",
+      "bytes": 9484,
       "git_authoritative": true,
       "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
+    },
+    {
+      "path": "modules/APPROVED_EXTENSIONS.json",
+      "sha256": "898b3d774908fd6ae6b616a5ca675b67ece761a6f0a2bb60b54fc8590e257156",
+      "bytes": 1154,
+      "git_authoritative": true,
+      "drive_copy_state": "GITHUB_CANONICAL"
     },
     {
       "path": "modules/CHN.json",
@@ -244,6 +241,13 @@
       "bytes": 5512,
       "git_authoritative": true,
       "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
+    },
+    {
+      "path": "modules/GBR_1955_trade_regimes_approved.json",
+      "sha256": "d50a511e4129639e982266921a6a02cd78f50600c3c97f5c720619f9d7d7bcc3",
+      "bytes": 15079,
+      "git_authoritative": true,
+      "drive_copy_state": "GITHUB_CANONICAL"
     },
     {
       "path": "modules/GBR.json",
@@ -326,6 +330,16 @@
       "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
     {
+      "path": "POLITICAL_SOURCES.json",
+      "drive_file_id": "1wuzeslQNS0Bxwmi9k2ka678yMyAd8BDe",
+      "drive_url": "https://drive.google.com/file/d/1wuzeslQNS0Bxwmi9k2ka678yMyAd8BDe/view",
+      "drive_stored_name": "POLITICAL_SOURCES.json",
+      "sha256": "a45fdcd26f1e01e9836fe005979c8744600451afcb33de873c90627973bed51b",
+      "bytes": 1676,
+      "git_authoritative": true,
+      "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
+    },
+    {
       "path": "sources.json",
       "drive_file_id": "1CrmZPB34DEtIPW2B2M3UJYgaDrvvGKcb",
       "drive_url": "https://drive.google.com/file/d/1CrmZPB34DEtIPW2B2M3UJYgaDrvvGKcb/view",
@@ -391,13 +405,14 @@
   "integrity_checks": {
     "country_json_count": 12,
     "national_mechanics_json_count": 12,
-    "all_payload_file_count": 30,
-    "payload_total_size_bytes": 370865,
+    "all_payload_file_count": 32,
+    "payload_total_size_bytes": 389107,
     "source_numeric_changes_from_v02": 160,
     "arithmetic_checks_failed": 0,
     "military_country_files_synced": 12,
     "military_equipment_categories_synced": 180,
-    "national_mechanics_public_links": 12
+    "national_mechanics_public_links": 12,
+    "approved_supplements_linked": 2
   },
   "current_audit": {
     "date": "2026-10-24",
@@ -409,6 +424,15 @@
     "public_mechanics_approved": 36,
     "playable_military_estimates": "YES_NOT_EXACT_HISTORICAL",
     "phase": "PREPARE",
-    "public_launch_open": false
+    "public_launch_open": false,
+    "supplements_in_manifest": 2,
+    "approved_british_trade_zone_model": true,
+    "manifest_payload_count": 32
+  },
+  "supplements_index_ref": "modules/APPROVED_EXTENSIONS.json",
+  "approved_supplement_refs": {
+    "GBR": [
+      "modules/GBR_1955_trade_regimes_approved.json"
+    ]
   }
 }
