@@ -5,7 +5,7 @@
   "start_date": "1955-01-01",
   "release_id": "VPI1955-1955-START-R1",
   "manifest_path": "manifest_1955.json",
-  "manifest_sha256": "fa7daa423dcb788864d528725ffb5aaf066e932b8e2dbe18bb48b630dc25611b",
+  "manifest_sha256": "b43c6e254fcdf2a1b8ac8b9ca1c2b46e647a3197e9068d4c72d769122698bfdb",
   "official": true,
   "phase": "PREPARE",
   "status": "OFFICIAL_START_1955",
@@ -19,7 +19,7 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://drive.google.com/drive/folders/1T13GK2q--rFg871dOhuxzM3I3TJamskh",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "2026-10-24 audit: 12/12 national mechanics connected to approved public pages; 12/12 countries now contain the RC0.10 15-class military equipment GAME ESTIMATE baseline (180 categories); authoritative SHA-256 manifest verified 30/30. No play adjudication or automated history. PREPARE remains.",
+  "updated_note": "2026-10-24 FINAL audit: verified 32/32 canonical payload SHA-256, 12 country inventories (180 RC0.10 equipment classes), 12 approved country mechanics links, linked approved GBR sterling trade supplement. Campaign 1955 PREPARE, no turn opened.",
   "storage": {
     "provider": "github",
     "repository": "ivgl/VPG1955-state",
@@ -35,7 +35,7 @@
     "administrator_approval_required": true,
     "automatic_adjudication": false,
     "automatic_state_update": false,
-    "current_manifest_sha256": "fa7daa423dcb788864d528725ffb5aaf066e932b8e2dbe18bb48b630dc25611b",
+    "current_manifest_sha256": "b43c6e254fcdf2a1b8ac8b9ca1c2b46e647a3197e9068d4c72d769122698bfdb",
     "military_game_baseline_approved": true,
     "public_mechanics_approved": 12
   },
@@ -43,7 +43,7 @@
     {
       "date": "2026-10-24",
       "scope": "Promote RC0.10 inventory game estimates into canonical 1955 country states and link approved national mechanics; user request",
-      "manifest_sha256": "fa7daa423dcb788864d528725ffb5aaf066e932b8e2dbe18bb48b630dc25611b",
+      "manifest_sha256": "b43c6e254fcdf2a1b8ac8b9ca1c2b46e647a3197e9068d4c72d769122698bfdb",
       "baseline_12_countries": true,
       "source_quality": "game scenario estimates, not exact historical inventory"
     }
