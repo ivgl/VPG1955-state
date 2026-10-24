@@ -4,8 +4,8 @@
   "sources": [
     "https://www.britannica.com/place/France/The-Fourth-Republic"
   ],
-  "status": "LITERARY_DRAFT_FOR_ADMIN_APPROVAL",
-  "version": "0.2",
+  "status": "APPROVED_PUBLIC_MECHANICS_LINKED_LEGACY_RULES_CONTEXT",
+  "version": "0.3-linked-to-public",
   "module_rules_prior_draft": [
     {
       "id": "fourth_republic_cabinets",
@@ -60,5 +60,14 @@
       "automatic_stat_bonus": null,
       "status": "ACTIVE_AT_START"
     }
-  ]
+  ],
+  "public_mechanics": {
+    "approval": "ADMIN_APPROVED",
+    "approval_date": "2026-10-24",
+    "public_url": "https://ivgl.github.io/VPG1955/countries/fra.html",
+    "mechanics_count": 3,
+    "source_of_display": "ivgl/VPG1955",
+    "interpretation": "The public page is an approved descriptive gameplay reference; decisions still require submissions and administrator verdicts.",
+    "legacy_material_policy": "module_rules_prior_draft and national_spirits are historical judging context, not an automatically effective competing rule set."
+  }
 }
