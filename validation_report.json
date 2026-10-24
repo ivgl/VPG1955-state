@@ -69,7 +69,7 @@
           "to": -35.914099
         },
         "fiscal_debt_gdp_pct": {
-          "from": 73.0,
+          "from": 73,
           "to": 73.00000036
         },
         "reserves_billion": {
@@ -101,7 +101,7 @@
           "to": 77.51342642
         },
         "fiscal_spend_economy_billion": {
-          "from": 102.0,
+          "from": 102,
           "to": 117.5026853
         },
         "fiscal_spend_defense_billion": {
@@ -109,11 +109,11 @@
           "to": 54.12244898
         },
         "fiscal_spend_admin_billion": {
-          "from": 34.0,
+          "from": 34,
           "to": 7.285714286
         },
         "fiscal_spend_other_billion": {
-          "from": 17.0,
+          "from": 17,
           "to": 46.15107411
         },
         "fiscal_spending_total_billion": {
@@ -125,7 +125,7 @@
           "to": 2.574650913
         },
         "exports_billion": {
-          "from": 34.0,
+          "from": 34,
           "to": 32.18410124
         },
         "net_exports_billion": {
@@ -197,7 +197,7 @@
           "to": 938.34944
         },
         "fiscal_debt_gdp_pct": {
-          "from": 139.0,
+          "from": 139,
           "to": 150.5
         },
         "reserves_billion": {
@@ -253,7 +253,7 @@
           "to": -16.26738275
         },
         "fiscal_debt_gdp_pct": {
-          "from": 41.0,
+          "from": 41,
           "to": 41.00001183
         },
         "reserves_billion": {
@@ -289,7 +289,7 @@
           "to": 74.68107293
         },
         "fiscal_spend_economy_billion": {
-          "from": 22.0,
+          "from": 22,
           "to": 28.72348959
         },
         "fiscal_spend_defense_billion": {
@@ -317,7 +317,7 @@
           "to": 7.267721955
         },
         "reserves_billion": {
-          "from": 11.0,
+          "from": 11,
           "to": 40.78096
         }
       },
@@ -369,7 +369,7 @@
           "to": -6.148096327
         },
         "fiscal_debt_gdp_pct": {
-          "from": 13.0,
+          "from": 13,
           "to": 13.00001057
         },
         "reserves_billion": {
@@ -501,7 +501,7 @@
           "to": -1.169182643
         },
         "fiscal_debt_gdp_pct": {
-          "from": 12.0,
+          "from": 12,
           "to": 12.00018017
         },
         "exports_billion": {
@@ -565,7 +565,7 @@
           "to": -13.541319
         },
         "fiscal_debt_gdp_pct": {
-          "from": 19.0,
+          "from": 19,
           "to": 19.00000731
         },
         "reserves_billion": {
@@ -770,5 +770,48 @@
     "readiness",
     "partial_mobilization_window",
     "large_scale_mobilization_window"
-  ]
+  ],
+  "audit_2026_10_24": {
+    "scope": "CANONICAL_STATE_HANDOFF_AUDIT_AFTER_RC010_PROMOTION",
+    "military_inventory": {
+      "countries": 12,
+      "categories_per_country": 15,
+      "category_rows": 180,
+      "ready_count_le_total": true,
+      "generation_sum_equals_total": true,
+      "game_baseline_approved_by_admin": true,
+      "exact_historical_archive": false,
+      "operational_deployment_requires_adjudication": true
+    },
+    "production_capacities": {
+      "countries": 12,
+      "tank_and_aircraft_estimates": true,
+      "not_guaranteed_output": true
+    },
+    "national_mechanics": {
+      "approved_countries": 12,
+      "public_pages_per_country": 1,
+      "approved_mechanics_per_country": 3,
+      "linked_modules": 12,
+      "legacy_literary_drafts_as_context_only": true
+    },
+    "player_sheets": {
+      "readable": 12,
+      "single_start_tab_1955": 12,
+      "trade_export_import_percent_totals_valid": 12,
+      "military_categories_on_sheets": 180,
+      "derived_not_authoritative": true
+    },
+    "baseline_integrity": {
+      "economic_stats_unmodified_by_this_migration": true,
+      "head_year_should_remain": 1955,
+      "head_phase_should_remain": "PREPARE",
+      "original_validation_failures": 0
+    },
+    "known_nonblocking_limits": [
+      "No real end-to-end Discord adjudication and 1955→1956 commit has been performed",
+      "Precise per-theater military deployment and two legacy flat equipment fields still unknown",
+      "Google Sheets visibility requires role-based sharing before players can access"
+    ]
+  }
 }
