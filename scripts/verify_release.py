@@ -35,6 +35,21 @@ def main():
             errors.append(f"HEAD/manifest {field} mismatch")
     if h.get("year")!=1955 or h.get("phase")!="PREPARE" or h.get("campaign_id")!="VPI1955_MAIN":
         errors.append("Unexpected year, phase or campaign")
+    if h.get("rules_version")!="RC1.0" or m.get("rules_version")!="RC1.0" or config.get("rules_version")!="RC1.0":
+        errors.append("Official rules version not RC1.0 across HEAD, manifest and config")
+    rules_doc=h.get("rules_document")
+    if not rules_doc or rules_doc!=m.get("rules_document") or rules_doc!=config.get("rules_document"):
+        errors.append("RC1.0 rules path inconsistent")
+    elif not (ROOT / rules_doc).is_file():
+        errors.append("RC1.0 rules document missing")
+    else:
+        actual_rules_sha=digest(ROOT / rules_doc)
+        if actual_rules_sha!=h.get("rules_document_sha256") or actual_rules_sha!=m.get("rules_document_sha256"):
+            errors.append("RC1.0 rules SHA-256 mismatch")
+    if config.get("registration_open") is not True or h.get("registration_status")!="OPEN":
+        errors.append("Registration must be marked OPEN")
+    if config.get("registration_is_game_turn") is not False:
+        errors.append("Registration must not open gameplay submissions")
     if config.get("public_launch_ready") is not False:
         errors.append("Public launch flag must remain false until actual start")
     if config.get("turn_duration",{}).get("submission_days")!=3 or config.get("turn_duration",{}).get("judging_days")!=4:
@@ -121,7 +136,7 @@ def main():
     if errors:
         for error in errors: print("ERROR:",error)
         return 1
-    print(f"PASS: HEAD -> SHA256 manifest; {len(files)} files; 12 countries; 12 modules; "
+    print(f"PASS: HEAD -> SHA256 manifest; RC1.0 rules; registration OPEN, turn PREPARE; {len(files)} files; 12 countries; 12 modules; 
           "180 equipment classes; 12 public mechanics links; GBR approved extension; "
           "financial, debt-service and trade identities; PREPARE and turn schedule")
     return 0
