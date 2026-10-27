@@ -66,6 +66,17 @@ def main():
             errors.append(f"{country_id} ID mismatch")
         if not close(s["fiscal_revenue_total_billion"]-s["fiscal_spending_total_billion"],s["fiscal_budget_balance_billion"]):
             errors.append(f"{country_id} budget identity")
+        # Five functional spending categories exclude interest paid on public debt.
+        functional_spending = sum(s[key] for key in (
+            "fiscal_spend_social_billion",
+            "fiscal_spend_economy_billion",
+            "fiscal_spend_defense_billion",
+            "fiscal_spend_admin_billion",
+            "fiscal_spend_other_billion",
+        ))
+        debt_service = s["fiscal_debt_total_billion"] * s["fiscal_interest_rate_pct"] / 100
+        if not close(functional_spending + debt_service, s["fiscal_spending_total_billion"]):
+            errors.append(f"{country_id} spending breakdown + debt service identity")
         if not close(s["exports_billion"]-s["imports_billion"],s["net_exports_billion"]):
             errors.append(f"{country_id} trade identity")
         for side in ("export","import"):
@@ -112,7 +123,7 @@ def main():
         return 1
     print(f"PASS: HEAD -> SHA256 manifest; {len(files)} files; 12 countries; 12 modules; "
           "180 equipment classes; 12 public mechanics links; GBR approved extension; "
-          "financial and trade identities; PREPARE and turn schedule")
+          "financial, debt-service and trade identities; PREPARE and turn schedule")
     return 0
 if __name__=="__main__":
     sys.exit(main())
