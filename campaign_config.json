@@ -36,7 +36,7 @@
   "no_double_counting": true,
   "non_player_countries": "world compact profiles",
   "military_simulation": "expert adjudication using approved 15-class equipment game baseline in countries/*.json, plus readiness, logistics and theater deployment assessments",
-  "version": "1.0-start-candidate",
+  "version": "1.0-start-RC1.0",
   "national_spirits": "3 literary mechanics per country; no fixed stat bonus",
   "institutions": "institutional_capacity_index and corruption_exposure_index; rule-based expert adjudication",
   "political_mood": "last results + institutions + changes, future IRL elections private and nonbinding",
@@ -90,5 +90,10 @@
     "appeals_default_hours": 48,
     "appeal_window_within_judging_period": true,
     "dates_to_be_announced": true
-  }
+  },
+  "rules_version": "RC1.0",
+  "rules_document": "docs/rules_RC1.0.md",
+  "registration_open": true,
+  "registration_open_reported_on": "2026-10-27",
+  "registration_is_game_turn": false
 }
