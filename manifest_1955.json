@@ -52,16 +52,16 @@
     "ITA": "modules/ITA.json",
     "YUG": "modules/YUG.json"
   },
-  "rules_version": "RC0.8",
-  "approval_status": "USER_APPROVED_START_1955_AND_RC010_MILITARY_2026_10_24",
+  "rules_version": "RC1.0",
+  "approval_status": "USER_APPROVED_START_1955_RC010_MILITARY_AND_RC1.0_RULES_CONSOLIDATION_2026_10_27",
   "files": [
     {
       "path": "campaign_config.json",
       "drive_file_id": "1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq",
       "drive_url": "https://drive.google.com/file/d/1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq/view",
       "drive_stored_name": "campaign_config.json",
-      "sha256": "1a3eb79d37faef31be1505314690e0b354627ed0281a5dbe2ad25db8b1969612",
-      "bytes": 4252,
+      "sha256": "846431b4663df09244ba05e7e3c0eb0554cb011fa935d210656530da7b965402",
+      "bytes": 4435,
       "git_authoritative": true,
       "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
@@ -434,5 +434,9 @@
     "GBR": [
       "modules/GBR_1955_trade_regimes_approved.json"
     ]
-  }
+  },
+  "rules_document": "docs/rules_RC1.0.md",
+  "rules_document_sha256": "e0eafb8df9d8f9f179298dea7b2c5082086905b707f811e150c2c638e9406275",
+  "rules_document_role": "governing_rules_outside_32_state_payloads",
+  "registration_status": "OPEN_REGISTRATION_PREPARE"
 }
