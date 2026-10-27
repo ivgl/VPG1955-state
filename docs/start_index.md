@@ -1,3 +1,7 @@
+> **ВАЖНО: переход на приватный GitHub.** 2026-10-27 — АКТУАЛЬНЫЙ ПОРЯДОК: единственный рабочий источник состояния игры — приватный `ivgl/VPG1955-state@main` (`HEAD.json` → текущий SHA-манифест → `countries/`, `modules/`, `world_1955.json`). Сведения ниже, где фигурируют Google Drive HEAD/старый хеш, описывают **архив первоначального импорта**, не актуальный HEAD. Передавать новому игровому проекту `docs/CHATGPT_GAME_PROJECT_INSTRUCTIONS_2026-10-27.md` и `docs/TRANSFER_AUDIT_2026-10-27.md`. Статус кампании определяется только текущим HEAD. 
+
+---
+
 # ВПИ 1955 — отдельная кампания (не продолжение двухстранового теста 1976–1977)
 
 СТАТУС: 1955 START / OFFICIAL PREPARE. Опубликован отдельный HEAD 1955 https\://drive.google.com/file/d/1npjztHH-CLG772KqY\_t6VuKeMO8YSkts/view ; manifest https\://drive.google.com/file/d/18hwXZm1VjetoLU2DPlAqYzkIDsGXl2f4/view ; 12 country\_state, world\_state и modules (в том числе базовая численность войск, готовность и мобилизация) находятся https\://drive.google.com/drive/folders/1T13GK2q--rFg871dOhuxzM3I3TJamskh . Этот Doc — навигатор, не источник истины.
