@@ -5,11 +5,11 @@
   "start_date": "1955-01-01",
   "release_id": "VPI1955-1955-START-R1",
   "manifest_path": "manifest_1955.json",
-  "manifest_sha256": "b43c6e254fcdf2a1b8ac8b9ca1c2b46e647a3197e9068d4c72d769122698bfdb",
+  "manifest_sha256": "53caad55508759d1525d32809250eee6a2b053023f0f428f0db36ffae589b072",
   "official": true,
   "phase": "PREPARE",
   "status": "OFFICIAL_START_1955",
-  "rules_version": "RC0.8",
+  "rules_version": "RC1.0",
   "next_year": 1956,
   "note": "First official VPI1955_MAIN startup. Former 1977 pilot HEAD unchanged. World background includes existing pre-1955 institutions, country processes in separate country_state files.",
   "manifest_drive_file_id": "18hwXZm1VjetoLU2DPlAqYzkIDsGXl2f4",
@@ -19,7 +19,7 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://drive.google.com/drive/folders/1T13GK2q--rFg871dOhuxzM3I3TJamskh",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "2026-10-24 FINAL audit: verified 32/32 canonical payload SHA-256, 12 country inventories (180 RC0.10 equipment classes), 12 approved country mechanics links, linked approved GBR sterling trade supplement. Campaign 1955 PREPARE, no turn opened.",
+  "updated_note": "2026-10-27 approved RC1.0 consolidation of existing rules RC0.8 + military RC0.10, registration OPEN (not turn), 12 countries and unchanged canonical numerical state; turn remains PREPARE.",
   "storage": {
     "provider": "github",
     "repository": "ivgl/VPG1955-state",
@@ -29,13 +29,13 @@
     "current_world": "world_1955.json",
     "country_directory": "countries/",
     "mechanics_directory": "modules/",
-    "effective_date": "2026-10-24",
+    "effective_date": "2026-10-27",
     "baseline_commit": "1eddd38fa5b62f8f738927633b792ce11fc96481",
     "drive_locations": "archived_provenance_only",
     "administrator_approval_required": true,
     "automatic_adjudication": false,
     "automatic_state_update": false,
-    "current_manifest_sha256": "b43c6e254fcdf2a1b8ac8b9ca1c2b46e647a3197e9068d4c72d769122698bfdb",
+    "current_manifest_sha256": "53caad55508759d1525d32809250eee6a2b053023f0f428f0db36ffae589b072",
     "military_game_baseline_approved": true,
     "public_mechanics_approved": 12
   },
@@ -46,7 +46,20 @@
       "manifest_sha256": "b43c6e254fcdf2a1b8ac8b9ca1c2b46e647a3197e9068d4c72d769122698bfdb",
       "baseline_12_countries": true,
       "source_quality": "game scenario estimates, not exact historical inventory"
+    },
+    {
+      "date": "2026-10-27",
+      "scope": "Approve a single rules version RC1.0 consolidating earlier RC0.8 rules, approved national mechanics and RC0.10 military baseline. Registration opened, but first turn remains PREPARE. No gameplay numeric changes.",
+      "rules_document": "docs/rules_RC1.0.md",
+      "rules_document_sha256": "e0eafb8df9d8f9f179298dea7b2c5082086905b707f811e150c2c638e9406275",
+      "previous_manifest_sha256": "b43c6e254fcdf2a1b8ac8b9ca1c2b46e647a3197e9068d4c72d769122698bfdb",
+      "manifest_sha256": "53caad55508759d1525d32809250eee6a2b053023f0f428f0db36ffae589b072",
+      "country_state_values_unchanged": true,
+      "phase": "PREPARE"
     }
   ],
-  "drive_metadata_status": "ARCHIVED_PROVENANCE_ONLY; all subsequent authoritative country, modules, world and manifest reads must use GitHub."
+  "drive_metadata_status": "ARCHIVED_PROVENANCE_ONLY; all subsequent authoritative country, modules, world and manifest reads must use GitHub.",
+  "rules_document": "docs/rules_RC1.0.md",
+  "rules_document_sha256": "e0eafb8df9d8f9f179298dea7b2c5082086905b707f811e150c2c638e9406275",
+  "registration_status": "OPEN"
 }
