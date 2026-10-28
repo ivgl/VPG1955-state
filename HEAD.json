@@ -5,7 +5,7 @@
   "start_date": "1955-01-01",
   "release_id": "VPI1955-1955-START-R1",
   "manifest_path": "manifest_1955.json",
-  "manifest_sha256": "a61c84b08f78578e071c7f61bd5a1575e7b5b8b009338790d25dcad9f77958b5",
+  "manifest_sha256": "f07d0923a8fc693500d6318eecaf5f634585f09ee473fa41a690c1f9e6b71611",
   "official": true,
   "phase": "RECEIVING",
   "status": "OFFICIAL_START_1955",
@@ -19,7 +19,7 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://drive.google.com/drive/folders/1T13GK2q--rFg871dOhuxzM3I3TJamskh",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "2026-10-28 administrator-authorized internal RECEIVING phase; public player post intake only 2026-10-29 12:00 MSK to 2026-11-01 12:00 MSK; 24-hour appeals for turn 1955; no strict post limit; rules RC1.0 and all country/world/module values unchanged.",
+  "updated_note": "2026-10-28 admin-approved RC1.0 in-place norm correction: 24-hour appeals for all turns, without rule version change. Internal RECEIVING; public intake opens 2026-10-29 12:00 MSK, ends 2026-11-01 12:00 MSK; no strict post limit.",
   "storage": {
     "provider": "github",
     "repository": "ivgl/VPG1955-state",
@@ -35,7 +35,7 @@
     "administrator_approval_required": true,
     "automatic_adjudication": false,
     "automatic_state_update": false,
-    "current_manifest_sha256": "a61c84b08f78578e071c7f61bd5a1575e7b5b8b009338790d25dcad9f77958b5",
+    "current_manifest_sha256": "f07d0923a8fc693500d6318eecaf5f634585f09ee473fa41a690c1f9e6b71611",
     "military_game_baseline_approved": true,
     "public_mechanics_approved": 12
   },
@@ -64,11 +64,20 @@
       "manifest_sha256": "a61c84b08f78578e071c7f61bd5a1575e7b5b8b009338790d25dcad9f77958b5",
       "previous_manifest_sha256": "53caad55508759d1525d32809250eee6a2b053023f0f428f0db36ffae589b072",
       "rules_document_sha256": "e0eafb8df9d8f9f179298dea7b2c5082086905b707f811e150c2c638e9406275"
+    },
+    {
+      "date": "2026-10-28",
+      "scope": "In-place amendment of RC1.0 appeal deadline from 48 to 24 hours across canonical rules, turn protocol, campaign config, project instructions, and public site (site separately synced). No new rules version.",
+      "previous_rules_document_sha256": "e0eafb8df9d8f9f179298dea7b2c5082086905b707f811e150c2c638e9406275",
+      "rules_document_sha256": "81018017e8675c79bf0e8a0ef2efd067d8cb972e3bf43c229ad2bf46a1e923c8",
+      "previous_manifest_sha256": "a61c84b08f78578e071c7f61bd5a1575e7b5b8b009338790d25dcad9f77958b5",
+      "manifest_sha256": "f07d0923a8fc693500d6318eecaf5f634585f09ee473fa41a690c1f9e6b71611",
+      "phase": "RECEIVING"
     }
   ],
   "drive_metadata_status": "ARCHIVED_PROVENANCE_ONLY; all subsequent authoritative country, modules, world and manifest reads must use GitHub.",
   "rules_document": "docs/rules_RC1.0.md",
-  "rules_document_sha256": "e0eafb8df9d8f9f179298dea7b2c5082086905b707f811e150c2c638e9406275",
+  "rules_document_sha256": "81018017e8675c79bf0e8a0ef2efd067d8cb972e3bf43c229ad2bf46a1e923c8",
   "registration_status": "OPEN",
   "public_receiving_opens_at": "2026-10-29T12:00:00+03:00",
   "public_receiving_closes_at": "2026-11-01T12:00:00+03:00",
