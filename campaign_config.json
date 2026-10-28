@@ -87,7 +87,7 @@
     "days": 7,
     "submission_days": 3,
     "judging_days": 4,
-    "appeals_default_hours": 48,
+    "appeals_default_hours": 24,
     "appeal_window_within_judging_period": true,
     "dates_to_be_announced": false
   },
