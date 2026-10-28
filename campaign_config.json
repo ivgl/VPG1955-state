@@ -40,7 +40,7 @@
   "national_spirits": "3 literary mechanics per country; no fixed stat bonus",
   "institutions": "institutional_capacity_index and corruption_exposure_index; rule-based expert adjudication",
   "political_mood": "last results + institutions + changes, future IRL elections private and nonbinding",
-  "public_launch_ready": false,
+  "public_launch_ready": true,
   "campaign_id": "VPI1955_MAIN",
   "code_aliases": {
     "SUN": "URS",
@@ -89,11 +89,25 @@
     "judging_days": 4,
     "appeals_default_hours": 48,
     "appeal_window_within_judging_period": true,
-    "dates_to_be_announced": true
+    "dates_to_be_announced": false
   },
   "rules_version": "RC1.0",
   "rules_document": "docs/rules_RC1.0.md",
   "registration_open": true,
   "registration_open_reported_on": "2026-10-27",
-  "registration_is_game_turn": false
+  "registration_is_game_turn": false,
+  "active_turn_schedule": {
+    "year": 1955,
+    "time_zone": "Europe/Moscow",
+    "receiving_opens_at": "2026-10-29T12:00:00+03:00",
+    "receiving_closes_at": "2026-11-01T12:00:00+03:00",
+    "judging_opens_at": "2026-11-01T12:00:00+03:00",
+    "judging_closes_at": "2026-11-05T12:00:00+03:00",
+    "appeal_window_hours": 24,
+    "appeal_window_trigger": "publication_of_preliminary_verdicts",
+    "strict_post_limit": null,
+    "post_guidance": "No strict numerical limit; submit substantive, concise, consolidated initiatives and avoid excessive fragmented posts.",
+    "eligibility_gate": "Even with internal HEAD.phase RECEIVING, player posts for 1955 are accepted only from receiving_opens_at.",
+    "approval": "ADMIN_EXPLICIT_2026-10-28"
+  }
 }
