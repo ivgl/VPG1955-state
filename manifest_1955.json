@@ -60,7 +60,7 @@
       "drive_file_id": "1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq",
       "drive_url": "https://drive.google.com/file/d/1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq/view",
       "drive_stored_name": "campaign_config.json",
-      "sha256": "4b1460e76b08995e5deffa165ebbf3403e2ea71673a000e002b9bc6c3f2923cd",
+      "sha256": "71112acc57f97eacd4dbd94c749aac8508b9f22ef3de6cfbc2df91c6079be8cb",
       "bytes": 5188,
       "git_authoritative": true,
       "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
@@ -436,7 +436,7 @@
     ]
   },
   "rules_document": "docs/rules_RC1.0.md",
-  "rules_document_sha256": "e0eafb8df9d8f9f179298dea7b2c5082086905b707f811e150c2c638e9406275",
+  "rules_document_sha256": "81018017e8675c79bf0e8a0ef2efd067d8cb972e3bf43c229ad2bf46a1e923c8",
   "rules_document_role": "governing_rules_outside_32_state_payloads",
   "registration_status": "OPEN_REGISTRATION_PREPARE",
   "organizational_update_1955": {
@@ -444,5 +444,11 @@
     "change": "Schedule first receiving window, 24-hour appeal period, no strict post limit. No world/country/module numerical changes.",
     "active_turn_schedule_ref": "campaign_config.json.active_turn_schedule",
     "rules_document_unchanged": true
+  },
+  "rules_clarification_2026_10_28": {
+    "approval": "ADMIN_EXPLICIT_2026-10-28",
+    "scope": "Replace RC1.0 standard appeal window 48h with 24h, synchronized in active protocol and campaign config; no change of rules version, gameplay figures or published release ID.",
+    "previous_rules_document_sha256": "e0eafb8df9d8f9f179298dea7b2c5082086905b707f811e150c2c638e9406275",
+    "updated_rules_document_sha256": "81018017e8675c79bf0e8a0ef2efd067d8cb972e3bf43c229ad2bf46a1e923c8"
   }
 }
