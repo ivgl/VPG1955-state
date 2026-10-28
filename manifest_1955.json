@@ -60,8 +60,8 @@
       "drive_file_id": "1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq",
       "drive_url": "https://drive.google.com/file/d/1CY02SCl3BWEjM9jtzpfSdwdNYyl6PVYq/view",
       "drive_stored_name": "campaign_config.json",
-      "sha256": "846431b4663df09244ba05e7e3c0eb0554cb011fa935d210656530da7b965402",
-      "bytes": 4435,
+      "sha256": "4b1460e76b08995e5deffa165ebbf3403e2ea71673a000e002b9bc6c3f2923cd",
+      "bytes": 5188,
       "git_authoritative": true,
       "drive_copy_state": "ARCHIVED_OR_PROVENANCE_ONLY_NOT_SHA_VALIDATED_AFTER_2026_10_24"
     },
@@ -406,7 +406,7 @@
     "country_json_count": 12,
     "national_mechanics_json_count": 12,
     "all_payload_file_count": 32,
-    "payload_total_size_bytes": 389107,
+    "payload_total_size_bytes": 390043,
     "source_numeric_changes_from_v02": 160,
     "arithmetic_checks_failed": 0,
     "military_country_files_synced": 12,
@@ -438,5 +438,11 @@
   "rules_document": "docs/rules_RC1.0.md",
   "rules_document_sha256": "e0eafb8df9d8f9f179298dea7b2c5082086905b707f811e150c2c638e9406275",
   "rules_document_role": "governing_rules_outside_32_state_payloads",
-  "registration_status": "OPEN_REGISTRATION_PREPARE"
+  "registration_status": "OPEN_REGISTRATION_PREPARE",
+  "organizational_update_1955": {
+    "approval": "ADMIN_EXPLICIT_2026-10-28",
+    "change": "Schedule first receiving window, 24-hour appeal period, no strict post limit. No world/country/module numerical changes.",
+    "active_turn_schedule_ref": "campaign_config.json.active_turn_schedule",
+    "rules_document_unchanged": true
+  }
 }
