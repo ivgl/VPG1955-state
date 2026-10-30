@@ -33,7 +33,7 @@ def main():
     for field in ("campaign_id","release_id","year"):
         if h.get(field)!=m.get(field):
             errors.append(f"HEAD/manifest {field} mismatch")
-    if h.get("year")!=1955 or h.get("phase")!="PREPARE" or h.get("campaign_id")!="VPI1955_MAIN":
+    if h.get("year")!=1955 or h.get("phase") not in ("PREPARE", "RECEIVING", "LOCKED", "IN_REVIEW", "ADMIN_APPROVED", "VERDICTS_PUBLISHED", "APPEALS_OPEN", "APPEALS_REVIEW", "FINAL_APPROVED", "COMMITTED") or h.get("campaign_id")!="VPI1955_MAIN":
         errors.append("Unexpected year, phase or campaign")
     if h.get("rules_version")!="RC1.0" or m.get("rules_version")!="RC1.0" or config.get("rules_version")!="RC1.0":
         errors.append("Official rules version not RC1.0 across HEAD, manifest and config")
@@ -50,8 +50,10 @@ def main():
         errors.append("Registration must be marked OPEN")
     if config.get("registration_is_game_turn") is not False:
         errors.append("Registration must not open gameplay submissions")
-    if config.get("public_launch_ready") is not False:
-        errors.append("Public launch flag must remain false until actual start")
+    if h.get("phase")=="PREPARE" and config.get("public_launch_ready") is not False:
+        errors.append("PREPARE phase must not be marked launch ready")
+    if h.get("phase")!="PREPARE" and config.get("public_launch_ready") is not True:
+        errors.append("Active turn must have launch-ready flag")
     if config.get("turn_duration",{}).get("submission_days")!=3 or config.get("turn_duration",{}).get("judging_days")!=4:
         errors.append("3+4 day schedule not configured")
     files=m.get("files",[])
@@ -136,9 +138,9 @@ def main():
     if errors:
         for error in errors: print("ERROR:",error)
         return 1
-    print(f"PASS: HEAD -> SHA256 manifest; RC1.0 rules; registration OPEN, turn PREPARE; {len(files)} files; 12 countries; 12 modules; 
+    print(f"PASS: HEAD -> SHA256 manifest; RC1.0 rules; registration OPEN, phase {h.get('phase')}; {len(files)} files; 12 countries; 12 modules; 
           "180 equipment classes; 12 public mechanics links; GBR approved extension; "
-          "financial, debt-service and trade identities; PREPARE and turn schedule")
+          "financial, debt-service and trade identities; authorized phase and turn schedule")
     return 0
 if __name__=="__main__":
     sys.exit(main())
