@@ -1,0 +1,328 @@
+{
+  "schema": "VPI1955_YEARLY_RELEASE_MANIFEST_v1",
+  "release_id": "VPI1955-1956-TURN1-R1",
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1956,
+  "date": "1956-01-01",
+  "rules_version": "RC1.0",
+  "approval_status": "ADMIN_APPROVED_CORRECTION_2026_11_05",
+  "country_ids": [
+    "USA",
+    "URS",
+    "GBR",
+    "FRA",
+    "FRG",
+    "JPN",
+    "CHN",
+    "EGY",
+    "IND",
+    "ISR",
+    "ITA",
+    "YUG"
+  ],
+  "aliases": {
+    "SUN": "URS",
+    "DEU": "FRG",
+    "USSR": "URS"
+  },
+  "world_ref": "releases/1956/world_1956.json",
+  "country_refs": {
+    "USA": "releases/1956/countries/USA.json",
+    "URS": "releases/1956/countries/URS.json",
+    "GBR": "releases/1956/countries/GBR.json",
+    "FRA": "releases/1956/countries/FRA.json",
+    "FRG": "releases/1956/countries/FRG.json",
+    "JPN": "releases/1956/patches/JPN_politics_elections_2026-11-05.json",
+    "CHN": "releases/1956/countries/CHN.json",
+    "EGY": "releases/1956/countries/EGY.json",
+    "IND": "releases/1956/countries/IND.json",
+    "ISR": "releases/1956/countries/ISR.json",
+    "ITA": "releases/1956/countries/ITA.json",
+    "YUG": "releases/1956/countries/YUG.json"
+  },
+  "modules_refs": {
+    "USA": "releases/1956/modules/USA.json",
+    "URS": "releases/1956/modules/URS.json",
+    "GBR": "releases/1956/modules/GBR.json",
+    "FRA": "releases/1956/modules/FRA.json",
+    "FRG": "releases/1956/modules/FRG.json",
+    "JPN": "releases/1956/modules/JPN.json",
+    "CHN": "releases/1956/modules/CHN.json",
+    "EGY": "releases/1956/modules/EGY.json",
+    "IND": "releases/1956/modules/IND.json",
+    "ISR": "releases/1956/modules/ISR.json",
+    "ITA": "releases/1956/modules/ITA.json",
+    "YUG": "releases/1956/modules/YUG.json"
+  },
+  "campaign_config_ref": "releases/1956/campaign_config.json",
+  "field_dictionary_ref": "releases/1956/field_dictionary.json",
+  "supplements_index_ref": "releases/1956/modules/APPROVED_EXTENSIONS.json",
+  "approved_supplement_refs": {
+    "GBR": [
+      "releases/1956/modules/GBR_1955_trade_regimes_approved.json"
+    ]
+  },
+  "approved_supplement_status": "CARRIED_FORWARD_1955_APPROVED_UNCHANGED",
+  "rules_document": "docs/rules_RC1.0.md",
+  "rules_document_sha256": "81018017e8675c79bf0e8a0ef2efd067d8cb972e3bf43c229ad2bf46a1e923c8",
+  "files": [
+    {
+      "path": "releases/1956/campaign_config.json",
+      "sha256": "e168ad78b93bda3079c46c7026ce65f59fe5698551f8a059cf60cca174917d16",
+      "bytes": 5064,
+      "git_authoritative": true,
+      "source_1955_path": "campaign_config.json"
+    },
+    {
+      "path": "releases/1956/countries/CHN.json",
+      "sha256": "8d2a25a1810a5daf387ccc14a9ba7518bf9c27ebd10e85bdc5c9b7727441e855",
+      "bytes": 24502,
+      "git_authoritative": true,
+      "source_1955_path": "countries/CHN.json"
+    },
+    {
+      "path": "releases/1956/countries/EGY.json",
+      "sha256": "8347d979d4d2e405f591cb396adcb82c368a1062efa4e49a5e4dd9eb4544366e",
+      "bytes": 22767,
+      "git_authoritative": true,
+      "source_1955_path": "countries/EGY.json"
+    },
+    {
+      "path": "releases/1956/countries/FRA.json",
+      "sha256": "483b0197464b845822a6548a17b935206da0da7291c5da5095f79e8244b81958",
+      "bytes": 24019,
+      "git_authoritative": true,
+      "source_1955_path": "countries/FRA.json"
+    },
+    {
+      "path": "releases/1956/countries/FRG.json",
+      "sha256": "5b14d2a4af5568d3311987445f94352857be638aef36b5484e552b1c7c847ca0",
+      "bytes": 25059,
+      "git_authoritative": true,
+      "source_1955_path": "countries/FRG.json"
+    },
+    {
+      "path": "releases/1956/countries/GBR.json",
+      "sha256": "2cbd974f0a5afa2eb40b49d8e63a911f6e25b4485d05e646057f14dd5eee4d4f",
+      "bytes": 22656,
+      "git_authoritative": true,
+      "source_1955_path": "countries/GBR.json"
+    },
+    {
+      "path": "releases/1956/countries/IND.json",
+      "sha256": "26607cfd3274c6c4c5c5bb8466e22fdfedd125a84eb7b4824ce418adb9bc8d14",
+      "bytes": 24793,
+      "git_authoritative": true,
+      "source_1955_path": "countries/IND.json"
+    },
+    {
+      "path": "releases/1956/countries/ISR.json",
+      "sha256": "32cd80cfcdad890d233415ebd9dee24789a60edd578651bb02f290fbe11615e4",
+      "bytes": 22867,
+      "git_authoritative": true,
+      "source_1955_path": "countries/ISR.json"
+    },
+    {
+      "path": "releases/1956/countries/ITA.json",
+      "sha256": "dbda46fd6ecc60ce19aa2c064a10f387ba7a294ab69c3d4427378974bd8ece9e",
+      "bytes": 22838,
+      "git_authoritative": true,
+      "source_1955_path": "countries/ITA.json"
+    },
+    {
+      "path": "releases/1956/patches/JPN_politics_elections_2026-11-05.json",
+      "sha256": "2550651f90a6b4cb9ebda4a9ce5016cc6746f60ce53d75ec244498cb56d73f86",
+      "bytes": 31023,
+      "git_authoritative": true,
+      "source_1955_path": "countries/JPN.json",
+      "correction": "JPN-1955-PARLIAMENT-REALIGNMENT-01"
+    },
+    {
+      "path": "releases/1956/countries/URS.json",
+      "sha256": "6cdfe63789f3de22b5152e3aaf64bb759eff5732daf76cfb277a6552df32a260",
+      "bytes": 24784,
+      "git_authoritative": true,
+      "source_1955_path": "countries/URS.json"
+    },
+    {
+      "path": "releases/1956/countries/USA.json",
+      "sha256": "54ea0258d9cf68046dbdbf4553a140f585cf3a9dc2f54ea037de5e8de92a81cc",
+      "bytes": 24878,
+      "git_authoritative": true,
+      "source_1955_path": "countries/USA.json"
+    },
+    {
+      "path": "releases/1956/countries/YUG.json",
+      "sha256": "d32b089cf84c26a74b7b82121f939a61a06d9a745a1f5bbb6bbfb9db4af56d54",
+      "bytes": 23129,
+      "git_authoritative": true,
+      "source_1955_path": "countries/YUG.json"
+    },
+    {
+      "path": "releases/1956/field_dictionary.json",
+      "sha256": "51b79f4b3ea5ae0421293d6c707e2df94f0e73c99e862f3e7a7020200c1f577d",
+      "bytes": 9484,
+      "git_authoritative": true,
+      "source_1955_path": "field_dictionary.json"
+    },
+    {
+      "path": "releases/1956/modules/APPROVED_EXTENSIONS.json",
+      "sha256": "898b3d774908fd6ae6b616a5ca675b67ece761a6f0a2bb60b54fc8590e257156",
+      "bytes": 1154,
+      "git_authoritative": true,
+      "source_1955_path": "modules/APPROVED_EXTENSIONS.json"
+    },
+    {
+      "path": "releases/1956/modules/CHN.json",
+      "sha256": "b8d21061d1554a395f1029cfabcda0d088298e7cf2a7f3811fd301fe14f3158e",
+      "bytes": 5417,
+      "git_authoritative": true,
+      "source_1955_path": "modules/CHN.json"
+    },
+    {
+      "path": "releases/1956/modules/EGY.json",
+      "sha256": "7e4401b6bf61d8f6c276a1212e6bc2de3f076d614b33fe5c204f95737b63a8aa",
+      "bytes": 5443,
+      "git_authoritative": true,
+      "source_1955_path": "modules/EGY.json"
+    },
+    {
+      "path": "releases/1956/modules/FRA.json",
+      "sha256": "70ec95a4787d293bafc3422e3a02ee4ef785bca1bac52a6c668adcb406ce1bed",
+      "bytes": 5631,
+      "git_authoritative": true,
+      "source_1955_path": "modules/FRA.json"
+    },
+    {
+      "path": "releases/1956/modules/FRG.json",
+      "sha256": "559ac0ac5fc1bcf78f3daf3235ef21341ea2bc8473353c1dd62a4ad7ff346cce",
+      "bytes": 5512,
+      "git_authoritative": true,
+      "source_1955_path": "modules/FRG.json"
+    },
+    {
+      "path": "releases/1956/modules/GBR_1955_trade_regimes_approved.json",
+      "sha256": "d50a511e4129639e982266921a6a02cd78f50600c3c97f5c720619f9d7d7bcc3",
+      "bytes": 15079,
+      "git_authoritative": true,
+      "source_1955_path": "modules/GBR_1955_trade_regimes_approved.json"
+    },
+    {
+      "path": "releases/1956/modules/GBR.json",
+      "sha256": "a98b08b2a1b9a946047be9918bb7b98b4981ab24217099bc1f17e2090000252a",
+      "bytes": 5519,
+      "git_authoritative": true,
+      "source_1955_path": "modules/GBR.json"
+    },
+    {
+      "path": "releases/1956/modules/IND.json",
+      "sha256": "57734a49416e59f8fb8ba17e50ac51bab486a471c3d990592689f421a47a7c55",
+      "bytes": 5508,
+      "git_authoritative": true,
+      "source_1955_path": "modules/IND.json"
+    },
+    {
+      "path": "releases/1956/modules/ISR.json",
+      "sha256": "00366f21ac0da42caefd3286f326d04328d0d558c8f5f33918f5f29421c94327",
+      "bytes": 5290,
+      "git_authoritative": true,
+      "source_1955_path": "modules/ISR.json"
+    },
+    {
+      "path": "releases/1956/modules/ITA.json",
+      "sha256": "232335186c2b019e49a555e63f9953ceb8d404ebf20f7b1c7304a52c2b79525a",
+      "bytes": 5326,
+      "git_authoritative": true,
+      "source_1955_path": "modules/ITA.json"
+    },
+    {
+      "path": "releases/1956/modules/JPN.json",
+      "sha256": "cc6ddff0c6a3a9e3b2db0c08b0a3746e1c5edb5f47b04967c7dae20db6dbf6f4",
+      "bytes": 5400,
+      "git_authoritative": true,
+      "source_1955_path": "modules/JPN.json"
+    },
+    {
+      "path": "releases/1956/modules/URS.json",
+      "sha256": "f14f2804d1c0ef5592d6f1f2a163e68e689e9fc1cac082d67aecf82b4dc65d2e",
+      "bytes": 5770,
+      "git_authoritative": true,
+      "source_1955_path": "modules/URS.json"
+    },
+    {
+      "path": "releases/1956/modules/USA.json",
+      "sha256": "fcfea000030b24ad7d9242446e1f4fc795b071d2544d6bfc6e5e4b6f7e67f8a7",
+      "bytes": 6491,
+      "git_authoritative": true,
+      "source_1955_path": "modules/USA.json"
+    },
+    {
+      "path": "releases/1956/modules/YUG.json",
+      "sha256": "037511774cbc52c2c155af8500f8f9e947a418e830c65b18a3030af0d6f7c405",
+      "bytes": 5517,
+      "git_authoritative": true,
+      "source_1955_path": "modules/YUG.json"
+    },
+    {
+      "path": "releases/1956/POLITICAL_SOURCES.json",
+      "sha256": "a45fdcd26f1e01e9836fe005979c8744600451afcb33de873c90627973bed51b",
+      "bytes": 1676,
+      "git_authoritative": true,
+      "source_1955_path": "POLITICAL_SOURCES.json"
+    },
+    {
+      "path": "releases/1956/sources.json",
+      "sha256": "c39ec1e539371d25485bc02879ee048baac70c180060d2d195a933b39941296a",
+      "bytes": 669,
+      "git_authoritative": true,
+      "source_1955_path": "sources.json"
+    },
+    {
+      "path": "releases/1956/validation_report.json",
+      "sha256": "fddf3db1a16a6262eeac0b3891e10c525bf2c82a0393e4a2e10c481d0cf35506",
+      "bytes": 20512,
+      "git_authoritative": true,
+      "source_1955_path": "validation_report.json"
+    },
+    {
+      "path": "releases/1956/world_1956.json",
+      "sha256": "b27558c95c9b4ca24e9e3d6c3fbe33ebada6f50b0a129d27274c30c673a77013",
+      "bytes": 8350,
+      "git_authoritative": true,
+      "source_1955_path": "world_1955.json"
+    }
+  ],
+  "source_of_truth": "PRIVATE_GITHUB_ONLY",
+  "publication_state": "APPROVED_RELEASE_NOT_DISCORD_PUBLICATION",
+  "effects_1955_applied_ref": "releases/1956/patches/effects_1955_applied_JPN_politics_2026-11-05.json",
+  "verify_report_ref": "releases/1956/release_verification_1956.json",
+  "final_handoff_ref": "docs/turn_handoffs/1955_to_1956.md",
+  "integrity_checks": {
+    "country_json_count": 12,
+    "national_mechanics_json_count": 12,
+    "all_payload_file_count": 32,
+    "payload_sha256_verified_at_staging": 32,
+    "budget_country_identities": 12,
+    "trade_country_identities": 12,
+    "military_inventory_rows": 180,
+    "source_manifest_sha256": "f07d0923a8fc693500d6318eecaf5f634585f09ee473fa41a690c1f9e6b71611"
+  },
+  "source_archive_commit": "fdf527b15289942a3371fd675f45665968447983",
+  "future_projections_policy": "Only 1955 earned effects applied. All 1956+ bonuses conditional on future adjudication. National modules unchanged pending separate update.",
+  "manifest_revision": "JPN_1956_ELECTION_DATES_AND_POLITICS_TEXT_2026_11_05",
+  "replaces_manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
+  "political_correction": {
+    "country_id": "JPN",
+    "effect_id": "JPN-1955-PARLIAMENT-REALIGNMENT-01",
+    "political_source_archive_commit": "395f719d27817d4e3c5c766df3f90095ea957111",
+    "change_scope": "Japan Diet 1955 election/party merger outcome, no changes to national mechanics",
+    "original_country_ref": "releases/1956/countries/JPN.json",
+    "original_manifest_ref": "releases/1956/manifest_1956.json",
+    "election_calendar_correction": "Add 1956-07-08 House of Councillors and 1958-05-22 House of Representatives as historical candidate dates; update stale 1955 Japan feature note.",
+    "prior_manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
+    "new_country_ref": "releases/1956/patches/JPN_politics_elections_2026-11-05.json",
+    "no_mechanics_changes": true,
+    "no_numeric_effect_changes": true
+  },
+  "replaces_manifest_sha256": "6d910a0816b9c4fc5240e185c39dc5d7b1a3a469e0636cc08d319fd81885adbd"
+}
