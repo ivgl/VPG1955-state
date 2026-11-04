@@ -131,8 +131,8 @@
     },
     {
       "path": "releases/1956/patches/JPN_politics_elections_2026-11-05.json",
-      "sha256": "2550651f90a6b4cb9ebda4a9ce5016cc6746f60ce53d75ec244498cb56d73f86",
-      "bytes": 31023,
+      "sha256": "2bc19801bcc757ee9ce26b54d4db78822dd4a1116428655a604a490a07ed739b",
+      "bytes": 32095,
       "git_authoritative": true,
       "source_1955_path": "countries/JPN.json",
       "correction": "JPN-1955-PARLIAMENT-REALIGNMENT-01"
@@ -322,7 +322,11 @@
     "prior_manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
     "new_country_ref": "releases/1956/patches/JPN_politics_elections_2026-11-05.json",
     "no_mechanics_changes": true,
-    "no_numeric_effect_changes": true
+    "no_numeric_effect_changes": true,
+    "scheduled_game_election": "1959-02-22",
+    "upper_house_1956": "1956-07-08",
+    "real_history_early_election": "1958-05-22",
+    "historical_election_does_not_force_game": true
   },
   "replaces_manifest_sha256": "6d910a0816b9c4fc5240e185c39dc5d7b1a3a469e0636cc08d319fd81885adbd"
 }
