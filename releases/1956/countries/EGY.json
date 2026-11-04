@@ -2,15 +2,15 @@
   "schema_version": "vpi_1955_country_state_v1.0",
   "id": "EGY",
   "name_ru": "Египет",
-  "turn_year": 1955,
-  "as_of": "1955-01-01",
-  "lifecycle": "OFFICIAL_START_1955",
+  "turn_year": 1956,
+  "as_of": "1956-01-01",
+  "lifecycle": "OFFICIAL_1956_OPENING",
   "data_policy": "Стартовые значения G$ и исторические пропорции согласованы для игры; изменения после 01.01.1955 зависят от игрового судейства. Полный макроэкономический движок не применяется.",
   "economy": {
     "stats": {
-      "gdp_real_billion_2011_intl": 33.302,
+      "gdp_real_billion_2011_intl": 34.30106,
       "gdp_growth_pct": 3,
-      "gdp_per_capita_2011_intl": 1416.9857884435366,
+      "gdp_per_capita_2011_intl": 1425.28844,
       "consumer_inflation_pct": 2.5,
       "investment_share_gdp_pct": 12,
       "productivity_hour_index": 100,
@@ -35,7 +35,7 @@
       "imports_billion": 5.538233572,
       "net_capital_inflow_billion": 0.167,
       "fdi_inflow_billion": 0.027,
-      "population": 23502000,
+      "population": 24066048,
       "birth_rate_per_1000": 43,
       "death_rate_per_1000": 19,
       "net_migration_people": 0,
@@ -44,7 +44,7 @@
       "age_65_plus_pct": 4,
       "labor_participation_pct": 60,
       "unemployment_pct": 8,
-      "employment_people": 7135207,
+      "employment_people": 7306452,
       "real_household_income_index": 100,
       "income_gini": 46,
       "education_index": 24,
@@ -83,7 +83,23 @@
       "role": "not_historically_established"
     },
     "monetary_unit": "G$",
-    "external_financing_rule": "Кредиты, помощь и инвестиции не являются экспортом; новые закупки и клиринг судятся в RP."
+    "external_financing_rule": "Кредиты, помощь и инвестиции не являются экспортом; новые закупки и клиринг судятся в RP.",
+    "growth_reporting": {
+      "latest_completed_year": 1955,
+      "realized_1955_growth_pct": 3,
+      "initial_1956_background_growth_pct": 3,
+      "conditional_1956_additional_pp": 0,
+      "automatic_future_bonus": false
+    },
+    "fiscal_reporting_period": "1955_APPROVED_CLOSE_RETAINED_AS_1956_OPENING_BASE",
+    "fiscal_close_1955": {
+      "additional_functional_expense_G_billion": 0,
+      "additional_tax_delta_G_billion": 0,
+      "recoverable_credit_disbursed_G_billion": 0,
+      "new_public_debt_automatically_issued_G_billion": 0,
+      "fiscal_balance_G_billion": -1.169182643,
+      "execution_precision": "ADMIN_APPROVED_JUDICIAL_ESTIMATE"
+    }
   },
   "features": [
     "agri.irrigation_dependency",
@@ -584,6 +600,6 @@
   },
   "player_sheet_url": "https://docs.google.com/spreadsheets/d/14XES71rFh7RCJEyukpnZDjPl0jb9M_tc2RTyF1_k4Rw/edit",
   "player_sheet_tab": "1955",
-  "release_id": "VPI1955-1955-START-R1",
-  "approval_source": "User instruction on 2026-10-18 to synchronize internal state and activate independent 1955 HEAD."
+  "release_id": "VPI1955-1956-TURN1-R1",
+  "approval_source": "ADMIN_FINAL_APPROVED_2026_11_05"
 }

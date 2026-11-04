@@ -1,0 +1,86 @@
+{
+  "release_id": "VPI1955-1956-TURN1-R1",
+  "batch": 2,
+  "changed": [
+    {
+      "path": "releases/1956/countries/CHN.json",
+      "sha256": "8d2a25a1810a5daf387ccc14a9ba7518bf9c27ebd10e85bdc5c9b7727441e855",
+      "bytes": 24502
+    },
+    {
+      "path": "releases/1956/countries/EGY.json",
+      "sha256": "8347d979d4d2e405f591cb396adcb82c368a1062efa4e49a5e4dd9eb4544366e",
+      "bytes": 22767
+    },
+    {
+      "path": "releases/1956/countries/IND.json",
+      "sha256": "26607cfd3274c6c4c5c5bb8466e22fdfedd125a84eb7b4824ce418adb9bc8d14",
+      "bytes": 24793
+    },
+    {
+      "path": "releases/1956/countries/ISR.json",
+      "sha256": "32cd80cfcdad890d233415ebd9dee24789a60edd578651bb02f290fbe11615e4",
+      "bytes": 22867
+    },
+    {
+      "path": "releases/1956/countries/ITA.json",
+      "sha256": "dbda46fd6ecc60ce19aa2c064a10f387ba7a294ab69c3d4427378974bd8ece9e",
+      "bytes": 22838
+    },
+    {
+      "path": "releases/1956/countries/YUG.json",
+      "sha256": "d32b089cf84c26a74b7b82121f939a61a06d9a745a1f5bbb6bbfb9db4af56d54",
+      "bytes": 23129
+    }
+  ],
+  "year_results": {
+    "CHN": {
+      "gdp": 664.586636,
+      "realized_1955_growth_pct": 5.7,
+      "pop": 610166804,
+      "balance": 0.245872,
+      "loan": 0.07,
+      "expense": 0.53
+    },
+    "EGY": {
+      "gdp": 34.30106,
+      "realized_1955_growth_pct": 3,
+      "pop": 24066048,
+      "balance": -1.169182643,
+      "loan": 0,
+      "expense": 0
+    },
+    "IND": {
+      "gdp": 425.115348,
+      "realized_1955_growth_pct": 3.6,
+      "pop": 388453960,
+      "balance": -14.327890424,
+      "loan": 0.10628571428571429,
+      "expense": 0.7865714285714287
+    },
+    "ISR": {
+      "gdp": 9.02866,
+      "realized_1955_growth_pct": 7,
+      "pop": 1648518,
+      "balance": -0.641288,
+      "loan": 0,
+      "expense": 0
+    },
+    "ITA": {
+      "gdp": 357.99034,
+      "realized_1955_growth_pct": 5.2,
+      "pop": 48286864,
+      "balance": -9.857411823,
+      "loan": 0,
+      "expense": 0
+    },
+    "YUG": {
+      "gdp": 57.805,
+      "realized_1955_growth_pct": 5.1,
+      "pop": 17495600,
+      "balance": 2.717941173,
+      "loan": 0,
+      "expense": 1.02
+    }
+  }
+}
