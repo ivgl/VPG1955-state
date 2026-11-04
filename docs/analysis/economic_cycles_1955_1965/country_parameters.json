@@ -1,0 +1,412 @@
+{
+  "document_type": "NON_CANONICAL_JUDICIAL_RESEARCH",
+  "campaign_id": "VPI1955_MAIN",
+  "model_years": "1955–1965",
+  "as_of": "2026-11-04",
+  "based_on": "Private GitHub country economy.stats for official 1955; expert assumptions thereafter",
+  "source_xlsx_sha256": "7db38aca5c15332a21e2890c3d9c02e2dcd5a56602c894c38d3871eff0486b14",
+  "notes": [
+    "Values after 1955 are expert counterfactual baselines, not canonical state or certified historical datasets.",
+    "Country confidence is appraisal of comparability, not probabilistic forecast accuracy.",
+    "Zero crisis/reform channels in annual baseline do not mean no real crisis; actual shocks require approved event evidence.",
+    "Do not mix GDP at PPP 2011 international dollars with fiscal G$."
+  ],
+  "countries": [
+    {
+      "country_id": "USA",
+      "name_ru": "США",
+      "base_1955": {
+        "gdp_billion_2011_intl": 2762.623,
+        "gdp_growth_pct": 3.5,
+        "investment_share_gdp_pct": 19,
+        "agriculture_share_pct": 7,
+        "industry_share_pct": 38,
+        "services_share_pct": 55,
+        "consumer_inflation_pct": 1.5,
+        "reserves_G$": 198.909,
+        "exports_G$": 113.268,
+        "imports_G$": 110.505
+      },
+      "confidence": "Высокая",
+      "growth_drivers": "Промышленная производительность и рынок труда",
+      "key_risk": "Кредитная/потребительская рецессия",
+      "model": {
+        "growth_1956_pct": 3.956,
+        "annual_structural_trend_pp": -0.02,
+        "symmetric_uncertainty_pp": 1.4,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 1.5,
+          "industry": 4.2,
+          "services": 4.1
+        }
+      },
+      "source_keys": [
+        "IMF_1975",
+        "NBER_CYCLES"
+      ]
+    },
+    {
+      "country_id": "URS",
+      "name_ru": "СССР",
+      "base_1955": {
+        "gdp_billion_2011_intl": 850,
+        "gdp_growth_pct": 5,
+        "investment_share_gdp_pct": 27,
+        "agriculture_share_pct": 27,
+        "industry_share_pct": 49,
+        "services_share_pct": 24,
+        "consumer_inflation_pct": 2,
+        "reserves_G$": 21.25,
+        "exports_G$": 32.184,
+        "imports_G$": 31.45
+      },
+      "confidence": "Средняя-низкая",
+      "growth_drivers": "Мобилизация инвестиций и инженерных кадров",
+      "key_risk": "Аграрная нехватка/перекос отраслей",
+      "model": {
+        "growth_1956_pct": 5.272,
+        "annual_structural_trend_pp": -0.04,
+        "symmetric_uncertainty_pp": 2.1,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 3,
+          "industry": 7,
+          "services": 4.3
+        }
+      },
+      "source_keys": [
+        "TNSR_USSR",
+        "LSE_USSR"
+      ]
+    },
+    {
+      "country_id": "GBR",
+      "name_ru": "Великобритания",
+      "base_1955": {
+        "gdp_billion_2011_intl": 623.488,
+        "gdp_growth_pct": 3,
+        "investment_share_gdp_pct": 16,
+        "agriculture_share_pct": 5,
+        "industry_share_pct": 42,
+        "services_share_pct": 53,
+        "consumer_inflation_pct": 2.1,
+        "reserves_G$": 32.172,
+        "exports_G$": 112.228,
+        "imports_G$": 124.698
+      },
+      "confidence": "Высокая",
+      "growth_drivers": "Услуги и машиностроение, торговля Содружества",
+      "key_risk": "Стерлинговый платёжный потолок",
+      "model": {
+        "growth_1956_pct": 3.157,
+        "annual_structural_trend_pp": -0.02,
+        "symmetric_uncertainty_pp": 1.5,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 1.5,
+          "industry": 3.3,
+          "services": 3.2
+        }
+      },
+      "source_keys": [
+        "IMF_1975",
+        "UK_LORDS"
+      ]
+    },
+    {
+      "country_id": "FRA",
+      "name_ru": "Франция",
+      "base_1955": {
+        "gdp_billion_2011_intl": 422.695,
+        "gdp_growth_pct": 4.4,
+        "investment_share_gdp_pct": 20,
+        "agriculture_share_pct": 16,
+        "industry_share_pct": 42,
+        "services_share_pct": 42,
+        "consumer_inflation_pct": 3,
+        "reserves_G$": 17.422,
+        "exports_G$": 59.6,
+        "imports_G$": 59.177
+      },
+      "confidence": "Средняя-высокая",
+      "growth_drivers": "Индустриализация и рост продуктивности",
+      "key_risk": "Инфляция и валютный дефицит",
+      "model": {
+        "growth_1956_pct": 5.104,
+        "annual_structural_trend_pp": -0.01,
+        "symmetric_uncertainty_pp": 1.7,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 2.5,
+          "industry": 6.2,
+          "services": 5
+        }
+      },
+      "source_keys": [
+        "IMF_1975",
+        "FR_PINAY"
+      ]
+    },
+    {
+      "country_id": "FRG",
+      "name_ru": "ФРГ",
+      "base_1955": {
+        "gdp_billion_2011_intl": 440,
+        "gdp_growth_pct": 7,
+        "investment_share_gdp_pct": 24,
+        "agriculture_share_pct": 10,
+        "industry_share_pct": 48,
+        "services_share_pct": 42,
+        "consumer_inflation_pct": 1.7,
+        "reserves_G$": 40.781,
+        "exports_G$": 83.6,
+        "imports_G$": 74.8
+      },
+      "confidence": "Высокая",
+      "growth_drivers": "Экспорт, инвестиции, догоняющий рост",
+      "key_risk": "Дефицит рабочей силы; смена внешнего спроса",
+      "model": {
+        "growth_1956_pct": 5.786,
+        "annual_structural_trend_pp": -0.08,
+        "symmetric_uncertainty_pp": 1.7,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 2,
+          "industry": 7,
+          "services": 5.3
+        }
+      },
+      "source_keys": [
+        "IMF_1975",
+        "FRG_BMWE"
+      ]
+    },
+    {
+      "country_id": "JPN",
+      "name_ru": "Япония",
+      "base_1955": {
+        "gdp_billion_2011_intl": 378.372,
+        "gdp_growth_pct": 7,
+        "investment_share_gdp_pct": 25,
+        "agriculture_share_pct": 23,
+        "industry_share_pct": 36,
+        "services_share_pct": 41,
+        "consumer_inflation_pct": 2.4,
+        "reserves_G$": 19.046,
+        "exports_G$": 33.417,
+        "imports_G$": 45.662
+      },
+      "confidence": "Средняя-высокая",
+      "growth_drivers": "Модернизация, индустрия, высокие сбережения",
+      "key_risk": "Импортный/кредитный перегрев, ограничения платёжного баланса",
+      "model": {
+        "growth_1956_pct": 9.233,
+        "annual_structural_trend_pp": -0.09,
+        "symmetric_uncertainty_pp": 2.6,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 3,
+          "industry": 12,
+          "services": 10.3
+        }
+      },
+      "source_keys": [
+        "IMF_1975",
+        "JPN_CAO"
+      ]
+    },
+    {
+      "country_id": "CHN",
+      "name_ru": "КНР",
+      "base_1955": {
+        "gdp_billion_2011_intl": 628.748,
+        "gdp_growth_pct": 5.5,
+        "investment_share_gdp_pct": 22,
+        "agriculture_share_pct": 60,
+        "industry_share_pct": 23,
+        "services_share_pct": 17,
+        "consumer_inflation_pct": 2,
+        "reserves_G$": 2.237,
+        "exports_G$": 29.876,
+        "imports_G$": 33.049
+      },
+      "confidence": "Низкая",
+      "growth_drivers": "Догоняющий выпуск при сохранении сельхозснабжения",
+      "key_risk": "Политическая мобилизация/массовый аграрный провал",
+      "model": {
+        "growth_1956_pct": 5.65,
+        "annual_structural_trend_pp": -0.03,
+        "symmetric_uncertainty_pp": 3.4,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 3.5,
+          "industry": 11,
+          "services": 6
+        }
+      },
+      "source_keys": [
+        "LSE_CHN",
+        "OECD_CHN"
+      ]
+    },
+    {
+      "country_id": "EGY",
+      "name_ru": "Египет",
+      "base_1955": {
+        "gdp_billion_2011_intl": 33.302,
+        "gdp_growth_pct": 3,
+        "investment_share_gdp_pct": 12,
+        "agriculture_share_pct": 45,
+        "industry_share_pct": 18,
+        "services_share_pct": 37,
+        "consumer_inflation_pct": 2.5,
+        "reserves_G$": 0.833,
+        "exports_G$": 4.884,
+        "imports_G$": 5.538
+      },
+      "confidence": "Средняя-низкая",
+      "growth_drivers": "Ирригация, переработка хлопка, промышленность",
+      "key_risk": "Канал/торговля/внешнее финансирование",
+      "model": {
+        "growth_1956_pct": 4.264,
+        "annual_structural_trend_pp": 0.02,
+        "symmetric_uncertainty_pp": 2.4,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 2.8,
+          "industry": 6,
+          "services": 5.2
+        }
+      },
+      "source_keys": [
+        "WB_CHENERY",
+        "IMF_EGY_1967"
+      ]
+    },
+    {
+      "country_id": "IND",
+      "name_ru": "Индия",
+      "base_1955": {
+        "gdp_billion_2011_intl": 410.343,
+        "gdp_growth_pct": 3.6,
+        "investment_share_gdp_pct": 12,
+        "agriculture_share_pct": 53,
+        "industry_share_pct": 16,
+        "services_share_pct": 31,
+        "consumer_inflation_pct": 3.3,
+        "reserves_G$": 29.064,
+        "exports_G$": 20.517,
+        "imports_G$": 22.569
+      },
+      "confidence": "Средняя-низкая",
+      "growth_drivers": "Сельское хозяйство, базовая промышленность",
+      "key_risk": "Неурожай и платёжный кризис II плана",
+      "model": {
+        "growth_1956_pct": 3.443,
+        "annual_structural_trend_pp": 0.01,
+        "symmetric_uncertainty_pp": 2.4,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 2.4,
+          "industry": 6.4,
+          "services": 3.7
+        }
+      },
+      "source_keys": [
+        "WB_CHENERY",
+        "IMF_INDIA_1958"
+      ]
+    },
+    {
+      "country_id": "ISR",
+      "name_ru": "Израиль",
+      "base_1955": {
+        "gdp_billion_2011_intl": 8.438,
+        "gdp_growth_pct": 7,
+        "investment_share_gdp_pct": 28,
+        "agriculture_share_pct": 12,
+        "industry_share_pct": 27,
+        "services_share_pct": 61,
+        "consumer_inflation_pct": 5,
+        "reserves_G$": 0.549,
+        "exports_G$": 0.911,
+        "imports_G$": 2.531
+      },
+      "confidence": "Средняя",
+      "growth_drivers": "Труд/миграция, промышленность, услуги",
+      "key_risk": "Внешнее финансирование и импорт",
+      "model": {
+        "growth_1956_pct": 8.18,
+        "annual_structural_trend_pp": -0.04,
+        "symmetric_uncertainty_pp": 2.7,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 5,
+          "industry": 10,
+          "services": 8
+        }
+      },
+      "source_keys": [
+        "WB_CHENERY",
+        "IMF_ISR"
+      ]
+    },
+    {
+      "country_id": "ITA",
+      "name_ru": "Италия",
+      "base_1955": {
+        "gdp_billion_2011_intl": 340.295,
+        "gdp_growth_pct": 5.2,
+        "investment_share_gdp_pct": 20,
+        "agriculture_share_pct": 25,
+        "industry_share_pct": 39,
+        "services_share_pct": 36,
+        "consumer_inflation_pct": 2.2,
+        "reserves_G$": 15.169,
+        "exports_G$": 33.571,
+        "imports_G$": 37.933
+      },
+      "confidence": "Средняя-высокая",
+      "growth_drivers": "Экспортная индустрия и миграция рабочей силы",
+      "key_risk": "Кредит/рост зарплат/валютные резервы",
+      "model": {
+        "growth_1956_pct": 5.64,
+        "annual_structural_trend_pp": -0.04,
+        "symmetric_uncertainty_pp": 2,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 3,
+          "industry": 7,
+          "services": 6
+        }
+      },
+      "source_keys": [
+        "IMF_1975",
+        "ITA_BANCA"
+      ]
+    },
+    {
+      "country_id": "YUG",
+      "name_ru": "Югославия",
+      "base_1955": {
+        "gdp_billion_2011_intl": 55,
+        "gdp_growth_pct": 5,
+        "investment_share_gdp_pct": 24,
+        "agriculture_share_pct": 49,
+        "industry_share_pct": 25,
+        "services_share_pct": 26,
+        "consumer_inflation_pct": 4,
+        "reserves_G$": 1.375,
+        "exports_G$": 3.418,
+        "imports_G$": 4.672
+      },
+      "confidence": "Низкая",
+      "growth_drivers": "Смешанная плановая/самоуправленческая индустриализация",
+      "key_risk": "Инвестиционный перегрев и внешние дисбалансы",
+      "model": {
+        "growth_1956_pct": 6.66,
+        "annual_structural_trend_pp": -0.04,
+        "symmetric_uncertainty_pp": 2.9,
+        "sector_growth_assumptions_pct": {
+          "agriculture": 4,
+          "industry": 11,
+          "services": 7.5
+        }
+      },
+      "source_keys": [
+        "YUG_LOC",
+        "YUG_CAMBRIDGE"
+      ]
+    }
+  ]
+}
