@@ -113,7 +113,7 @@
     "tech.foreign_licenses_dependency"
   ],
   "feature_notes": [
-    "К началу 1956 года Итиро Хатояма возглавляет кабинет Либерально-демократической партии (ЛДП). После объединения консерваторов 15 ноября 1955 года ЛДП располагает 298 из 467 мест в Палате представителей; единая Социалистическая партия, созданная 13 октября, занимает 155 мест, остальные депутаты — 14. Большинство ЛДП укрепляет правительство, но внутри партии сохраняется борьба фракций за назначения и экономическую политику; социалисты остаются самостоятельной оппозицией. Ближайший исторический ориентир — выборы в Палату советников 8 июля 1956 года, затем в Палату представителей 22 мая 1958 года. Итоги будущих голосований в ВПИ не предрешены."
+    "К началу 1956 года премьер-министр Итиро Хатояма опирается на Либерально-демократическую партию, созданную в ноябре 1955-го. ЛДП объединяет 298 из 467 депутатов Палаты представителей; единая Социалистическая партия имеет 155 мест, прочие — 14. Большинство консерваторов укрепило кабинет, но внутри ЛДП продолжается борьба фракций за правительственные назначения и направления реформ, а социалисты выступают единой парламентской оппозицией. Следующие выборы в Палату советников намечены на 8 июля 1956 года. Очередные игровые выборы в Палату представителей назначены на 22 февраля 1959 года; досрочный роспуск может изменить этот срок."
   ],
   "politics": {
     "system": "parliamentary_monarchy",
@@ -149,12 +149,12 @@
       "note": "Итог после партийных объединений, не прямой результат февральских выборов"
     },
     "electoral_support": null,
-    "note": "К началу 1956 года Итиро Хатояма возглавляет кабинет Либерально-демократической партии (ЛДП). После объединения консерваторов 15 ноября 1955 года ЛДП располагает 298 из 467 мест в Палате представителей; единая Социалистическая партия, созданная 13 октября, занимает 155 мест, остальные депутаты — 14. Большинство ЛДП укрепляет правительство, но внутри партии сохраняется борьба фракций за назначения и экономическую политику; социалисты остаются самостоятельной оппозицией. Ближайший исторический ориентир — выборы в Палату советников 8 июля 1956 года, затем в Палату представителей 22 мая 1958 года. Итоги будущих голосований в ВПИ не предрешены.",
+    "note": "К началу 1956 года премьер-министр Итиро Хатояма опирается на Либерально-демократическую партию, созданную в ноябре 1955-го. ЛДП объединяет 298 из 467 депутатов Палаты представителей; единая Социалистическая партия имеет 155 мест, прочие — 14. Большинство консерваторов укрепило кабинет, но внутри ЛДП продолжается борьба фракций за правительственные назначения и направления реформ, а социалисты выступают единой парламентской оппозицией. Следующие выборы в Палату советников намечены на 8 июля 1956 года. Очередные игровые выборы в Палату представителей назначены на 22 февраля 1959 года; досрочный роспуск может изменить этот срок.",
     "status": "ADMIN_APPROVED_CORRECTED_1955_PARLIAMENTARY_OUTCOME",
     "electoral_system": "Многомандатные округа, единый непередаваемый голос (SNTV), возможность досрочного роспуска Палаты представителей.",
     "legislature": "Палата представителей: 467 мест (ЛДП 298, Социалистическая партия 155, прочие 14); Палата советников — без изменений",
     "last_election_reference_date": "1955-02-27",
-    "next_election_rule": "Исторический ориентир: выборы в Палату советников — 8 июля 1956 года; очередные исторические выборы в Палату представителей — 22 мая 1958 года. Досрочный роспуск нижней палаты и игровые результаты определяются решениями участников и судейством.",
+    "next_election_rule": "Ближайшие плановые выборы: Палата советников — 8 июля 1956 года (исторический ориентир); Палата представителей — 22 февраля 1959 года (назначенная игровая дата в конце четырёхлетнего срока). Реальные выборы 22 мая 1958 года были досрочными и не предопределяют игру. Досрочный роспуск палаты может изменить игровую дату.",
     "historical_party_seat_snapshots": {
       "house_1953_election_only": {
         "Либеральная партия Ёсиды": 199,
@@ -194,20 +194,35 @@
       {
         "chamber": "Палата советников",
         "date": "1956-07-08",
-        "historical_reference": true,
-        "status": "HISTORICAL_CALENDAR_CANDIDATE_NOT_GAME_RESULT",
+        "kind": "HISTORICAL_REGULAR",
+        "status": "GAME_CALENDAR_REFERENCE_OUTCOME_UNDETERMINED",
         "source": "https://www.gender.go.jp/international/int_kaigi/int_teppai/pdf/5th_report_en.pdf"
       },
       {
         "chamber": "Палата представителей",
         "date": "1958-05-22",
-        "historical_reference": true,
-        "status": "HISTORICAL_CALENDAR_CANDIDATE_NOT_GAME_RESULT",
-        "source": "https://www.gender.go.jp/international/int_kaigi/int_teppai/pdf/5th_report_en.pdf"
+        "kind": "HISTORICAL_EARLY_AFTER_DISSOLUTION",
+        "status": "HISTORICAL_REFERENCE_NOT_GAME_CALENDAR",
+        "dissolution_date": "1958-04-25",
+        "source": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/senkyolist.htm"
       }
     ],
     "next_election_reference_date": "1956-07-08",
-    "next_lower_house_historical_reference_date": "1958-05-22"
+    "next_lower_house_historical_reference_date": "1958-05-22",
+    "ordinary_lower_house_election_schedule": {
+      "last_general_election": "1955-02-27",
+      "term_end": "1959-02-26",
+      "legal_ordinary_window": "1959-01-27/1959-02-25",
+      "game_planned_poll_date": "1959-02-22",
+      "type": "REGULAR_GAME_ADMIN_DATE_NOT_HISTORICAL",
+      "conditionally_overridden_by_early_dissolution": true,
+      "legal_exception": "Legislative session may alter ordinary election timing under Public Offices Election Act Article 31",
+      "sources": [
+        "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution_e.htm",
+        "https://elaws.jp/view/325AC1000000100"
+      ]
+    },
+    "next_lower_house_planned_date": "1959-02-22"
   },
   "military": {
     "active_personnel": 145000,
@@ -762,6 +777,9 @@
     "effect_id": "JPN-1955-PARLIAMENT-REALIGNMENT-01",
     "approved": "2026-11-05",
     "supersedes_country_path": "releases/1956/patches/JPN_politics_2026-11-05.json",
-    "election_calendar_addendum_2026_11_05": "Historical reference dates for 1956 Councillors and 1958 Representatives; changes no rules or game election outcomes."
+    "election_calendar_addendum_2026_11_05": "Historical reference dates for 1956 Councillors and 1958 Representatives; changes no rules or game election outcomes.",
+    "regular_game_election_date": "1959-02-22",
+    "historical_1958_election_kind": "SNAP_NOT_SCHEDULED",
+    "last_revision_reason": "Distinguish the actual 1958 snap election from the 1959 normal-term game election."
   }
 }
