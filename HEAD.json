@@ -4,8 +4,8 @@
   "year": 1956,
   "start_date": "1956-01-01",
   "release_id": "VPI1955-1956-TURN1-R1",
-  "manifest_path": "releases/1956/manifest_1956.json",
-  "manifest_sha256": "86bf8b3eaac9cb32fa1a4909ff07405ae1a8760c4fa30dbf28eebf522e439aed",
+  "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
+  "manifest_sha256": "6d910a0816b9c4fc5240e185c39dc5d7b1a3a469e0636cc08d319fd81885adbd",
   "official": true,
   "phase": "RECEIVING",
   "status": "OFFICIAL_1956_RECEIVING",
@@ -19,13 +19,13 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://github.com/ivgl/VPG1955-state/tree/main/releases/1956",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "Admin approved final 1955 adjudication and 1956 state release on 2026-11-05; 1956 player intake from 00:00 MSK 05 Nov through Saturday 07 Nov 23:59:59 MSK; judging begins Sunday 08 Nov. Mechanics unchanged pending separate update.",
+  "updated_note": "2026-11-05 admin-approved correction to 1956 Japan political snapshot: 1955 election, October JSP merger, November LDP founding, 298/155/14 Diet seats. No mechanics rules, economics or phase changed.",
   "storage": {
     "provider": "github",
     "repository": "ivgl/VPG1955-state",
     "visibility": "private",
     "branch": "main",
-    "current_manifest": "releases/1956/manifest_1956.json",
+    "current_manifest": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
     "current_world": "releases/1956/world_1956.json",
     "country_directory": "releases/1956/countries/",
     "mechanics_directory": "releases/1956/modules/",
@@ -35,7 +35,7 @@
     "administrator_approval_required": true,
     "automatic_adjudication": false,
     "automatic_state_update": false,
-    "current_manifest_sha256": "86bf8b3eaac9cb32fa1a4909ff07405ae1a8760c4fa30dbf28eebf522e439aed",
+    "current_manifest_sha256": "6d910a0816b9c4fc5240e185c39dc5d7b1a3a469e0636cc08d319fd81885adbd",
     "military_game_baseline_approved": true,
     "public_mechanics_approved": 12,
     "source_of_truth": "GitHub_PRIVATE_RELEASE"
@@ -84,6 +84,15 @@
       "manifest_path": "releases/1956/manifest_1956.json",
       "archive_commit": "fdf527b15289942a3371fd675f45665968447983",
       "approved_payload_count": 32
+    },
+    {
+      "date": "2026-11-05",
+      "scope": "Correct Japanese 1955 electoral/party realignment and 1956 Diet representation only; unchanged 12 national mechanisms and economic stats.",
+      "phase": "RECEIVING",
+      "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
+      "manifest_sha256": "6d910a0816b9c4fc5240e185c39dc5d7b1a3a469e0636cc08d319fd81885adbd",
+      "archive_commit": "395f719d27817d4e3c5c766df3f90095ea957111",
+      "supersedes_manifest_sha256": "86bf8b3eaac9cb32fa1a4909ff07405ae1a8760c4fa30dbf28eebf522e439aed"
     }
   ],
   "drive_metadata_status": "ARCHIVED_PROVENANCE_ONLY; all subsequent authoritative country, modules, world and manifest reads must use GitHub.",
@@ -112,7 +121,15 @@
     "manifest_sha256": "86bf8b3eaac9cb32fa1a4909ff07405ae1a8760c4fa30dbf28eebf522e439aed",
     "appeals": "ADMIN_CONFIRMED_TURN_FINAL_APPROVAL__NO_OUTSTANDING_APPEAL_REOPENED",
     "verified_budget_identities": 12,
-    "verified_country_count": 12
+    "verified_country_count": 12,
+    "political_followup_correction": {
+      "country": "JPN",
+      "effect_id": "JPN-1955-PARLIAMENT-REALIGNMENT-01",
+      "archive_commit": "395f719d27817d4e3c5c766df3f90095ea957111",
+      "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
+      "corrected": "2026-11-05",
+      "year_still": 1956
+    }
   },
   "phase_transition_1956": {
     "from": "COMMITTED_1955",
@@ -122,5 +139,6 @@
     "receiving_end": "2026-11-07T23:59:59+03:00",
     "judging_begin": "2026-11-08T00:00:00+03:00",
     "new_mechanics_update": "PENDING_SEPARATE_ADMIN_WORK"
-  }
+  },
+  "manifest_revision": "JPN_1955_POLITICS_CORRECTED_2026_11_05"
 }
