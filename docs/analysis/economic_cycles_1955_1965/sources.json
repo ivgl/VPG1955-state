@@ -1,0 +1,165 @@
+{
+  "document_type": "NON_CANONICAL_SOURCES_INDEX",
+  "campaign_id": "VPI1955_MAIN",
+  "kind": "SOURCES_EXTRACTED_FROM_2026_11_04_MODEL_WORKBOOK",
+  "count": 26,
+  "scope_note": "Links and summaries in original workbook; this transfer does not independently re-audit remote pages.",
+  "sources": [
+    {
+      "id": "GITHUB_HEAD",
+      "title": "ВПИ, приватный GitHub",
+      "url": "https://github.com/ivgl/VPG1955-state/blob/main/HEAD.json",
+      "notes": "Игровые исходные JSON 1955, не точная архивная статистика"
+    },
+    {
+      "id": "VPI_PROTOCOL",
+      "title": "ВПИ, протокол судейства",
+      "url": "https://github.com/ivgl/VPG1955-state/blob/main/docs/turn_adjudication_protocol.md",
+      "notes": "Судейские правила, не исторический ряд"
+    },
+    {
+      "id": "VPI_METHOD",
+      "title": "ВПИ, методика экономического судейства",
+      "url": "https://github.com/ivgl/VPG1955-state/blob/main/docs/economic_adjudication_methodology.md",
+      "notes": "Приоритет для проверки механизмов и стадии исполнения"
+    },
+    {
+      "id": "IMF_1975",
+      "title": "МВФ, World Economic Outlook, историческая ретроспектива",
+      "url": "https://www.elibrary.imf.org/display/book/9781616351885/ch001.xml",
+      "notes": "Сводные средние 1960–1965, не полный годовой ряд"
+    },
+    {
+      "id": "NBER_CYCLES",
+      "title": "NBER: US business cycle dating",
+      "url": "https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions",
+      "notes": "Даты американских спадов IRL не обязательны в ВПИ"
+    },
+    {
+      "id": "UK_LORDS",
+      "title": "Библиотека Палаты лордов, экономика Британии 1950-х",
+      "url": "https://lordslibrary.parliament.uk/the-uk-economy-in-the-1950s/",
+      "notes": "Структурный контекст и stop-go"
+    },
+    {
+      "id": "TNSR_USSR",
+      "title": "Texas National Security Review: Soviet economic comparisons",
+      "url": "https://tnsr.org/2018/02/assessing-soviet-economic-performance-cold-war/",
+      "notes": "National income не совпадает с методикой игрового ВВП"
+    },
+    {
+      "id": "LSE_USSR",
+      "title": "LSE Economic History Working Paper 298",
+      "url": "https://www.lse.ac.uk/asset-library/information/wp298.pdf",
+      "notes": "Ретроспективные оценки СССР, методологические ограничения"
+    },
+    {
+      "id": "FR_PINAY",
+      "title": "Минэкономики Франции, программа Pinay–Rueff",
+      "url": "https://www.economie.gouv.fr/saef/antoine-pinay",
+      "notes": "Историческая стабилизация — условный прецедент"
+    },
+    {
+      "id": "FRG_BMWE",
+      "title": "Федеральное министерство экономики ФРГ, 1949–1966",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Artikel/Ministerium/49-66.html",
+      "notes": "Исторические институты, экспорт, труд"
+    },
+    {
+      "id": "JPN_CAO",
+      "title": "Кабинет министров Японии, история циклов роста",
+      "url": "https://www5.cao.go.jp/keizai3/2007/1214nk/07-00403-01n.html",
+      "notes": "Реальные даты циклов не фиксируют ВПИ"
+    },
+    {
+      "id": "OECD_CHN",
+      "title": "OECD / Maddison, Chinese Economic Performance in the Long Run",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/09/chinese-economic-performance-in-the-long-run-960-2030-ad-second-edition-revised-and-updated_g1gh8357/9789264037632-en.pdf",
+      "notes": "Большой скачок не обязательный исход"
+    },
+    {
+      "id": "LSE_CHN",
+      "title": "LSE Working Paper 298, китайский исторический ВВП",
+      "url": "https://www.lse.ac.uk/asset-library/information/wp298.pdf",
+      "notes": "Историческая катастрофа включена в средний рост"
+    },
+    {
+      "id": "IMF_INDIA_1958",
+      "title": "МВФ N. A. Sarma (1958), II пятилетка Индии",
+      "url": "https://www.elibrary.imf.org/view/journals/024/1958/001/article-A002-en.xml",
+      "notes": "Валютные и инвестиционные ограничения"
+    },
+    {
+      "id": "NITI_IND",
+      "title": "Planning Commission India, II пятилетка",
+      "url": "https://digitallibrary.niti.gov.in/items/58ad23b7-d0b0-49ed-8f6d-c453dff5b462/full",
+      "notes": "Исторический план, не обязательно исполнение"
+    },
+    {
+      "id": "WB_CHENERY",
+      "title": "World Bank reprint, Chenery–Strout",
+      "url": "https://documents.worldbank.org/curated/en/490311468762327687/pdf/multi0page.pdf",
+      "notes": "Сводки 1960–70, длиннее модельного периода"
+    },
+    {
+      "id": "IMF_EGY_1967",
+      "title": "МВФ Egypt survey 1960/61–1964/65",
+      "url": "https://www.elibrary.imf.org/view/journals/024/1967/003/article-A003-en.xml",
+      "notes": "Сырьевые ограничения и текущий счёт; не конвертировать номинальные суммы в G$"
+    },
+    {
+      "id": "IMF_EGY_1957",
+      "title": "IMF Annual Report 1957",
+      "url": "https://www.imf.org/external/pubs/ft/ar/archive/pdf/ar1957.pdf",
+      "notes": "Суэц IRL не обязателен в игре"
+    },
+    {
+      "id": "IMF_ISR",
+      "title": "IMF Israel Selected Issues 1997",
+      "url": "https://www.elibrary.imf.org/view/journals/002/1997/002/article-A003-en.xml",
+      "notes": "Исключительный период ранней миграции; не экстраполировать"
+    },
+    {
+      "id": "ITA_BANCA",
+      "title": "Банк Италии, доклад о 1958–63",
+      "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2016/Rossi_Tokyo230516_new.pdf",
+      "notes": "Интервал не совпадает с 1960–65"
+    },
+    {
+      "id": "ITA_OECD_1965",
+      "title": "OECD Economic Survey Italy 1965",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/1965/03/oecd-economic-surveys-italy-1965_g1g16d8d/eco_surveys-ita-1965-en.pdf",
+      "notes": "Циклическое ужесточение, условный механизм"
+    },
+    {
+      "id": "YUG_LOC",
+      "title": "Library of Congress Yugoslavia Country Study",
+      "url": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/yu/yugoslaviacountr00curt_0/yugoslaviacountr00curt_0.pdf",
+      "notes": "Gross material product ≠ GDP"
+    },
+    {
+      "id": "YUG_CAMBRIDGE",
+      "title": "Cambridge, Singleton, Yugoslavia reform",
+      "url": "https://www.cambridge.org/core/books/abs/short-history-of-the-yugoslav-peoples/1960s-a-decade-of-reform/BDC459F7D2454F1BCD39DDEB64F815E0",
+      "notes": "Историческая реформа не предрешена"
+    },
+    {
+      "id": "JST_MACRO",
+      "title": "Jordà–Schularick–Taylor Macrohistory Database",
+      "url": "https://www.macrohistory.net/database/",
+      "notes": "Нельзя считать все 12 стран одинаково покрытыми"
+    },
+    {
+      "id": "MPD_2023",
+      "title": "Maddison Project Database 2023",
+      "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
+      "notes": "RAW ряды не были загружены и не проходили ежегодный аудит"
+    },
+    {
+      "id": "PWT_1001",
+      "title": "Penn World Table 10.01",
+      "url": "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt1001",
+      "notes": "RAW ряды не были загружены и не проходили ежегодный аудит"
+    }
+  ]
+}
