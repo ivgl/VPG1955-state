@@ -5,7 +5,7 @@
   "start_date": "1956-01-01",
   "release_id": "VPI1955-1956-TURN1-R1",
   "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_CORRECTED.json",
-  "manifest_sha256": "f18af24ec977d2b23952227a5060d38ef06ff5395799732696f36d1ec76bfd26",
+  "manifest_sha256": "6634fd754069181cac6f411e8050c2b05e0de74e2fc44ac13c5d140581049a62",
   "official": true,
   "phase": "RECEIVING",
   "status": "OFFICIAL_1956_RECEIVING",
@@ -19,7 +19,7 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://github.com/ivgl/VPG1955-state/tree/main/releases/1956",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "2026-11-05 corrected Japan 1956 political narrative and included historical election references (House of Councillors 8 July 1956; Representatives 22 May 1958); results are not predetermined, existing national mechanics and economic state unchanged.",
+  "updated_note": "2026-11-05: JPN next upper-house historical reference 1956-07-08; lower-house regular game election assigned 1959-02-22 (following four-year term); real 1958-05-22 was snap and is not guaranteed. National mechanics and economics unchanged.",
   "storage": {
     "provider": "github",
     "repository": "ivgl/VPG1955-state",
@@ -35,7 +35,7 @@
     "administrator_approval_required": true,
     "automatic_adjudication": false,
     "automatic_state_update": false,
-    "current_manifest_sha256": "f18af24ec977d2b23952227a5060d38ef06ff5395799732696f36d1ec76bfd26",
+    "current_manifest_sha256": "6634fd754069181cac6f411e8050c2b05e0de74e2fc44ac13c5d140581049a62",
     "military_game_baseline_approved": true,
     "public_mechanics_approved": 12,
     "source_of_truth": "GitHub_PRIVATE_RELEASE"
@@ -101,6 +101,14 @@
       "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_CORRECTED.json",
       "manifest_sha256": "f18af24ec977d2b23952227a5060d38ef06ff5395799732696f36d1ec76bfd26",
       "previous_manifest": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json"
+    },
+    {
+      "date": "2026-11-05",
+      "scope": "Clarified Japan regular lower-house game election 1959-02-22 vs real 1958 snap, 1956 upper-house calendar and updated 1956 political feature note.",
+      "phase": "RECEIVING",
+      "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_CORRECTED.json",
+      "manifest_sha256": "6634fd754069181cac6f411e8050c2b05e0de74e2fc44ac13c5d140581049a62",
+      "previous_manifest_sha256": "f18af24ec977d2b23952227a5060d38ef06ff5395799732696f36d1ec76bfd26"
     }
   ],
   "drive_metadata_status": "ARCHIVED_PROVENANCE_ONLY; all subsequent authoritative country, modules, world and manifest reads must use GitHub.",
