@@ -1,0 +1,168 @@
+{
+  "year": 1956,
+  "as_of": "1956-01-01",
+  "lifecycle": "OFFICIAL_1956_OPENING",
+  "players": [
+    "USA",
+    "URS",
+    "GBR",
+    "FRA",
+    "FRG",
+    "JPN",
+    "CHN",
+    "EGY",
+    "IND",
+    "ISR",
+    "ITA",
+    "YUG"
+  ],
+  "currency_order": {
+    "name": "Bretton Woods",
+    "convertibility_usd_gold_for_official_holders": "active",
+    "exchange_rate_regime": "predominantly_fixed_with_controls",
+    "note": "Не считать мгновенный выход стран и свободный плавучий курс стандартом 1955."
+  },
+  "international_organizations": [
+    "ООН",
+    "НАТО",
+    "ГАТТ",
+    "Европейское объединение угля и стали"
+  ],
+  "not_yet_founded_at_start": [
+    "Организация Варшавского договора (май 1955)",
+    "Европейское экономическое сообщество (1957)",
+    "Движение неприсоединения (1961)"
+  ],
+  "non_player_states": {
+    "GDR": "Германская Демократическая Республика — не под контролем ФРГ; политически связана с СССР.",
+    "ROC_TW": "Китайская Республика на Тайване — отдельное правительство, не под контролем КНР.",
+    "PRK": "КНДР — раздел Кореи, договорённости о перемирии 1953.",
+    "KOR": "Республика Корея — отдельное государство; перемирие 1953, мирный договор не заключён.",
+    "PAK": "Пакистан — отдельное государство, отношения с Индией конфликтные.",
+    "IRN": "Иран — нефтяной и стратегический игрок, монархия.",
+    "SAU": "Саудовская Аравия — нефтяные интересы, мировой рынок.",
+    "IDN": "Индонезия — региональный лидер, внутренние политические противоречия.",
+    "TUR": "Турция — участник НАТО, Черноморский регион.",
+    "VNM_N": "Северный Вьетнам — последствия Женевских соглашений 1954.",
+    "VNM_S": "Южный Вьетнам — политический переход, отдельная администрация.",
+    "DZA": "Алжир — территория под французским управлением, конфликт 1954 уже идёт.",
+    "CAN": "Канада — НАТО и торговые связи с США и Британией.",
+    "ESP": "Испания — режим Франко, дипломатические отношения с Западом."
+  },
+  "treaties": [
+    {
+      "id": "USA-JPN-RYUKYU-1955-DRAFT-AGREED",
+      "participants": [
+        "USA",
+        "JPN"
+      ],
+      "status": "TERMS_AGREED_NOT_RATIFIED_NOT_IN_FORCE",
+      "visibility": "BILATERAL_PRIVATE",
+      "economic_effect_1955_G_billion": 0,
+      "entry_into_force_date": null,
+      "confidential_terms_in_archive": true
+    }
+  ],
+  "trade_links": [],
+  "active_global_processes": [
+    {
+      "id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "kind": "DIPLOMATIC_INITIATIVE",
+      "since": 1955,
+      "stage": "NPC_CONSULTATION_REPLIES_RECEIVED",
+      "initiator": "ЦК КПСС",
+      "willing_npc_parties": [
+        "СЕПГ",
+        "ПОРП",
+        "КПЧ",
+        "Венгерская партия трудящихся",
+        "Румынская рабочая партия",
+        "Болгарская компартия",
+        "Албанская партия труда"
+      ],
+      "other_interested_npc_parties": [
+        "Французская компартия",
+        "Итальянская компартия",
+        "Компартия Великобритании",
+        "Компартия Индии",
+        "Компартия Японии",
+        "Трудовая партия Кореи",
+        "Партия трудящихся Вьетнама"
+      ],
+      "player_party_responses_pending": [
+        "CHN",
+        "YUG"
+      ],
+      "international_founded": false,
+      "formal_members": [],
+      "visibility": "COUNTRY_PRIVATE",
+      "effect_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS"
+    },
+    {
+      "id": "IND-1955-INDUSTRIAL-FOREIGN-SUPPLIERS",
+      "kind": "NONBINDING_TRADE_TALKS",
+      "stage": "INTEREST_NO_CONTRACT",
+      "participants": [
+        "IND"
+      ],
+      "signed_investment_G_billion": 0,
+      "visibility": "COUNTRY_PRIVATE"
+    },
+    {
+      "id": "FRA-FRG-1955-SAAR",
+      "kind": "DIPLOMATIC_QUESTION",
+      "stage": "UNRESOLVED_NO_SOVEREIGNTY_TRANSFER",
+      "participants": [
+        "FRA",
+        "FRG"
+      ],
+      "visibility": "PUBLIC"
+    }
+  ],
+  "watchpoints": [
+    "Германский вопрос и полномочия союзников",
+    "Алжирский конфликт",
+    "Напряжённость в Тайваньском проливе",
+    "Суэцкий вопрос и вывод британских войск",
+    "Формирование союзов в Европе",
+    "Вопрос деколонизации"
+  ],
+  "source_policy": "Реальное положение на 01.01.1955, последующие исторические события НЕ предрешены.",
+  "version": "1.0-start-candidate",
+  "global_pre_start_institutions": [
+    "Бреттон-Вудская система и контроль за обменными курсами",
+    "НАТО (1949)",
+    "СЕАТО (1954)",
+    "ООН",
+    "ГАТТ",
+    "ЕОУС (1951)",
+    "Действующие режимы оккупационных и союзнических прав на германских территориях"
+  ],
+  "world_process_rules": [
+    "Не переносить исторические кризисы после 1955 как обязательные события",
+    "Применять международные эффекты однократно и к обеим затронутым игровым сторонам",
+    "Независимые страны и зависимые территории не обязательно имеют полную 49-параметровую статистику"
+  ],
+  "campaign_id": "VPI1955_MAIN",
+  "scope_note": "Сохраняется исторический фон 01.01.1955; будущие события не гарантированы. Договоры и процессы с даты старта судятся в RP.",
+  "country_ids_reference": "legacy URS and FRG as original JSON country IDs; sheet aliases SUN and DEU",
+  "international_obligations_policy": "Международные договоры и передача ресурсов учитываются однократно в world и проецируются в состояния участников, без независимого дублирования.",
+  "release_id": "VPI1955-1956-TURN1-R1",
+  "treaties_registry_note": "The treaties array tracks explicitly recorded player-level bilateral/multilateral game obligations; pre-1955 alliances, organizations and international institutions are listed separately in global_pre_start_institutions and international_organizations. Empty treaty actions array is not proof that no pre-1955 agreements existed.",
+  "process_registry_note": "Country-level pre-1955 ongoing processes are preserved in each country_state.active_processes; global watchpoints in world.watchpoints are not post-1955 guaranteed events.",
+  "turn_1955_approved": {
+    "archive_commit": "fdf527b15289942a3371fd675f45665968447983",
+    "total_post_count": 41,
+    "year_closed": true,
+    "public_world_chronicle": "WORLD-1955-YEAR-END-NEW-COURSES",
+    "approved_country_events": [
+      "USA-1955-ENDYEAR-INTERNAL",
+      "CHN-1955-ENDYEAR-AGRARIAN",
+      "IND-1955-ENDYEAR-INDUSTRY",
+      "YUG-1955-ENDYEAR-RAIL",
+      "FRA-1955-ENDYEAR-CABINET"
+    ],
+    "confidential_urs_event": "URS-1955-FIFTH-INTERNATIONAL-NPC-RESPONSES",
+    "publication_not_verified": true
+  }
+}

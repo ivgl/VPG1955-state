@@ -1,0 +1,164 @@
+{
+  "release_id": "VPI1955-1956-TURN1-R1",
+  "batch": 1,
+  "manifest_source_sha256": "f07d0923a8fc693500d6318eecaf5f634585f09ee473fa41a690c1f9e6b71611",
+  "changed": [
+    {
+      "path": "releases/1956/countries/USA.json",
+      "sha256": "54ea0258d9cf68046dbdbf4553a140f585cf3a9dc2f54ea037de5e8de92a81cc",
+      "bytes": 24878
+    },
+    {
+      "path": "releases/1956/countries/URS.json",
+      "sha256": "6cdfe63789f3de22b5152e3aaf64bb759eff5732daf76cfb277a6552df32a260",
+      "bytes": 24784
+    },
+    {
+      "path": "releases/1956/countries/GBR.json",
+      "sha256": "2cbd974f0a5afa2eb40b49d8e63a911f6e25b4485d05e646057f14dd5eee4d4f",
+      "bytes": 22656
+    },
+    {
+      "path": "releases/1956/countries/FRA.json",
+      "sha256": "1b6168999fc63dbe50bca0add1a98fe16232c6d8aea436374dcd0f7fa79026e4",
+      "bytes": 23729
+    },
+    {
+      "path": "releases/1956/countries/FRG.json",
+      "sha256": "5b14d2a4af5568d3311987445f94352857be638aef36b5484e552b1c7c847ca0",
+      "bytes": 25059
+    },
+    {
+      "path": "releases/1956/countries/JPN.json",
+      "sha256": "50a0e1b3aefc9b37fecd787fc574d2dc4530e366b6dac64d3a54c07f90720824",
+      "bytes": 25493
+    },
+    {
+      "path": "releases/1956/world_1956.json",
+      "sha256": "b27558c95c9b4ca24e9e3d6c3fbe33ebada6f50b0a129d27274c30c673a77013",
+      "bytes": 8350
+    },
+    {
+      "path": "releases/1956/campaign_config.json",
+      "sha256": "e168ad78b93bda3079c46c7026ce65f59fe5698551f8a059cf60cca174917d16",
+      "bytes": 5064
+    }
+  ],
+  "baseline_copied_count": 24,
+  "validated_source_paths": [
+    "countries/USA.json",
+    "countries/URS.json",
+    "countries/GBR.json",
+    "countries/FRA.json",
+    "countries/FRG.json",
+    "countries/JPN.json",
+    "world_1955.json",
+    "campaign_config.json"
+  ],
+  "year_results": {
+    "USA": {
+      "gdp": 2859.314805,
+      "closed_1955_growth_pct": 3.5,
+      "bal": -35.91409893,
+      "pop": 170039650,
+      "expense": 0
+    },
+    "releases/1956/countries/USA.json": {
+      "sha256": "54ea0258d9cf68046dbdbf4553a140f585cf3a9dc2f54ea037de5e8de92a81cc",
+      "bytes": 24878,
+      "gdp": 2859.314805,
+      "closed_1955_growth_pct": 3.5,
+      "bal": -35.91409893,
+      "pop": 170039650,
+      "expense": 0
+    },
+    "URS": {
+      "gdp": 892.925,
+      "closed_1955_growth_pct": 5.05,
+      "bal": 1.747650904,
+      "pop": 201168000,
+      "expense": 0.827
+    },
+    "releases/1956/countries/URS.json": {
+      "sha256": "6cdfe63789f3de22b5152e3aaf64bb759eff5732daf76cfb277a6552df32a260",
+      "bytes": 24784,
+      "gdp": 892.925,
+      "closed_1955_growth_pct": 5.05,
+      "bal": 1.747650904,
+      "pop": 201168000,
+      "expense": 0.827
+    },
+    "GBR": {
+      "gdp": 642.19264,
+      "closed_1955_growth_pct": 3,
+      "bal": -9.975808,
+      "pop": 51563685,
+      "expense": 0
+    },
+    "releases/1956/countries/GBR.json": {
+      "sha256": "2cbd974f0a5afa2eb40b49d8e63a911f6e25b4485d05e646057f14dd5eee4d4f",
+      "bytes": 22656,
+      "gdp": 642.19264,
+      "closed_1955_growth_pct": 3,
+      "bal": -9.975808,
+      "pop": 51563685,
+      "expense": 0
+    },
+    "FRA": {
+      "gdp": 441.29358,
+      "closed_1955_growth_pct": 4.4,
+      "bal": -16.26738275,
+      "pop": 45237838,
+      "expense": 0
+    },
+    "releases/1956/countries/FRA.json": {
+      "sha256": "1b6168999fc63dbe50bca0add1a98fe16232c6d8aea436374dcd0f7fa79026e4",
+      "bytes": 23729,
+      "gdp": 441.29358,
+      "closed_1955_growth_pct": 4.4,
+      "bal": -16.26738275,
+      "pop": 45237838,
+      "expense": 0
+    },
+    "FRG": {
+      "gdp": 470.8,
+      "closed_1955_growth_pct": 7,
+      "bal": 3.26772195,
+      "pop": 53453898,
+      "expense": 4
+    },
+    "releases/1956/countries/FRG.json": {
+      "sha256": "5b14d2a4af5568d3311987445f94352857be638aef36b5484e552b1c7c847ca0",
+      "bytes": 25059,
+      "gdp": 470.8,
+      "closed_1955_growth_pct": 7,
+      "bal": 3.26772195,
+      "pop": 53453898,
+      "expense": 4
+    },
+    "JPN": {
+      "gdp": 404.85804,
+      "closed_1955_growth_pct": 7,
+      "bal": -6.148096322,
+      "pop": 93010124,
+      "expense": 0
+    },
+    "releases/1956/countries/JPN.json": {
+      "sha256": "50a0e1b3aefc9b37fecd787fc574d2dc4530e366b6dac64d3a54c07f90720824",
+      "bytes": 25493,
+      "gdp": 404.85804,
+      "closed_1955_growth_pct": 7,
+      "bal": -6.148096322,
+      "pop": 93010124,
+      "expense": 0
+    },
+    "releases/1956/world_1956.json": {
+      "sha256": "b27558c95c9b4ca24e9e3d6c3fbe33ebada6f50b0a129d27274c30c673a77013",
+      "bytes": 8350
+    },
+    "releases/1956/campaign_config.json": {
+      "sha256": "e168ad78b93bda3079c46c7026ce65f59fe5698551f8a059cf60cca174917d16",
+      "bytes": 5064
+    }
+  }
+}

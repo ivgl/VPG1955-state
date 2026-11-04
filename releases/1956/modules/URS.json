@@ -1,0 +1,73 @@
+{
+  "country_id": "URS",
+  "as_of": "1955-01-01",
+  "sources": [
+    "https://www.britannica.com/place/Soviet-Union"
+  ],
+  "status": "APPROVED_PUBLIC_MECHANICS_LINKED_LEGACY_RULES_CONTEXT",
+  "version": "0.3-linked-to-public",
+  "module_rules_prior_draft": [
+    {
+      "id": "command_planning",
+      "name": "Плановая экономика",
+      "judging_rule": "Инвестиции и выпуск распределяются административно. Вместо фиктивной рыночной ставки оценивать снабжение, нормативы, стимулы.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "party_presidium",
+      "name": "Партийное руководство",
+      "judging_rule": "Решения зависят от распределения влияния в Президиуме и Совете министров. Обычная электоральная борьба отсутствует.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "soviet_bloc",
+      "name": "Восточный блок",
+      "judging_rule": "Согласовывать с союзниками, их автономией и общими обязательствами.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    }
+  ],
+  "national_spirits": [
+    {
+      "id": "urs_spirit_01",
+      "name": "План, который не умеет сомневаться",
+      "literary_description": "Страна способна сосредоточить труд, металл и ресурсы на великой задаче за считанные годы. Однако министерства отчитываются за выполнение цифр, а не всегда за качество и спрос. Успех одних отраслей легко скрывает дефицит в других.",
+      "gameplay": "Централизованные инвестиции ускоряют приоритетные проекты, но масштаб и жёсткость плана повышают риск узких мест, приписок и срывов поставок.",
+      "player_levers": "Вводить реформы стимулов, децентрализовать решения, улучшать статистику и снабжение.",
+      "change_or_resolution": "Устойчивая перестройка плановых институтов и методов хозяйственного расчёта.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "urs_spirit_02",
+      "name": "После вождя",
+      "literary_description": "Смерть Сталина уже изменила вершину власти, но не уничтожила созданную им систему. Ни один из наследников не может безоговорочно распоряжаться поддержкой партийного аппарата, армии и правительства. Экономические решения становятся одновременно борьбой за политический курс.",
+      "gameplay": "Крупные реформы зависят от баланса в Президиуме и Совете министров; резкая кадровая чистка может парализовать исполнение.",
+      "player_levers": "Формировать коалиции элит, менять полномочия ведомств и аппаратные правила.",
+      "change_or_resolution": "Стабилизация нового руководства или существенная институциональная перестройка.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "urs_spirit_03",
+      "name": "Союзники под присмотром",
+      "literary_description": "Восточная Европа связана с Москвой обороной, идеологией и экономикой, но союзные правительства располагают собственными интересами. Чем жёстче центр требует единообразия, тем выше цена принуждения.",
+      "gameplay": "Блок открывает рынки и стратегическую глубину; давление на союзников может вызывать сопротивление и дипломатические последствия.",
+      "player_levers": "Создавать взаимовыгодные объединения, корректировать режим присутствия войск, расширять автономию.",
+      "change_or_resolution": "Устойчивая перестройка отношений и обязательств внутри блока.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    }
+  ],
+  "public_mechanics": {
+    "approval": "ADMIN_APPROVED",
+    "approval_date": "2026-10-24",
+    "public_url": "https://ivgl.github.io/VPG1955/countries/ussr.html",
+    "mechanics_count": 3,
+    "source_of_display": "ivgl/VPG1955",
+    "interpretation": "The public page is an approved descriptive gameplay reference; decisions still require submissions and administrator verdicts.",
+    "legacy_material_policy": "module_rules_prior_draft and national_spirits are historical judging context, not an automatically effective competing rule set."
+  }
+}

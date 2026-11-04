@@ -1,0 +1,21 @@
+{
+  "schema": "vpi1955-approved-national-mechanics-extensions-v1",
+  "campaign_id": "VPI1955_MAIN",
+  "status": "ACTIVE_FOR_CURRENT_PREPARE_RELEASE",
+  "mechanics_read_order": "Read HEAD.json + manifest and canonical countries/modules first; then apply the administrator-approved supplements indexed here for the same release. Never modify the original manifest or original released files for an addendum.",
+  "extensions": [
+    {
+      "country_id": "GBR",
+      "approval_id": "GBR-MECH-1955-TRADE-20261020",
+      "status": "FINAL_APPROVED_FOR_GAMEPLAY",
+      "effective_from": "1955-01-01",
+      "applies_to_release_id": "VPI1955-1955-START-R1",
+      "file": "modules/GBR_1955_trade_regimes_approved.json",
+      "canonical_country_ref": "countries/GBR.json",
+      "canonical_module_ref": "modules/GBR.json",
+      "scope": "approved sterling trade zones and player-facing British mechanics",
+      "automatic_numeric_effects": false
+    }
+  ],
+  "next_release_policy": "Carry active approved supplements forward or expressly supersede them in a later verified immutable release; update official HEAD only as prescribed by STATE_WORKFLOW.md."
+}

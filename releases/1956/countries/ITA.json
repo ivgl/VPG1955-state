@@ -1,0 +1,593 @@
+{
+  "schema_version": "vpi_1955_country_state_v1.0",
+  "id": "ITA",
+  "name_ru": "Италия",
+  "turn_year": 1955,
+  "as_of": "1955-01-01",
+  "lifecycle": "OFFICIAL_START_1955",
+  "data_policy": "Стартовые значения G$ и исторические пропорции согласованы для игры; изменения после 01.01.1955 зависят от игрового судейства. Полный макроэкономический движок не применяется.",
+  "economy": {
+    "stats": {
+      "gdp_real_billion_2011_intl": 340.295,
+      "gdp_growth_pct": 5.2,
+      "gdp_per_capita_2011_intl": 7091.990913448513,
+      "consumer_inflation_pct": 2.2,
+      "investment_share_gdp_pct": 20,
+      "productivity_hour_index": 100,
+      "industry_share_pct": 39,
+      "agriculture_share_pct": 25,
+      "services_share_pct": 36,
+      "science_technology_index": 65,
+      "fiscal_tax_billion": 43.62562458,
+      "fiscal_nontax_billion": 6.543811637,
+      "fiscal_spend_social_billion": 19.74759169,
+      "fiscal_spend_economy_billion": 13.16503963,
+      "fiscal_spend_defense_billion": 13.16503963,
+      "fiscal_spend_admin_billion": 4.388346545,
+      "fiscal_spend_other_billion": 4.388346545,
+      "fiscal_debt_domestic_billion": 108.8944,
+      "fiscal_debt_fx_billion": 20.4177,
+      "fiscal_interest_rate_pct": 4,
+      "policy_rate_pct": 4.2,
+      "fx_external_value_index": 100,
+      "reserves_billion": 15.169324,
+      "exports_billion": 33.57102046,
+      "imports_billion": 37.93279321,
+      "net_capital_inflow_billion": 3.403,
+      "fdi_inflow_billion": 0.34,
+      "population": 47983000,
+      "birth_rate_per_1000": 18,
+      "death_rate_per_1000": 10,
+      "net_migration_people": -80000,
+      "age_0_14_pct": 26,
+      "age_15_64_pct": 65,
+      "age_65_plus_pct": 9,
+      "labor_participation_pct": 66,
+      "unemployment_pct": 6,
+      "employment_people": 19349625,
+      "real_household_income_index": 100,
+      "income_gini": 36,
+      "education_index": 55,
+      "healthcare_index": 65,
+      "fiscal_revenue_total_billion": 50.16943621,
+      "fiscal_spending_total_billion": 60.02684805,
+      "fiscal_budget_balance_billion": -9.857411839,
+      "fiscal_debt_total_billion": 129.3121,
+      "fiscal_debt_gdp_pct": 38,
+      "net_exports_billion": -4.361772742,
+      "institutional_capacity_index": 60,
+      "corruption_exposure_index": 56
+    },
+    "trade_export_shares": {
+      "energy": 3,
+      "food": 17,
+      "raw_materials": 13,
+      "machinery_technology": 33,
+      "finished_goods": 25,
+      "services": 9
+    },
+    "trade_import_shares": {
+      "energy": 21,
+      "food": 12,
+      "raw_materials": 20,
+      "machinery_technology": 26,
+      "finished_goods": 14,
+      "services": 7
+    },
+    "currency_regime": "fixed_bretton_woods",
+    "currency_global_role": "ordinary",
+    "trade_note": "Шесть долей по 100%, значения — сценарные допущения; экспорт/импорт выражены в игровых сопоставимых единицах, не фактические доллары 1954.",
+    "reserve_coverage": {
+      "months": 5.16,
+      "year": 1954,
+      "role": "game_context_not_automatic_hard_fx_cap",
+      "imports_scope": "goods",
+      "method": "reserve ratio and unit context described in trade sheet"
+    },
+    "monetary_unit": "G$",
+    "external_financing_rule": "Кредиты, помощь и инвестиции не являются экспортом; новые закупки и клиринг судятся в RP."
+  },
+  "features": [
+    "industry.automotive",
+    "industry.machinery",
+    "services.tourism",
+    "infra.ports",
+    "trade.energy_import_dependency"
+  ],
+  "feature_notes": [
+    "Послевоенная республика, многопартийные коалиции, сильная компартия в оппозиции."
+  ],
+  "politics": {
+    "system": "parliamentary_coalition",
+    "head_of_government": "Марио Шельба",
+    "governing_force": "Христианско-демократическая партия (ХДП)",
+    "last_national_election": "1953-06",
+    "next_election_not_before_historic": "1958",
+    "parliamentary_seats": null,
+    "electoral_support": null,
+    "note": "Послевоенная республика, многопартийные коалиции, сильная компартия в оппозиции.",
+    "status": "RESEARCHED_BASELINE_WITH_UNVERIFIED_CHANGES",
+    "electoral_system": "Парламентская республика и преимущественно пропорциональные выборы; кабинет зависит от коалиций и доверия палат.",
+    "legislature": "Палата депутатов второго созыва, выборы 1953 года; отдельно существует Сенат",
+    "last_election_reference_date": "1953-06-07",
+    "next_election_rule": "Исторически 1958: очередные парламентские выборы, при досрочном роспуске раньше.",
+    "historical_party_seat_snapshots": {
+      "chamber_1953": {
+        "Христианские демократы DC": 263,
+        "Коммунисты PCI": 143,
+        "Социалисты PSI": 75,
+        "Монархисты PNM": 40,
+        "Итальянское социальное движение MSI": 29,
+        "Социал-демократы PSDI": 19,
+        "Либералы PLI": 13,
+        "Республиканцы PRI": 5,
+        "SVP": 3
+      }
+    },
+    "political_mood_1955": "Христианские демократы остаются крупнейшей партией, однако большинство требует коалиционной поддержки. Сильные коммунистическая и социалистическая партии, региональное неравенство, интересы католических кругов и промышленников ограничивают реформы.",
+    "political_faultline": "Христианские демократы и партнёры, сильная левая оппозиция, экономический разрыв Севера и Юга.",
+    "judge_reference_private": "Оценивать коалиции по живому составу парламента, а не по одной партии.",
+    "political_sources": [
+      "https://it.wikipedia.org/wiki/Elezioni_politiche_in_Italia_del_1953"
+    ],
+    "seat_data_status": "referenced_snapshot_not_guaranteed_current_seating",
+    "future_ir_likelihood_policy": "Исторические выборы после 1955 служат лишь административной справкой, исход не копируется в игру."
+  },
+  "military": {
+    "active_personnel": 450000,
+    "reserve_personnel": 700000,
+    "equipment": {
+      "tanks": 1700,
+      "artillery": 3200,
+      "fighters": 750,
+      "bombers": 300,
+      "transport_aircraft": null,
+      "capital_surface_ships": 5,
+      "aircraft_carriers": 0,
+      "submarines": 10,
+      "nuclear_warheads": null
+    },
+    "readiness": "STANDARD",
+    "logistics": "not_assessed",
+    "production_capacity": "RC0.10_SCENARIO_CAPACITY_RECORDED_SEPARATELY",
+    "count_status": "START_GAME_ESTIMATE_BASELINE_APPROVED",
+    "rule": "Количества техники и поколений являются стартовой игровой оценкой. Боеготовые единицы входят в общий парк; поколения также входят в тот же парк. Оперативное наличие на конкретном театре, снабжение, мобилизация и фактический выпуск определяются отдельным судейством.",
+    "force_balance_qualitative": {
+      "land": "региональная",
+      "air": "региональная",
+      "navy": "региональная",
+      "note": "Послевоенные и союзные ограничения, растущая интеграция с НАТО.",
+      "quality": "scenario_judicial_band_unverified"
+    },
+    "personnel_count_unit": "persons (source public sheet values measured in thousand people)",
+    "partial_mobilization_window": "3–7 недель",
+    "large_scale_mobilization_window": "3–6 месяцев",
+    "personnel_count_status": "GAME_ESTIMATE",
+    "trained_reserve_game_estimate": 700000,
+    "operational_constraints": "Нельзя считать весь парк, весь резерв или всю годовую потенциальную мощность немедленно доступными в одном районе. Неизвестны точные войсковая дислокация, отдельный транспортный авиапарк и полный стратегический инвентарь. Дополнительные оперативные сведения требуют судейской проверки.",
+    "equipment_inventory_1955": {
+      "tanks": {
+        "label_ru": "Танки",
+        "total": 1700,
+        "combat_ready": 1105,
+        "generations": {
+          "modern": 530,
+          "previous": 570,
+          "obsolete": 600
+        }
+      },
+      "armored_vehicles": {
+        "label_ru": "БТР и бронемашины",
+        "total": 2000,
+        "combat_ready": 1200,
+        "generations": {
+          "modern": 450,
+          "previous": 750,
+          "obsolete": 800
+        }
+      },
+      "artillery_and_spg": {
+        "label_ru": "Артиллерия и САУ",
+        "total": 3200,
+        "combat_ready": 2080,
+        "generations": {
+          "modern": 350,
+          "previous": 1550,
+          "obsolete": 1300
+        }
+      },
+      "air_defense_guns": {
+        "label_ru": "ПВО (орудия)",
+        "total": 1100,
+        "combat_ready": 660,
+        "generations": {
+          "modern": 150,
+          "previous": 510,
+          "obsolete": 440
+        }
+      },
+      "jet_fighters": {
+        "label_ru": "Истребители реактивные",
+        "total": 550,
+        "combat_ready": 302,
+        "generations": {
+          "modern": 190,
+          "previous": 270,
+          "obsolete": 90
+        }
+      },
+      "piston_fighters": {
+        "label_ru": "Истребители поршневые",
+        "total": 200,
+        "combat_ready": 110,
+        "generations": {
+          "modern": 0,
+          "previous": 80,
+          "obsolete": 120
+        }
+      },
+      "bombers_and_attack_aircraft": {
+        "label_ru": "Бомбардировщики и штурмовики",
+        "total": 300,
+        "combat_ready": 165,
+        "generations": {
+          "modern": 70,
+          "previous": 120,
+          "obsolete": 110
+        }
+      },
+      "other_aircraft": {
+        "label_ru": "Самолёты прочие",
+        "total": 1200,
+        "combat_ready": 720,
+        "generations": {
+          "modern": 230,
+          "previous": 530,
+          "obsolete": 440
+        }
+      },
+      "fleet_carriers": {
+        "label_ru": "Авианосцы основные",
+        "total": 0,
+        "combat_ready": 0,
+        "generations": {
+          "modern": 0,
+          "previous": 0,
+          "obsolete": 0
+        }
+      },
+      "light_and_escort_carriers": {
+        "label_ru": "Авианосцы лёгкие/эскортные",
+        "total": 0,
+        "combat_ready": 0,
+        "generations": {
+          "modern": 0,
+          "previous": 0,
+          "obsolete": 0
+        }
+      },
+      "battleships": {
+        "label_ru": "Линкоры",
+        "total": 2,
+        "combat_ready": 1,
+        "generations": {
+          "modern": 0,
+          "previous": 1,
+          "obsolete": 1
+        }
+      },
+      "cruisers": {
+        "label_ru": "Крейсеры",
+        "total": 3,
+        "combat_ready": 2,
+        "generations": {
+          "modern": 0,
+          "previous": 2,
+          "obsolete": 1
+        }
+      },
+      "destroyers_and_frigates": {
+        "label_ru": "Эсминцы и фрегаты",
+        "total": 25,
+        "combat_ready": 14,
+        "generations": {
+          "modern": 5,
+          "previous": 11,
+          "obsolete": 9
+        }
+      },
+      "submarines": {
+        "label_ru": "Подводные лодки",
+        "total": 10,
+        "combat_ready": 5,
+        "generations": {
+          "modern": 2,
+          "previous": 4,
+          "obsolete": 4
+        }
+      },
+      "small_combat_ships": {
+        "label_ru": "Малые боевые корабли",
+        "total": 90,
+        "combat_ready": 50,
+        "generations": {
+          "modern": 13,
+          "previous": 41,
+          "obsolete": 36
+        }
+      }
+    },
+    "equipment_categories_count": 15,
+    "equipment_source_status": "ADMIN_APPROVED_GAME_ESTIMATE_RC0.10_2026-10-24",
+    "equipment_source_url": "https://docs.google.com/spreadsheets/d/17RmPQZ8oEZ55SG_3kDwwqUDgk1wUZQ5-xZbTX3BFjJc/edit",
+    "equipment_effective_date": "1955-01-01",
+    "equipment_data_quality": "SCENARIO_ESTIMATE_NOT_ARCHIVAL_EXACT_INVENTORY",
+    "industrial_military_capacity_1955": {
+      "tanks_per_year_estimated_upper_capacity": 200,
+      "military_aircraft_per_year_estimated_upper_capacity": 300,
+      "capacity_not_actual_output": true,
+      "requires_orders_materials_workers_and_lead_time": true
+    }
+  },
+  "active_processes": [
+    {
+      "id": "ITA-HIST-01",
+      "kind": "historical_process",
+      "name": "Послевоенная модернизация Италии",
+      "since": 1950,
+      "scheduled_end": null,
+      "status": "active",
+      "description": "Ускорение промышленного развития; структурный разрыв север-юг.",
+      "approved_numeric_effects": [],
+      "effects_status": "NOT_YET_ADJUDICATED"
+    }
+  ],
+  "country_modules": [
+    "coalition_fragmentation",
+    "north_south_gap",
+    "european_integration"
+  ],
+  "provenance": {
+    "gdp_real_billion_2011_intl": {
+      "status": "derived_historical_proxy",
+      "source": "https://nationsinquiry.com/datasets/historical-gdp-per-capita/1954",
+      "reference_year": 1954,
+      "caveat": "1954 Maddison gdppc × population on 1955-01-01; территориальное покрытие проверить."
+    },
+    "gdp_growth_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "gdp_per_capita_2011_intl": {
+      "status": "derived_historical_proxy",
+      "source": "https://nationsinquiry.com/datasets/historical-gdp-per-capita/1954",
+      "reference_year": 1954,
+      "caveat": "Округлённое ВВП 1954 на человека / население 01.01.1955; ВВП 1954 относится к прошлому завершённому году."
+    },
+    "consumer_inflation_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "investment_share_gdp_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "productivity_hour_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "industry_share_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "agriculture_share_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "services_share_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "science_technology_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_tax_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_nontax_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_social_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_economy_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_defense_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_admin_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_other_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_debt_domestic_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_debt_fx_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_interest_rate_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "policy_rate_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fx_external_value_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "reserves_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "exports_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "imports_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "net_capital_inflow_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fdi_inflow_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "population": {
+      "status": "historical_referenced",
+      "source": "https://www.jetpunk.com/data/population/countries-by-population/1955?device=desktop",
+      "reference_date": "1955-01-01",
+      "caveat": "Современное географическое определение ООН; совпадение с границами 1955 требует проверки для отдельных стран."
+    },
+    "birth_rate_per_1000": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "death_rate_per_1000": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "net_migration_people": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "age_0_14_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "age_15_64_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "age_65_plus_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "labor_participation_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "unemployment_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "employment_people": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "real_household_income_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "income_gini": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "education_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "healthcare_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_revenue_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_spending_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_budget_balance_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_debt_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_debt_gdp_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "net_exports_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "institutional_capacity_index": {
+      "status": "scenario_assumption",
+      "source": null,
+      "caveat": "Условная игровая оценка 0–100, не исторический индекс."
+    },
+    "corruption_exposure_index": {
+      "status": "scenario_assumption",
+      "source": null,
+      "caveat": "Условная игровая оценка 0–100, не исторический индекс."
+    },
+    "economy_refresh": "18.10.2026 Google Drive latest canonical player-source Sheets, economic audit v0.5",
+    "equipment_inventory_1955": {
+      "source": "VPI 1955 Military Overview with Generations RC0.10",
+      "location": "https://docs.google.com/spreadsheets/d/17RmPQZ8oEZ55SG_3kDwwqUDgk1wUZQ5-xZbTX3BFjJc/edit",
+      "effective_date": "1955-01-01",
+      "approved_for_start_game_by_user": "2026-10-24",
+      "quality": "Scenario game estimates, not certified historical counts",
+      "canonicalization": "Numbers copied into country JSON; authoritative only after HEAD and manifest update"
+    }
+  },
+  "political_source": "https://www.senato.it/",
+  "readiness": {
+    "administrative_template": true,
+    "numeric_seed_available": true,
+    "historically_calibrated": false,
+    "military_inventory_complete": true,
+    "parliamentary_seats_complete": false,
+    "safe_to_publish_as_historical": false,
+    "aligned_with_1955_player_sheet": true,
+    "military_baseline_published": true,
+    "military_equipment_15_class_game_baseline": true,
+    "detailed_operational_inventory_complete": false,
+    "military_game_estimates_admin_approved": true
+  },
+  "institutions": {
+    "capacity_interpretation": "Заметный разрыв региональных институтов, коалиционный торг и патронажные практики.",
+    "judging_rules_file": "rules/INSTITUTIONS.md",
+    "review_triggers": [
+      "крупные административные реформы",
+      "коррупционные расследования",
+      "перестройка госслужбы",
+      "региональные кризисы"
+    ]
+  },
+  "player_sheet_url": "https://docs.google.com/spreadsheets/d/1BkFvBkZaCdqISkN7ia7ZT5cOGBfs95iAct7LD16B5aA/edit",
+  "player_sheet_tab": "1955",
+  "release_id": "VPI1955-1955-START-R1",
+  "approval_source": "User instruction on 2026-10-18 to synchronize internal state and activate independent 1955 HEAD."
+}

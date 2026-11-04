@@ -1,0 +1,73 @@
+{
+  "country_id": "ISR",
+  "as_of": "1955-01-01",
+  "sources": [
+    "https://www.knesset.gov.il/"
+  ],
+  "status": "APPROVED_PUBLIC_MECHANICS_LINKED_LEGACY_RULES_CONTEXT",
+  "version": "0.3-linked-to-public",
+  "module_rules_prior_draft": [
+    {
+      "id": "aliyah_absorption",
+      "name": "Иммиграция и абсорбция",
+      "judging_rule": "Рост населения усиливает рынок труда, но требует жилья, инфраструктуры и социальных расходов.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "knesset_coalitions",
+      "name": "Кнессет",
+      "judging_rule": "Коалиционные правительства требуют нескольких партий, выборы пропорциональные.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "regional_security",
+      "name": "Региональная безопасность",
+      "judging_rule": "Учитывать границы, перемирия, возможную помощь великих держав, не навязывать войну.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    }
+  ],
+  "national_spirits": [
+    {
+      "id": "isr_spirit_01",
+      "name": "Страна, которую ещё строят",
+      "literary_description": "Иммиграция быстро меняет население, города, рынок труда и социальный состав государства. Людей нужно расселять, учить, лечить и включать в хозяйство, пока бюджет и инфраструктура остаются напряжёнными.",
+      "gameplay": "Приток населения расширяет будущую рабочую силу, но сначала требует жилья, образования и расходов.",
+      "player_levers": "Развивать строительство, интеграцию, подготовку кадров и финансовые институты.",
+      "change_or_resolution": "Стабилизация расселения и социальных систем.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "isr_spirit_02",
+      "name": "Коалиция под вопросом безопасности",
+      "literary_description": "МАПАЙ доминирует в Кнессете, но управляет через союзников, для которых вопросы религии, образования и распределения средств столь же важны, как военная угроза. Любое решение безопасности отражается на гражданской политике.",
+      "gameplay": "Коалиционная дисциплина зависит от разных программ; военные кризисы ускоряют решения и усиливают риск социальных конфликтов.",
+      "player_levers": "Вести переговоры с партнёрами, менять общественные расходы, создавать новые компромиссы.",
+      "change_or_resolution": "Формирование более устойчивого партийного и институционального баланса.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "isr_spirit_03",
+      "name": "Безопасность без стратегической глубины",
+      "literary_description": "Небольшая территория и окружение враждебных государств увеличивают значение разведки, мобилизации и дипломатических гарантий. Победа в отдельной операции не гарантирует долгосрочной безопасности.",
+      "gameplay": "Мобилизация быстро отражается на экономике; военные решения имеют высокую дипломатическую цену.",
+      "player_levers": "Заключать гарантии, развивать оборону, искать переговорные каналы.",
+      "change_or_resolution": "Изменение региональной архитектуры безопасности.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    }
+  ],
+  "public_mechanics": {
+    "approval": "ADMIN_APPROVED",
+    "approval_date": "2026-10-24",
+    "public_url": "https://ivgl.github.io/VPG1955/countries/isr.html",
+    "mechanics_count": 3,
+    "source_of_display": "ivgl/VPG1955",
+    "interpretation": "The public page is an approved descriptive gameplay reference; decisions still require submissions and administrator verdicts.",
+    "legacy_material_policy": "module_rules_prior_draft and national_spirits are historical judging context, not an automatically effective competing rule set."
+  }
+}

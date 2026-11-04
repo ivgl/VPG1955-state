@@ -1,0 +1,73 @@
+{
+  "country_id": "JPN",
+  "as_of": "1955-01-01",
+  "sources": [
+    "https://www.ndl.go.jp/modern/e/cha6/description02.html"
+  ],
+  "status": "APPROVED_PUBLIC_MECHANICS_LINKED_LEGACY_RULES_CONTEXT",
+  "version": "0.3-linked-to-public",
+  "module_rules_prior_draft": [
+    {
+      "id": "postwar_constitution",
+      "name": "Конституционные ограничения обороны",
+      "judging_rule": "Различать силы самообороны, зарубежные базы США и правовые ограничения вооружённых сил.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "miti_industry",
+      "name": "Координация индустриализации",
+      "judging_rule": "Промышленная политика через госкоординацию, кредиты, импорт лицензий и экспортные приоритеты.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "party_realignment",
+      "name": "Формирование партийной системы",
+      "judging_rule": "ЛДП в январе 1955 ещё нет. Реорганизация партий может случиться иначе по решениям игроков.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    }
+  ],
+  "national_spirits": [
+    {
+      "id": "jpn_spirit_01",
+      "name": "Экспорт вместо империи",
+      "literary_description": "Япония лишилась прежней империи и прежних источников снабжения, но сохранила предпринимателей, инженерные навыки и мощные производственные амбиции. Будущий рост требует валюты, доступа к рынкам и возможности закупать технологии за рубежом.",
+      "gameplay": "Промышленный рост зависит от импорта оборудования и энергоресурсов; экспортная выручка снимает часть ограничений.",
+      "player_levers": "Строить отраслевые цепочки, улучшать качество продукции, развивать внешние соглашения.",
+      "change_or_resolution": "Диверсификация промышленности и устойчивая конкурентоспособность на мировых рынках.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "jpn_spirit_02",
+      "name": "Два консервативных берега",
+      "literary_description": "Японские консерваторы ещё не объединились в единую партию. Между сторонниками Хатоямы и наследием Ёсиды идёт борьба за внешнюю и внутреннюю политику. Социалисты, в свою очередь, тоже разделены.",
+      "gameplay": "Коалиционные и внутрипартийные расколы влияют на устойчивость кабинета, даже когда общий курс кажется схожим.",
+      "player_levers": "Объединять партии, заключать парламентские соглашения, менять избирательную стратегию.",
+      "change_or_resolution": "Создание устойчивой новой партийной системы.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "jpn_spirit_03",
+      "name": "Безопасность по договору",
+      "literary_description": "Послевоенные ограничения и союз с США дают Японии возможность направлять ресурсы в экономику, но создают проблему военной самостоятельности и зависимости от внешних гарантий.",
+      "gameplay": "Самостоятельные военные решения сталкиваются с правовыми и дипломатическими рамками.",
+      "player_levers": "Менять оборонные договорённости, укреплять гражданский контроль и экономическую безопасность.",
+      "change_or_resolution": "Пересмотр конституционных и союзных правил.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    }
+  ],
+  "public_mechanics": {
+    "approval": "ADMIN_APPROVED",
+    "approval_date": "2026-10-24",
+    "public_url": "https://ivgl.github.io/VPG1955/countries/jpn.html",
+    "mechanics_count": 3,
+    "source_of_display": "ivgl/VPG1955",
+    "interpretation": "The public page is an approved descriptive gameplay reference; decisions still require submissions and administrator verdicts.",
+    "legacy_material_policy": "module_rules_prior_draft and national_spirits are historical judging context, not an automatically effective competing rule set."
+  }
+}

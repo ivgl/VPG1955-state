@@ -1,0 +1,73 @@
+{
+  "country_id": "CHN",
+  "as_of": "1955-01-01",
+  "sources": [
+    "https://www.britannica.com/place/China/The-first-five-year-plan"
+  ],
+  "status": "APPROVED_PUBLIC_MECHANICS_LINKED_LEGACY_RULES_CONTEXT",
+  "version": "0.3-linked-to-public",
+  "module_rules_prior_draft": [
+    {
+      "id": "first_five_year_plan",
+      "name": "Пятилетка",
+      "judging_rule": "Учитывать уже действующие цели, бюджетные и ресурсные ограничения.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "cpc_party_state",
+      "name": "КПК и аппарат",
+      "judging_rule": "Политические решения зависят от руководства партии и бюрократии, не от конкурентных выборов.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "taiwan_strait",
+      "name": "Тайваньский пролив",
+      "judging_rule": "Тайвань не контролируется КНР. Любые кризисы судить со стороны мирового состояния.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    }
+  ],
+  "national_spirits": [
+    {
+      "id": "chn_spirit_01",
+      "name": "Земля и сталь",
+      "literary_description": "Революция дала новому государству контроль над огромным аграрным обществом. Руководство стремится построить тяжёлую промышленность, но сельское хозяйство остаётся источником рабочей силы, продовольствия и политической устойчивости. Слишком быстрый рывок может истощить основу роста.",
+      "gameplay": "Перенаправление ресурсов в промышленность может давать краткосрочные успехи ценой аграрных сбоев и региональных дефицитов.",
+      "player_levers": "Выбирать темп коллективизации, распределение инвестиций, поддержку деревни.",
+      "change_or_resolution": "Создание устойчивого баланса между городом и сельским хозяйством.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "chn_spirit_02",
+      "name": "Большая страна — тонкий аппарат",
+      "literary_description": "Из Пекина решения выглядят едиными, но их исполнение проходит через множество провинций с разным уровнем развития. Статистика нередко отражает стимулы местного начальника, а не реальное положение дел.",
+      "gameplay": "Крупные кампании несут риск искажения отчётности, перегрузки кадров и неравномерного исполнения.",
+      "player_levers": "Совершенствовать статистику, административный контроль и местную ответственность.",
+      "change_or_resolution": "Устойчивое повышение качества регионального управления.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "chn_spirit_03",
+      "name": "Младший партнёр или самостоятельная сила",
+      "literary_description": "Советский опыт и помощь позволяют ускорить индустриализацию, но зависимость от чужих специалистов не обязательно совпадает с политическими амбициями Пекина.",
+      "gameplay": "Технологические связи с СССР дают преимущества, но политическое охлаждение может сделать проекты уязвимыми.",
+      "player_levers": "Создавать собственные школы, договариваться о передаче технологий, пересматривать международные связи.",
+      "change_or_resolution": "Снижение внешней технологической зависимости или новая модель сотрудничества.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    }
+  ],
+  "public_mechanics": {
+    "approval": "ADMIN_APPROVED",
+    "approval_date": "2026-10-24",
+    "public_url": "https://ivgl.github.io/VPG1955/countries/chn.html",
+    "mechanics_count": 3,
+    "source_of_display": "ivgl/VPG1955",
+    "interpretation": "The public page is an approved descriptive gameplay reference; decisions still require submissions and administrator verdicts.",
+    "legacy_material_policy": "module_rules_prior_draft and national_spirits are historical judging context, not an automatically effective competing rule set."
+  }
+}

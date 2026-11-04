@@ -1,0 +1,605 @@
+{
+  "schema_version": "vpi_1955_country_state_v1.0",
+  "id": "GBR",
+  "name_ru": "Великобритания",
+  "turn_year": 1956,
+  "as_of": "1956-01-01",
+  "lifecycle": "OFFICIAL_1956_OPENING",
+  "data_policy": "Стартовые значения G$ и исторические пропорции согласованы для игры; изменения после 01.01.1955 зависят от игрового судейства. Полный макроэкономический движок не применяется.",
+  "economy": {
+    "stats": {
+      "gdp_real_billion_2011_intl": 642.19264,
+      "gdp_growth_pct": 3,
+      "gdp_per_capita_2011_intl": 12454.358916,
+      "consumer_inflation_pct": 2.1,
+      "investment_share_gdp_pct": 16,
+      "productivity_hour_index": 100,
+      "industry_share_pct": 42,
+      "agriculture_share_pct": 5,
+      "services_share_pct": 53,
+      "science_technology_index": 73,
+      "fiscal_tax_billion": 211.9859612,
+      "fiscal_nontax_billion": 21.19855079,
+      "fiscal_spend_social_billion": 100.987766,
+      "fiscal_spend_economy_billion": 29.70227291,
+      "fiscal_spend_defense_billion": 53.46407218,
+      "fiscal_spend_admin_billion": 17.82132563,
+      "fiscal_spend_other_billion": 11.88094727,
+      "fiscal_debt_domestic_billion": 877.5930217,
+      "fiscal_debt_fx_billion": 60.75641831,
+      "fiscal_interest_rate_pct": 3.122923588,
+      "policy_rate_pct": 3.5,
+      "fx_external_value_index": 100,
+      "reserves_billion": 32.172084,
+      "exports_billion": 112.228,
+      "imports_billion": 124.698,
+      "net_capital_inflow_billion": 9.352,
+      "fdi_inflow_billion": 1.247,
+      "population": 51563685,
+      "birth_rate_per_1000": 16,
+      "death_rate_per_1000": 11,
+      "net_migration_people": -30000,
+      "age_0_14_pct": 23,
+      "age_15_64_pct": 66,
+      "age_65_plus_pct": 11,
+      "labor_participation_pct": 66,
+      "unemployment_pct": 2.2,
+      "employment_people": 21966996,
+      "real_household_income_index": 100,
+      "income_gini": 31,
+      "education_index": 77,
+      "healthcare_index": 73,
+      "fiscal_revenue_total_billion": 233.18451199,
+      "fiscal_spending_total_billion": 243.16031999,
+      "fiscal_budget_balance_billion": -9.975808,
+      "fiscal_debt_total_billion": 938.34944,
+      "fiscal_debt_gdp_pct": 150.5,
+      "net_exports_billion": -12.47,
+      "institutional_capacity_index": 83,
+      "corruption_exposure_index": 23
+    },
+    "trade_export_shares": {
+      "energy": 3,
+      "food": 4,
+      "raw_materials": 13,
+      "machinery_technology": 35,
+      "finished_goods": 26,
+      "services": 19
+    },
+    "trade_import_shares": {
+      "energy": 13,
+      "food": 16,
+      "raw_materials": 28,
+      "machinery_technology": 17,
+      "finished_goods": 12,
+      "services": 14
+    },
+    "currency_regime": "fixed_bretton_woods",
+    "currency_global_role": "reserve_regional",
+    "trade_note": "Шесть долей по 100%, значения — сценарные допущения; экспорт/импорт выражены в игровых сопоставимых единицах, не фактические доллары 1954.",
+    "reserve_coverage": {
+      "months": 3.6,
+      "year": 1954,
+      "role": "game_context_not_automatic_hard_fx_cap",
+      "imports_scope": "goods",
+      "method": "reserve ratio and unit context described in trade sheet"
+    },
+    "monetary_unit": "G$",
+    "external_financing_rule": "Кредиты, помощь и инвестиции не являются экспортом; новые закупки и клиринг судятся в RP.",
+    "growth_reporting": {
+      "latest_completed_year": 1955,
+      "realized_1955_growth_pct": 3,
+      "initial_1956_background_growth_pct": 3,
+      "conditional_1956_additional_pp": 0,
+      "automatic_future_bonus": false
+    },
+    "fiscal_reporting_period": "1955_APPROVED_CLOSE_RETAINED_AS_1956_OPENING_BASE",
+    "fiscal_close_1955": {
+      "additional_functional_expense_G_billion": 0,
+      "additional_tax_delta_G_billion": 0,
+      "recoverable_credit_disbursed_G_billion": 0,
+      "new_public_debt_automatically_issued_G_billion": 0,
+      "fiscal_balance_G_billion": -9.975808,
+      "execution_precision": "ADMIN_APPROVED_JUDICIAL_ESTIMATE"
+    }
+  },
+  "features": [
+    "industry.machine_tools",
+    "industry.aerospace",
+    "services.finance_hub",
+    "services.transit_hub",
+    "infra.ports",
+    "tech.research_base"
+  ],
+  "feature_notes": [
+    "Не предрешать смену Черчилля на Идена и выборы мая 1955 года: это будущее игрового мира."
+  ],
+  "politics": {
+    "system": "parliamentary_monarchy",
+    "head_of_government": "Уинстон Черчилль",
+    "governing_force": "Консервативная партия",
+    "last_national_election": "1951-10-25",
+    "next_election_not_before_historic": null,
+    "parliamentary_seats": null,
+    "electoral_support": null,
+    "note": "Не предрешать смену Черчилля на Идена и выборы мая 1955 года: это будущее игрового мира.",
+    "status": "RESEARCHED_BASELINE_WITH_UNVERIFIED_CHANGES",
+    "electoral_system": "Палата общин: одномандатные округа и относительное большинство; выборы по роспуску в пределах максимального срока парламента.",
+    "legislature": "Палата общин, парламент по итогам выборов 1951 года",
+    "last_election_reference_date": "1951-10-25",
+    "next_election_rule": "Исторически новые выборы 1955-05-26; дата зависит от возможного роспуска парламента.",
+    "historical_party_seat_snapshots": {
+      "commons_1951": {
+        "Консерваторы и национал-либералы": 321,
+        "Лейбористы": 295,
+        "Либералы": 6,
+        "Прочие": 3
+      }
+    },
+    "political_mood_1955": "Консерваторы правят с ограниченным запасом мест, лейбористы остаются массовой оппозицией. На фоне послевоенного консенсуса экономические споры не превращаются автоматически в отказ от государства всеобщего благосостояния. Черчилль возглавляет правительство на дату старта.",
+    "political_faultline": "Сохранение социальной модели, слабость платёжного баланса, управление империей.",
+    "judge_reference_private": "Историческая победа консерваторов в мае 1955 года не должна быть предрешена.",
+    "political_sources": [
+      "https://www.ukpolitical.info/1951-general-election"
+    ],
+    "seat_data_status": "referenced_snapshot_not_guaranteed_current_seating",
+    "future_ir_likelihood_policy": "Исторические выборы после 1955 служат лишь административной справкой, исход не копируется в игру."
+  },
+  "military": {
+    "active_personnel": 814000,
+    "reserve_personnel": 600000,
+    "equipment": {
+      "tanks": 3700,
+      "artillery": 6200,
+      "fighters": 2350,
+      "bombers": 1100,
+      "transport_aircraft": null,
+      "capital_surface_ships": 24,
+      "aircraft_carriers": 11,
+      "submarines": 55,
+      "nuclear_warheads": null
+    },
+    "readiness": "STANDARD",
+    "logistics": "not_assessed",
+    "production_capacity": "RC0.10_SCENARIO_CAPACITY_RECORDED_SEPARATELY",
+    "count_status": "START_GAME_ESTIMATE_BASELINE_APPROVED",
+    "rule": "Количества техники и поколений являются стартовой игровой оценкой. Боеготовые единицы входят в общий парк; поколения также входят в тот же парк. Оперативное наличие на конкретном театре, снабжение, мобилизация и фактический выпуск определяются отдельным судейством.",
+    "force_balance_qualitative": {
+      "land": "высокая",
+      "air": "высокая",
+      "navy": "очень высокая",
+      "note": "Всемирные обязательства растягивают контингент и флот.",
+      "quality": "scenario_judicial_band_unverified"
+    },
+    "personnel_count_unit": "persons (source public sheet values measured in thousand people)",
+    "partial_mobilization_window": "3–6 недель",
+    "large_scale_mobilization_window": "3–6 месяцев",
+    "personnel_count_status": "HISTORICAL_PROXY",
+    "trained_reserve_game_estimate": 600000,
+    "operational_constraints": "Нельзя считать весь парк, весь резерв или всю годовую потенциальную мощность немедленно доступными в одном районе. Неизвестны точные войсковая дислокация, отдельный транспортный авиапарк и полный стратегический инвентарь. Дополнительные оперативные сведения требуют судейской проверки.",
+    "equipment_inventory_1955": {
+      "tanks": {
+        "label_ru": "Танки",
+        "total": 3700,
+        "combat_ready": 2590,
+        "generations": {
+          "modern": 1800,
+          "previous": 950,
+          "obsolete": 950
+        }
+      },
+      "armored_vehicles": {
+        "label_ru": "БТР и бронемашины",
+        "total": 3800,
+        "combat_ready": 2470,
+        "generations": {
+          "modern": 1300,
+          "previous": 1400,
+          "obsolete": 1100
+        }
+      },
+      "artillery_and_spg": {
+        "label_ru": "Артиллерия и САУ",
+        "total": 6200,
+        "combat_ready": 4340,
+        "generations": {
+          "modern": 1100,
+          "previous": 3200,
+          "obsolete": 1900
+        }
+      },
+      "air_defense_guns": {
+        "label_ru": "ПВО (орудия)",
+        "total": 2300,
+        "combat_ready": 1495,
+        "generations": {
+          "modern": 500,
+          "previous": 1100,
+          "obsolete": 700
+        }
+      },
+      "jet_fighters": {
+        "label_ru": "Истребители реактивные",
+        "total": 2100,
+        "combat_ready": 1260,
+        "generations": {
+          "modern": 1150,
+          "previous": 700,
+          "obsolete": 250
+        }
+      },
+      "piston_fighters": {
+        "label_ru": "Истребители поршневые",
+        "total": 250,
+        "combat_ready": 150,
+        "generations": {
+          "modern": 0,
+          "previous": 140,
+          "obsolete": 110
+        }
+      },
+      "bombers_and_attack_aircraft": {
+        "label_ru": "Бомбардировщики и штурмовики",
+        "total": 1100,
+        "combat_ready": 660,
+        "generations": {
+          "modern": 430,
+          "previous": 370,
+          "obsolete": 300
+        }
+      },
+      "other_aircraft": {
+        "label_ru": "Самолёты прочие",
+        "total": 3000,
+        "combat_ready": 1950,
+        "generations": {
+          "modern": 900,
+          "previous": 1300,
+          "obsolete": 800
+        }
+      },
+      "fleet_carriers": {
+        "label_ru": "Авианосцы основные",
+        "total": 7,
+        "combat_ready": 4,
+        "generations": {
+          "modern": 2,
+          "previous": 3,
+          "obsolete": 2
+        }
+      },
+      "light_and_escort_carriers": {
+        "label_ru": "Авианосцы лёгкие/эскортные",
+        "total": 4,
+        "combat_ready": 2,
+        "generations": {
+          "modern": 0,
+          "previous": 3,
+          "obsolete": 1
+        }
+      },
+      "battleships": {
+        "label_ru": "Линкоры",
+        "total": 1,
+        "combat_ready": 0,
+        "generations": {
+          "modern": 0,
+          "previous": 1,
+          "obsolete": 0
+        }
+      },
+      "cruisers": {
+        "label_ru": "Крейсеры",
+        "total": 23,
+        "combat_ready": 13,
+        "generations": {
+          "modern": 4,
+          "previous": 12,
+          "obsolete": 7
+        }
+      },
+      "destroyers_and_frigates": {
+        "label_ru": "Эсминцы и фрегаты",
+        "total": 140,
+        "combat_ready": 84,
+        "generations": {
+          "modern": 40,
+          "previous": 60,
+          "obsolete": 40
+        }
+      },
+      "submarines": {
+        "label_ru": "Подводные лодки",
+        "total": 55,
+        "combat_ready": 30,
+        "generations": {
+          "modern": 20,
+          "previous": 20,
+          "obsolete": 15
+        }
+      },
+      "small_combat_ships": {
+        "label_ru": "Малые боевые корабли",
+        "total": 150,
+        "combat_ready": 90,
+        "generations": {
+          "modern": 30,
+          "previous": 80,
+          "obsolete": 40
+        }
+      }
+    },
+    "equipment_categories_count": 15,
+    "equipment_source_status": "ADMIN_APPROVED_GAME_ESTIMATE_RC0.10_2026-10-24",
+    "equipment_source_url": "https://docs.google.com/spreadsheets/d/17RmPQZ8oEZ55SG_3kDwwqUDgk1wUZQ5-xZbTX3BFjJc/edit",
+    "equipment_effective_date": "1955-01-01",
+    "equipment_data_quality": "SCENARIO_ESTIMATE_NOT_ARCHIVAL_EXACT_INVENTORY",
+    "industrial_military_capacity_1955": {
+      "tanks_per_year_estimated_upper_capacity": 500,
+      "military_aircraft_per_year_estimated_upper_capacity": 950,
+      "capacity_not_actual_output": true,
+      "requires_orders_materials_workers_and_lead_time": true
+    }
+  },
+  "active_processes": [
+    {
+      "id": "GBR-HIST-01",
+      "kind": "historical_process",
+      "name": "Деколонизация и перестройка имперских отношений",
+      "since": 1947,
+      "scheduled_end": null,
+      "status": "active",
+      "description": "Структурная дипломатическая и торговая проблема.",
+      "approved_numeric_effects": [],
+      "effects_status": "NOT_YET_ADJUDICATED"
+    }
+  ],
+  "country_modules": [
+    "sterling_area",
+    "decolonization",
+    "parliament_westminster"
+  ],
+  "provenance": {
+    "gdp_real_billion_2011_intl": {
+      "status": "derived_historical_proxy",
+      "source": "https://nationsinquiry.com/datasets/historical-gdp-per-capita/1954",
+      "reference_year": 1954,
+      "caveat": "1954 Maddison gdppc × population on 1955-01-01; территориальное покрытие проверить."
+    },
+    "gdp_growth_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "gdp_per_capita_2011_intl": {
+      "status": "derived_historical_proxy",
+      "source": "https://nationsinquiry.com/datasets/historical-gdp-per-capita/1954",
+      "reference_year": 1954,
+      "caveat": "Округлённое ВВП 1954 на человека / население 01.01.1955; ВВП 1954 относится к прошлому завершённому году."
+    },
+    "consumer_inflation_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "investment_share_gdp_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "productivity_hour_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "industry_share_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "agriculture_share_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "services_share_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "science_technology_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_tax_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_nontax_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_social_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_economy_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_defense_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_admin_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_spend_other_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_debt_domestic_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_debt_fx_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_interest_rate_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "policy_rate_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fx_external_value_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "reserves_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "exports_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "imports_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "net_capital_inflow_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fdi_inflow_billion": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "population": {
+      "status": "historical_referenced",
+      "source": "https://www.jetpunk.com/data/population/countries-by-population/1955?device=desktop",
+      "reference_date": "1955-01-01",
+      "caveat": "Современное географическое определение ООН; совпадение с границами 1955 требует проверки для отдельных стран."
+    },
+    "birth_rate_per_1000": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "death_rate_per_1000": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "net_migration_people": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "age_0_14_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "age_15_64_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "age_65_plus_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "labor_participation_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "unemployment_pct": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "employment_people": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "real_household_income_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "income_gini": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "education_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "healthcare_index": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "fiscal_revenue_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_spending_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_budget_balance_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_debt_total_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "fiscal_debt_gdp_pct": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "net_exports_billion": {
+      "status": "calculated_scenario",
+      "source": null
+    },
+    "institutional_capacity_index": {
+      "status": "scenario_assumption",
+      "source": null,
+      "caveat": "Условная игровая оценка 0–100, не исторический индекс."
+    },
+    "corruption_exposure_index": {
+      "status": "scenario_assumption",
+      "source": null,
+      "caveat": "Условная игровая оценка 0–100, не исторический индекс."
+    },
+    "economy_refresh": "18.10.2026 Google Drive latest canonical player-source Sheets, economic audit v0.5",
+    "equipment_inventory_1955": {
+      "source": "VPI 1955 Military Overview with Generations RC0.10",
+      "location": "https://docs.google.com/spreadsheets/d/17RmPQZ8oEZ55SG_3kDwwqUDgk1wUZQ5-xZbTX3BFjJc/edit",
+      "effective_date": "1955-01-01",
+      "approved_for_start_game_by_user": "2026-10-24",
+      "quality": "Scenario game estimates, not certified historical counts",
+      "canonicalization": "Numbers copied into country JSON; authoritative only after HEAD and manifest update"
+    }
+  },
+  "political_source": "https://www.gov.uk/government/history/past-prime-ministers/anthony-eden",
+  "readiness": {
+    "administrative_template": true,
+    "numeric_seed_available": true,
+    "historically_calibrated": false,
+    "military_inventory_complete": true,
+    "parliamentary_seats_complete": false,
+    "safe_to_publish_as_historical": false,
+    "aligned_with_1955_player_sheet": true,
+    "military_baseline_published": true,
+    "military_equipment_15_class_game_baseline": true,
+    "detailed_operational_inventory_complete": false,
+    "military_game_estimates_admin_approved": true
+  },
+  "institutions": {
+    "capacity_interpretation": "Профессиональная гражданская служба, ограничения бюджета и имперского управления.",
+    "judging_rules_file": "rules/INSTITUTIONS.md",
+    "review_triggers": [
+      "крупные административные реформы",
+      "коррупционные расследования",
+      "перестройка госслужбы",
+      "региональные кризисы"
+    ]
+  },
+  "player_sheet_url": "https://docs.google.com/spreadsheets/d/15dq9TU1PEOGP_O6ImK-RrkD-FM-KGP4g5bjQd3s2xHc/edit",
+  "player_sheet_tab": "1955",
+  "release_id": "VPI1955-1956-TURN1-R1",
+  "approval_source": "ADMIN_FINAL_APPROVED_2026_11_05"
+}

@@ -1,0 +1,817 @@
+{
+  "country_count": 12,
+  "legacy_country_ids": [
+    "USA",
+    "URS",
+    "GBR",
+    "FRA",
+    "FRG",
+    "JPN",
+    "CHN",
+    "EGY",
+    "IND",
+    "ISR",
+    "ITA",
+    "YUG"
+  ],
+  "aliases": {
+    "SUN": "URS",
+    "DEU": "FRG",
+    "USSR": "URS"
+  },
+  "total_numeric_fields_changed": 160,
+  "checks_per_country": 13,
+  "source": "2026-10-18 verified 12 live player-source Google Sheets",
+  "failed": [],
+  "updated": [
+    {
+      "country": "USA",
+      "changed_numeric_fields": 15,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 552.5246,
+          "to": 620.3343964
+        },
+        "fiscal_nontax_billion": {
+          "from": 55.2525,
+          "to": 62.03348455
+        },
+        "fiscal_spend_social_billion": {
+          "from": 248.6361,
+          "to": 239.7050738
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 110.5049,
+          "to": 106.5355562
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 248.6361,
+          "to": 239.7050738
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 55.2525,
+          "to": 53.26782632
+        },
+        "fiscal_spend_other_billion": {
+          "from": 27.6262,
+          "to": 26.63386496
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 607.7771,
+          "to": 682.367881
+        },
+        "fiscal_spending_total_billion": {
+          "from": 743.0904,
+          "to": 718.28198
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -135.3133,
+          "to": -35.914099
+        },
+        "fiscal_debt_gdp_pct": {
+          "from": 73,
+          "to": 73.00000036
+        },
+        "reserves_billion": {
+          "from": 69.066,
+          "to": 198.908856
+        },
+        "exports_billion": {
+          "from": 157.47,
+          "to": 113.267543
+        },
+        "imports_billion": {
+          "from": 138.131,
+          "to": 110.50492
+        },
+        "net_exports_billion": {
+          "from": 19.338,
+          "to": 2.762623
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "URS",
+      "changed_numeric_fields": 9,
+      "details": {
+        "fiscal_spend_social_billion": {
+          "from": 93.5,
+          "to": 77.51342642
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 102,
+          "to": 117.5026853
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 127.5,
+          "to": 54.12244898
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 34,
+          "to": 7.285714286
+        },
+        "fiscal_spend_other_billion": {
+          "from": 17,
+          "to": 46.15107411
+        },
+        "fiscal_spending_total_billion": {
+          "from": 374.85,
+          "to": 303.4253491
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -68.85,
+          "to": 2.574650913
+        },
+        "exports_billion": {
+          "from": 34,
+          "to": 32.18410124
+        },
+        "net_exports_billion": {
+          "from": 2.55,
+          "to": 0.7341012421
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "GBR",
+      "changed_numeric_fields": 16,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 187.0464,
+          "to": 211.9859612
+        },
+        "fiscal_nontax_billion": {
+          "from": 18.7046,
+          "to": 21.19855079
+        },
+        "fiscal_spend_social_billion": {
+          "from": 105.993,
+          "to": 100.987766
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 31.1744,
+          "to": 29.70227291
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 56.1139,
+          "to": 53.46407218
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 18.7046,
+          "to": 17.82132563
+        },
+        "fiscal_spend_other_billion": {
+          "from": 12.4698,
+          "to": 11.88094727
+        },
+        "fiscal_debt_domestic_billion": {
+          "from": 810.5344,
+          "to": 877.5930217
+        },
+        "fiscal_debt_fx_billion": {
+          "from": 56.1139,
+          "to": 60.75641831
+        },
+        "fiscal_interest_rate_pct": {
+          "from": 3,
+          "to": 3.122923588
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 205.751,
+          "to": 233.184512
+        },
+        "fiscal_spending_total_billion": {
+          "from": 250.4551,
+          "to": 243.16032
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -44.7041,
+          "to": -9.975808
+        },
+        "fiscal_debt_total_billion": {
+          "from": 866.6483,
+          "to": 938.34944
+        },
+        "fiscal_debt_gdp_pct": {
+          "from": 139,
+          "to": 150.5
+        },
+        "reserves_billion": {
+          "from": 15.587,
+          "to": 32.172084
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "FRA",
+      "changed_numeric_fields": 14,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 114.1276,
+          "to": 96.06320969
+        },
+        "fiscal_nontax_billion": {
+          "from": 12.6808,
+          "to": 10.67365256
+        },
+        "fiscal_spend_social_billion": {
+          "from": 59.1773,
+          "to": 47.79443798
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 29.5886,
+          "to": 23.89717861
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 29.5886,
+          "to": 23.89717861
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 12.6808,
+          "to": 10.2416249
+        },
+        "fiscal_spend_other_billion": {
+          "from": 12.6808,
+          "to": 10.2416249
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 126.8084,
+          "to": 106.7368623
+        },
+        "fiscal_spending_total_billion": {
+          "from": 150.6483,
+          "to": 123.004245
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -23.8399,
+          "to": -16.26738275
+        },
+        "fiscal_debt_gdp_pct": {
+          "from": 41,
+          "to": 41.00001183
+        },
+        "reserves_billion": {
+          "from": 10.567,
+          "to": 17.4217088
+        },
+        "exports_billion": {
+          "from": 54.95,
+          "to": 59.599995
+        },
+        "net_exports_billion": {
+          "from": -4.227,
+          "to": 0.422995
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "FRG",
+      "changed_numeric_fields": 11,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 105.6,
+          "to": 151.2245222
+        },
+        "fiscal_nontax_billion": {
+          "from": 8.8,
+          "to": 12.60204352
+        },
+        "fiscal_spend_social_billion": {
+          "from": 57.2,
+          "to": 74.68107293
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 22,
+          "to": 28.72348959
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 17.6,
+          "to": 22.97879167
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 13.2,
+          "to": 17.23409375
+        },
+        "fiscal_spend_other_billion": {
+          "from": 8.8,
+          "to": 11.48939583
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 114.4,
+          "to": 163.8265657
+        },
+        "fiscal_spending_total_billion": {
+          "from": 120.252,
+          "to": 156.5588438
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -5.852,
+          "to": 7.267721955
+        },
+        "reserves_billion": {
+          "from": 11,
+          "to": 40.78096
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "JPN",
+      "changed_numeric_fields": 15,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 68.107,
+          "to": 66.41217037
+        },
+        "fiscal_nontax_billion": {
+          "from": 7.5674,
+          "to": 7.379086702
+        },
+        "fiscal_spend_social_billion": {
+          "from": 26.486,
+          "to": 28.90766797
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 22.7023,
+          "to": 24.77801671
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 3.7837,
+          "to": 4.129651261
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 11.3512,
+          "to": 12.38906293
+        },
+        "fiscal_spend_other_billion": {
+          "from": 7.5674,
+          "to": 8.259302523
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 75.6744,
+          "to": 73.79125707
+        },
+        "fiscal_spending_total_billion": {
+          "from": 73.3663,
+          "to": 79.93935339
+        },
+        "fiscal_budget_balance_billion": {
+          "from": 2.3081,
+          "to": -6.148096327
+        },
+        "fiscal_debt_gdp_pct": {
+          "from": 13,
+          "to": 13.00001057
+        },
+        "reserves_billion": {
+          "from": 9.459,
+          "to": 19.04565064
+        },
+        "exports_billion": {
+          "from": 45.405,
+          "to": 33.41685103
+        },
+        "imports_billion": {
+          "from": 49.188,
+          "to": 45.66207297
+        },
+        "net_exports_billion": {
+          "from": -3.784,
+          "to": -12.24522194
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "CHN",
+      "changed_numeric_fields": 14,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 119.4621,
+          "to": 96.749605
+        },
+        "fiscal_nontax_billion": {
+          "from": 44.0124,
+          "to": 82.703419
+        },
+        "fiscal_spend_social_billion": {
+          "from": 44.0124,
+          "to": 25.332908
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 88.0247,
+          "to": 90.454805
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 81.7372,
+          "to": 42.548453
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 18.8624,
+          "to": 15.824833
+        },
+        "fiscal_spend_other_billion": {
+          "from": 12.575,
+          "to": 4.201779
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 163.4745,
+          "to": 179.453024
+        },
+        "fiscal_spending_total_billion": {
+          "from": 245.5261,
+          "to": 178.677152
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -82.0516,
+          "to": 0.775872
+        },
+        "reserves_billion": {
+          "from": 15.719,
+          "to": 2.237149984
+        },
+        "exports_billion": {
+          "from": 18.862,
+          "to": 29.87565038
+        },
+        "imports_billion": {
+          "from": 22.006,
+          "to": 33.04880658
+        },
+        "net_exports_billion": {
+          "from": -3.144,
+          "to": -3.173156199
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "EGY",
+      "changed_numeric_fields": 14,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 4.3293,
+          "to": 5.621543393
+        },
+        "fiscal_nontax_billion": {
+          "from": 0.666,
+          "to": 0.8647928994
+        },
+        "fiscal_spend_social_billion": {
+          "from": 1.6651,
+          "to": 2.204623499
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 0.9991,
+          "to": 1.32282706
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 1.9981,
+          "to": 2.645521718
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 0.666,
+          "to": 0.8817964387
+        },
+        "fiscal_spend_other_billion": {
+          "from": 0.333,
+          "to": 0.4408982194
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 4.9953,
+          "to": 6.486336292
+        },
+        "fiscal_spending_total_billion": {
+          "from": 5.8212,
+          "to": 7.655518935
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -0.8259,
+          "to": -1.169182643
+        },
+        "fiscal_debt_gdp_pct": {
+          "from": 12,
+          "to": 12.00018017
+        },
+        "exports_billion": {
+          "from": 5.661,
+          "to": 4.883954317
+        },
+        "imports_billion": {
+          "from": 5.994,
+          "to": 5.538233572
+        },
+        "net_exports_billion": {
+          "from": -0.333,
+          "to": -0.6542792551
+        }
+      },
+      "active_processes": 2,
+      "module_rules": 3
+    },
+    {
+      "country": "IND",
+      "changed_numeric_fields": 12,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 45.1377,
+          "to": 28.47146697
+        },
+        "fiscal_nontax_billion": {
+          "from": 8.2069,
+          "to": 5.17665903
+        },
+        "fiscal_spend_social_billion": {
+          "from": 20.5172,
+          "to": 13.82087323
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 20.5172,
+          "to": 13.82087323
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 12.3103,
+          "to": 8.292510467
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 8.2069,
+          "to": 5.528362766
+        },
+        "fiscal_spend_other_billion": {
+          "from": 4.1034,
+          "to": 2.764147702
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 53.3446,
+          "to": 33.648126
+        },
+        "fiscal_spending_total_billion": {
+          "from": 68.6177,
+          "to": 47.189445
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -15.2731,
+          "to": -13.541319
+        },
+        "fiscal_debt_gdp_pct": {
+          "from": 19,
+          "to": 19.00000731
+        },
+        "reserves_billion": {
+          "from": 10.259,
+          "to": 29.0643582
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "ISR",
+      "changed_numeric_fields": 13,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 2.1095,
+          "to": 1.136399376
+        },
+        "fiscal_nontax_billion": {
+          "from": 0.5063,
+          "to": 0.2727466243
+        },
+        "fiscal_spend_social_billion": {
+          "from": 0.9282,
+          "to": 0.5307432256
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 0.675,
+          "to": 0.3859638842
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 1.2657,
+          "to": 0.7237251677
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 0.2531,
+          "to": 0.1447221616
+        },
+        "fiscal_spend_other_billion": {
+          "from": 0.1688,
+          "to": 0.09651956096
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 2.6158,
+          "to": 1.409146
+        },
+        "fiscal_spending_total_billion": {
+          "from": 3.4596,
+          "to": 2.050434
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -0.8438,
+          "to": -0.641288
+        },
+        "reserves_billion": {
+          "from": 0.211,
+          "to": 0.5493957333
+        },
+        "exports_billion": {
+          "from": 1.097,
+          "to": 0.91116
+        },
+        "net_exports_billion": {
+          "from": -1.434,
+          "to": -1.61984
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "ITA",
+      "changed_numeric_fields": 14,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 68.059,
+          "to": 43.62562458
+        },
+        "fiscal_nontax_billion": {
+          "from": 10.2088,
+          "to": 6.543811637
+        },
+        "fiscal_spend_social_billion": {
+          "from": 30.6266,
+          "to": 19.74759169
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 20.4177,
+          "to": 13.16503963
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 20.4177,
+          "to": 13.16503963
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 6.8059,
+          "to": 4.388346545
+        },
+        "fiscal_spend_other_billion": {
+          "from": 6.8059,
+          "to": 4.388346545
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 78.2678,
+          "to": 50.16943621
+        },
+        "fiscal_spending_total_billion": {
+          "from": 90.2463,
+          "to": 60.02684805
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -11.9785,
+          "to": -9.857411839
+        },
+        "reserves_billion": {
+          "from": 8.507,
+          "to": 15.169324
+        },
+        "exports_billion": {
+          "from": 44.238,
+          "to": 33.57102046
+        },
+        "imports_billion": {
+          "from": 47.641,
+          "to": 37.93279321
+        },
+        "net_exports_billion": {
+          "from": -3.403,
+          "to": -4.361772742
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    },
+    {
+      "country": "YUG",
+      "changed_numeric_fields": 13,
+      "details": {
+        "fiscal_tax_billion": {
+          "from": 13.2,
+          "to": 15.06185958
+        },
+        "fiscal_nontax_billion": {
+          "from": 3.85,
+          "to": 4.393042378
+        },
+        "fiscal_spend_social_billion": {
+          "from": 4.95,
+          "to": 4.334501471
+        },
+        "fiscal_spend_economy_billion": {
+          "from": 5.5,
+          "to": 4.816112745
+        },
+        "fiscal_spend_defense_billion": {
+          "from": 3.85,
+          "to": 3.371278922
+        },
+        "fiscal_spend_admin_billion": {
+          "from": 2.2,
+          "to": 1.926445098
+        },
+        "fiscal_spend_other_billion": {
+          "from": 1.1,
+          "to": 0.963222549
+        },
+        "fiscal_revenue_total_billion": {
+          "from": 17.05,
+          "to": 19.45490196
+        },
+        "fiscal_spending_total_billion": {
+          "from": 17.8904,
+          "to": 15.70196078
+        },
+        "fiscal_budget_balance_billion": {
+          "from": -0.8404,
+          "to": 3.752941176
+        },
+        "exports_billion": {
+          "from": 6.05,
+          "to": 3.417797888
+        },
+        "imports_billion": {
+          "from": 7.7,
+          "to": 4.671672924
+        },
+        "net_exports_billion": {
+          "from": -1.65,
+          "to": -1.253875036
+        }
+      },
+      "active_processes": 1,
+      "module_rules": 3
+    }
+  ],
+  "original_world_preserved": true,
+  "existing_country_processes_preserved": true,
+  "military_personnel_sync_count": 12,
+  "military_fields_completed": [
+    "active_personnel",
+    "reserve_personnel",
+    "readiness",
+    "partial_mobilization_window",
+    "large_scale_mobilization_window"
+  ],
+  "audit_2026_10_24": {
+    "scope": "CANONICAL_STATE_HANDOFF_AUDIT_AFTER_RC010_PROMOTION",
+    "military_inventory": {
+      "countries": 12,
+      "categories_per_country": 15,
+      "category_rows": 180,
+      "ready_count_le_total": true,
+      "generation_sum_equals_total": true,
+      "game_baseline_approved_by_admin": true,
+      "exact_historical_archive": false,
+      "operational_deployment_requires_adjudication": true
+    },
+    "production_capacities": {
+      "countries": 12,
+      "tank_and_aircraft_estimates": true,
+      "not_guaranteed_output": true
+    },
+    "national_mechanics": {
+      "approved_countries": 12,
+      "public_pages_per_country": 1,
+      "approved_mechanics_per_country": 3,
+      "linked_modules": 12,
+      "legacy_literary_drafts_as_context_only": true
+    },
+    "player_sheets": {
+      "readable": 12,
+      "single_start_tab_1955": 12,
+      "trade_export_import_percent_totals_valid": 12,
+      "military_categories_on_sheets": 180,
+      "derived_not_authoritative": true
+    },
+    "baseline_integrity": {
+      "economic_stats_unmodified_by_this_migration": true,
+      "head_year_should_remain": 1955,
+      "head_phase_should_remain": "PREPARE",
+      "original_validation_failures": 0
+    },
+    "known_nonblocking_limits": [
+      "No real end-to-end Discord adjudication and 1955→1956 commit has been performed",
+      "Precise per-theater military deployment and two legacy flat equipment fields still unknown",
+      "Google Sheets visibility requires role-based sharing before players can access"
+    ]
+  }
+}

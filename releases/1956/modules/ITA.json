@@ -1,0 +1,73 @@
+{
+  "country_id": "ITA",
+  "as_of": "1955-01-01",
+  "sources": [
+    "https://www.senato.it/"
+  ],
+  "status": "APPROVED_PUBLIC_MECHANICS_LINKED_LEGACY_RULES_CONTEXT",
+  "version": "0.3-linked-to-public",
+  "module_rules_prior_draft": [
+    {
+      "id": "coalition_fragmentation",
+      "name": "Коалиции Италии",
+      "judging_rule": "Правительство зависит от парламентского большинства, партийных компромиссов и кризисов кабинета.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "north_south_gap",
+      "name": "Разрыв Север — Юг",
+      "judging_rule": "Инфраструктура и промышленность сконцентрированы неоднородно; государственные программы имеют региональные последствия.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    },
+    {
+      "id": "european_integration",
+      "name": "Европейская интеграция",
+      "judging_rule": "Экономическая интеграция требует многостороннего согласия; соглашения размещаются в world.",
+      "auto_numeric_bonus": null,
+      "override_core_stats": false
+    }
+  ],
+  "national_spirits": [
+    {
+      "id": "ita_spirit_01",
+      "name": "Экономическое чудо на разных скоростях",
+      "literary_description": "Промышленный Север и аграрный Юг живут в разных хозяйственных ритмах. Рост крупнейших заводов способен преобразить экспорт, но не автоматически приносит рабочие места и доходы во все регионы.",
+      "gameplay": "Индустриализация может увеличивать региональный разрыв и внутреннюю миграцию.",
+      "player_levers": "Инвестировать в дороги, образование, южные регионы, конкуренцию и жильё.",
+      "change_or_resolution": "Существенное выравнивание возможностей регионов.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "ita_spirit_02",
+      "name": "Большая партия — короткие кабинеты",
+      "literary_description": "Христианские демократы сильны, но не могут игнорировать союзников, Ватикан, профсоюзы и крупнейшую в Западной Европе коммунистическую оппозицию. Коалиция часто важнее личной популярности премьера.",
+      "gameplay": "Непродуманные реформы могут развалить кабинет, даже если экономически они разумны.",
+      "player_levers": "Создавать парламентские сделки, проводить частичные реформы, укреплять коалиционную дисциплину.",
+      "change_or_resolution": "Изменение партийной системы и правил устойчивости кабинета.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    },
+    {
+      "id": "ita_spirit_03",
+      "name": "Цена покровительства",
+      "literary_description": "Послевоенная административная и партийная система опирается на местные сети влияния. Они помогают собирать поддержку, но могут превращать государственные инвестиции в инструмент распределения услуг между политическими союзниками.",
+      "gameplay": "Расходы на реформы могут страдать от задержек и неравного распределения, особенно при слабом контроле.",
+      "player_levers": "Укреплять контроль закупок, налоговое администрирование, прозрачность местного управления.",
+      "change_or_resolution": "Устойчивая профессионализация и деполитизация исполнения.",
+      "automatic_stat_bonus": null,
+      "status": "ACTIVE_AT_START"
+    }
+  ],
+  "public_mechanics": {
+    "approval": "ADMIN_APPROVED",
+    "approval_date": "2026-10-24",
+    "public_url": "https://ivgl.github.io/VPG1955/countries/ita.html",
+    "mechanics_count": 3,
+    "source_of_display": "ivgl/VPG1955",
+    "interpretation": "The public page is an approved descriptive gameplay reference; decisions still require submissions and administrator verdicts.",
+    "legacy_material_policy": "module_rules_prior_draft and national_spirits are historical judging context, not an automatically effective competing rule set."
+  }
+}
