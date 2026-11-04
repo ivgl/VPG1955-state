@@ -4,8 +4,8 @@
   "year": 1956,
   "start_date": "1956-01-01",
   "release_id": "VPI1955-1956-TURN1-R1",
-  "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
-  "manifest_sha256": "6d910a0816b9c4fc5240e185c39dc5d7b1a3a469e0636cc08d319fd81885adbd",
+  "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_CORRECTED.json",
+  "manifest_sha256": "f18af24ec977d2b23952227a5060d38ef06ff5395799732696f36d1ec76bfd26",
   "official": true,
   "phase": "RECEIVING",
   "status": "OFFICIAL_1956_RECEIVING",
@@ -19,13 +19,13 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://github.com/ivgl/VPG1955-state/tree/main/releases/1956",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "2026-11-05 admin-approved correction to 1956 Japan political snapshot: 1955 election, October JSP merger, November LDP founding, 298/155/14 Diet seats. No mechanics rules, economics or phase changed.",
+  "updated_note": "2026-11-05 corrected Japan 1956 political narrative and included historical election references (House of Councillors 8 July 1956; Representatives 22 May 1958); results are not predetermined, existing national mechanics and economic state unchanged.",
   "storage": {
     "provider": "github",
     "repository": "ivgl/VPG1955-state",
     "visibility": "private",
     "branch": "main",
-    "current_manifest": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
+    "current_manifest": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_CORRECTED.json",
     "current_world": "releases/1956/world_1956.json",
     "country_directory": "releases/1956/countries/",
     "mechanics_directory": "releases/1956/modules/",
@@ -35,7 +35,7 @@
     "administrator_approval_required": true,
     "automatic_adjudication": false,
     "automatic_state_update": false,
-    "current_manifest_sha256": "6d910a0816b9c4fc5240e185c39dc5d7b1a3a469e0636cc08d319fd81885adbd",
+    "current_manifest_sha256": "f18af24ec977d2b23952227a5060d38ef06ff5395799732696f36d1ec76bfd26",
     "military_game_baseline_approved": true,
     "public_mechanics_approved": 12,
     "source_of_truth": "GitHub_PRIVATE_RELEASE"
@@ -93,6 +93,14 @@
       "manifest_sha256": "6d910a0816b9c4fc5240e185c39dc5d7b1a3a469e0636cc08d319fd81885adbd",
       "archive_commit": "395f719d27817d4e3c5c766df3f90095ea957111",
       "supersedes_manifest_sha256": "86bf8b3eaac9cb32fa1a4909ff07405ae1a8760c4fa30dbf28eebf522e439aed"
+    },
+    {
+      "date": "2026-11-05",
+      "scope": "JPN political narrative and historical upper/lower house election date references only; no mechanism, economics or phases changes.",
+      "phase": "RECEIVING",
+      "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_CORRECTED.json",
+      "manifest_sha256": "f18af24ec977d2b23952227a5060d38ef06ff5395799732696f36d1ec76bfd26",
+      "previous_manifest": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json"
     }
   ],
   "drive_metadata_status": "ARCHIVED_PROVENANCE_ONLY; all subsequent authoritative country, modules, world and manifest reads must use GitHub.",
@@ -140,5 +148,5 @@
     "judging_begin": "2026-11-08T00:00:00+03:00",
     "new_mechanics_update": "PENDING_SEPARATE_ADMIN_WORK"
   },
-  "manifest_revision": "JPN_1955_POLITICS_CORRECTED_2026_11_05"
+  "manifest_revision": "JPN_1956_ELECTION_DATES_AND_POLITICS_TEXT_2026_11_05"
 }
