@@ -1,0 +1,646 @@
+{
+  "year": 1956,
+  "as_of": "1956-01-01",
+  "lifecycle": "OFFICIAL_1956_OPENING",
+  "players": [
+    "USA",
+    "URS",
+    "GBR",
+    "FRA",
+    "FRG",
+    "JPN",
+    "CHN",
+    "EGY",
+    "IND",
+    "ISR",
+    "ITA",
+    "YUG"
+  ],
+  "currency_order": {
+    "name": "Bretton Woods",
+    "convertibility_usd_gold_for_official_holders": "active",
+    "exchange_rate_regime": "predominantly_fixed_with_controls",
+    "note": "Не считать мгновенный выход стран и свободный плавучий курс стандартом 1955."
+  },
+  "international_organizations": [
+    "ООН",
+    "НАТО",
+    "ГАТТ",
+    "Европейское объединение угля и стали"
+  ],
+  "not_yet_founded_at_start": [
+    "Организация Варшавского договора (май 1955)",
+    "Европейское экономическое сообщество (1957)",
+    "Движение неприсоединения (1961)"
+  ],
+  "non_player_states": {
+    "GDR": "Германская Демократическая Республика — не под контролем ФРГ; политически связана с СССР.",
+    "ROC_TW": "Китайская Республика на Тайване — отдельное правительство, не под контролем КНР.",
+    "PRK": "КНДР — раздел Кореи, договорённости о перемирии 1953.",
+    "KOR": "Республика Корея — отдельное государство; перемирие 1953, мирный договор не заключён.",
+    "PAK": "Пакистан — отдельное государство, отношения с Индией конфликтные.",
+    "IRN": "Иран — нефтяной и стратегический игрок, монархия.",
+    "SAU": "Саудовская Аравия — нефтяные интересы, мировой рынок.",
+    "IDN": "Индонезия — региональный лидер, внутренние политические противоречия.",
+    "TUR": "Турция — участник НАТО, Черноморский регион.",
+    "VNM_N": "Северный Вьетнам — последствия Женевских соглашений 1954.",
+    "VNM_S": "Южный Вьетнам — политический переход, отдельная администрация.",
+    "DZA": "Алжир — территория под французским управлением, конфликт 1954 уже идёт.",
+    "CAN": "Канада — НАТО и торговые связи с США и Британией.",
+    "ESP": "Испания — режим Франко, дипломатические отношения с Западом."
+  },
+  "treaties": [
+    {
+      "id": "USA-JPN-RYUKYU-1955-DRAFT-AGREED",
+      "participants": [
+        "USA",
+        "JPN"
+      ],
+      "status": "TERMS_AGREED_NOT_RATIFIED_NOT_IN_FORCE",
+      "visibility": "BILATERAL_PRIVATE",
+      "economic_effect_1955_G_billion": 0,
+      "entry_into_force_date": null,
+      "confidential_terms_in_archive": true
+    }
+  ],
+  "trade_links": [],
+  "active_global_processes": [
+    {
+      "id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "kind": "DIPLOMATIC_INITIATIVE",
+      "since": 1955,
+      "stage": "NPC_CONSULTATION_REPLIES_RECEIVED",
+      "initiator": "ЦК КПСС",
+      "willing_npc_parties": [
+        "СЕПГ",
+        "ПОРП",
+        "КПЧ",
+        "Венгерская партия трудящихся",
+        "Румынская рабочая партия",
+        "Болгарская компартия",
+        "Албанская партия труда"
+      ],
+      "other_interested_npc_parties": [
+        "Французская компартия",
+        "Итальянская компартия",
+        "Компартия Великобритании",
+        "Компартия Индии",
+        "Компартия Японии",
+        "Трудовая партия Кореи",
+        "Партия трудящихся Вьетнама"
+      ],
+      "player_party_responses_pending": [
+        "CHN",
+        "YUG"
+      ],
+      "international_founded": false,
+      "formal_members": [],
+      "visibility": "COUNTRY_PRIVATE",
+      "effect_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "regional_npc_responses_1955": {
+        "status": "ADMIN_APPROVED_CANONICALLY_RECORDED",
+        "canonical_correction_effect_id": "URS-1955-DIP-FIFTH-INTL-REGIONAL-NPC-CANON-SYNC-01",
+        "archive_addendum_effect_id": "URS-1955-DIP-FIFTH-INTL-REGIONAL-RESPONSES-01",
+        "source_archive": "turns/1955/verdicts/final/URS_FIFTH_INTL_REGIONAL_NPC_RESPONSES_ADDENDUM_2026-11-05.json",
+        "source_original": "turns/1955/posts/originals/URS_CC_FIFTH_INTERNATIONAL_admin_paste_2026_11_04.md",
+        "visibility": "COUNTRY_URS_PRIVATE",
+        "additional_organization_count": 41,
+        "counts": {
+          "INTERESTED_WITH_TERMS": 16,
+          "CHANNEL_ACKNOWLEDGEMENT": 7,
+          "NO_VERIFIED_REPLY": 14,
+          "ACCEPT_CONSULTATIONS": 4
+        },
+        "entries": [
+          {
+            "party_id": "NPC1955-CAN-Трудов",
+            "region": "NORTH_AMERICA",
+            "polity": "CAN",
+            "party_ru": "Трудовая прогрессивная партия Канады",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Готова обсуждать трудовые права и мирное сосуществование; подчёркивает необходимость самостоятельной работы в Канаде",
+            "operating_context": "OPEN",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-USA-Коммун",
+            "region": "NORTH_AMERICA",
+            "polity": "USA",
+            "party_ru": "Коммунистическая партия США (CPUSA)",
+            "status": "CHANNEL_ACKNOWLEDGEMENT",
+            "reply": "Осторожное подтверждение интереса через партийные контакты; под политическим давлением официальная делегация не заявлена",
+            "operating_context": "RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-MEX-Мексик",
+            "region": "NORTH_AMERICA",
+            "polity": "MEX",
+            "party_ru": "Мексиканская коммунистическая партия",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Поддерживает антиимпериалистические консультации и просит гарантировать самостоятельность национальной программы",
+            "operating_context": "OPEN_LIMITED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-CUB-Народн",
+            "region": "NORTH_AMERICA",
+            "polity": "CUB",
+            "party_ru": "Народно-социалистическая партия Кубы (PSP)",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Заинтересована в международной солидарности, но связывает участие с безопасностью и национальной политикой в условиях Батисты",
+            "operating_context": "RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-GTM-Гватем",
+            "region": "NORTH_AMERICA",
+            "polity": "GTM",
+            "party_ru": "Гватемальская партия труда",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "После потрясений 1954 года надёжного ответа руководства не получено; контакты не равны полномочному представительству",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-CRI-Народн",
+            "region": "NORTH_AMERICA",
+            "polity": "CRI",
+            "party_ru": "Народный авангард Коста-Рики",
+            "status": "CHANNEL_ACKNOWLEDGEMENT",
+            "reply": "Через сторонников передана заинтересованность в трудовой координации; полноценное представительство пока не согласовано",
+            "operating_context": "RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-PAN-Народн",
+            "region": "NORTH_AMERICA",
+            "polity": "PAN",
+            "party_ru": "Народная партия Панамы",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Просит поставить вопросы суверенитета, зоны канала и условий работы профсоюзов",
+            "operating_context": "RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-HND-Коммун",
+            "region": "NORTH_AMERICA",
+            "polity": "HND",
+            "party_ru": "Коммунистическая партия Гондураса",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Организация известна по политической деятельности, но надёжного ответа ЦК и полномочий делегатов нет",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-BRA-Бразил",
+            "region": "SOUTH_AMERICA",
+            "polity": "BRA",
+            "party_ru": "Бразильская коммунистическая партия (PCB, тогда Partido Comunista do Brasil)",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Проявляет интерес к консультациям, настаивая на учёте национальных выборов и собственного политического курса",
+            "operating_context": "RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-CHL-Коммун",
+            "region": "SOUTH_AMERICA",
+            "polity": "CHL",
+            "party_ru": "Коммунистическая партия Чили",
+            "status": "CHANNEL_ACKNOWLEDGEMENT",
+            "reply": "Подпольные партийные каналы приветствуют солидарность; делегирование ограничено запретом партии",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-ARG-Коммун",
+            "region": "SOUTH_AMERICA",
+            "polity": "ARG",
+            "party_ru": "Коммунистическая партия Аргентины",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Осторожно рассматривает встречу; политический кризис страны и работа в местных организациях требуют автономии",
+            "operating_context": "RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-URY-Коммун",
+            "region": "SOUTH_AMERICA",
+            "polity": "URY",
+            "party_ru": "Коммунистическая партия Уругвая",
+            "status": "ACCEPT_CONSULTATIONS",
+            "reply": "Готова направить представителя на подготовительные консультации по мирной политике и правам трудящихся",
+            "operating_context": "OPEN",
+            "membership": "NONE",
+            "conference_commitment": "PREPARATORY_CONSULTATION_ONLY"
+          },
+          {
+            "party_id": "NPC1955-ECU-Коммун",
+            "region": "SOUTH_AMERICA",
+            "polity": "ECU",
+            "party_ru": "Коммунистическая партия Эквадора",
+            "status": "ACCEPT_CONSULTATIONS",
+            "reply": "Готова к консультациям по профсоюзной работе, социальной политике и национальной самостоятельности",
+            "operating_context": "OPEN",
+            "membership": "NONE",
+            "conference_commitment": "PREPARATORY_CONSULTATION_ONLY"
+          },
+          {
+            "party_id": "NPC1955-BOL-Коммун",
+            "region": "SOUTH_AMERICA",
+            "polity": "BOL",
+            "party_ru": "Коммунистическая партия Боливии",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Заинтересована в опыте социально-экономических реформ, при условии невмешательства в национальные союзы",
+            "operating_context": "RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-COL-Колумб",
+            "region": "SOUTH_AMERICA",
+            "polity": "COL",
+            "party_ru": "Колумбийская коммунистическая партия",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Политическое насилие и ограничения не позволяют подтвердить полномочный ответ",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-PER-Коммун",
+            "region": "SOUTH_AMERICA",
+            "polity": "PER",
+            "party_ru": "Коммунистическая партия Перу",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Сообщения о симпатиях отдельных кругов недостаточны для решения партии",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-VEN-Коммун",
+            "region": "SOUTH_AMERICA",
+            "polity": "VEN",
+            "party_ru": "Коммунистическая партия Венесуэлы",
+            "status": "CHANNEL_ACKNOWLEDGEMENT",
+            "reply": "Поступили непрямые сигналы из оппозиционной среды, но подтверждённой делегации при диктатуре нет",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-PRY-Парагв",
+            "region": "SOUTH_AMERICA",
+            "polity": "PRY",
+            "party_ru": "Парагвайская коммунистическая партия",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Под давлением режима нельзя удостоверить авторизованный ответ",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-IDN-Коммун",
+            "region": "ASIA",
+            "polity": "IDN",
+            "party_ru": "Коммунистическая партия Индонезии (PKI)",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "После сильного результата на выборах 1955 года заинтересована в обмене опытом, но отвергает дисциплинарное подчинение иностранному центру",
+            "operating_context": "OPEN",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-MNG-Монгол",
+            "region": "ASIA",
+            "polity": "MNG",
+            "party_ru": "Монгольская народно-революционная партия",
+            "status": "ACCEPT_CONSULTATIONS",
+            "reply": "Готова направить представителей для участия в подготовительной конференции",
+            "operating_context": "OPEN",
+            "membership": "NONE",
+            "conference_commitment": "PREPARATORY_CONSULTATION_ONLY"
+          },
+          {
+            "party_id": "NPC1955-LKA-Коммун",
+            "region": "ASIA",
+            "polity": "LKA",
+            "party_ru": "Коммунистическая партия Цейлона",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Согласна обсудить равноправное сотрудничество и связь с парламентской и профсоюзной деятельностью",
+            "operating_context": "OPEN",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-PAK-Коммун",
+            "region": "ASIA",
+            "polity": "PAK",
+            "party_ru": "Коммунистическая партия Пакистана",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "После запрета 1954 года полномочный отклик из страны не подтверждён",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-IRN-Партия",
+            "region": "ASIA",
+            "polity": "IRN",
+            "party_ru": "Партия «Туде» (Иран)",
+            "status": "CHANNEL_ACKNOWLEDGEMENT",
+            "reply": "Лишь через отдельные эмигрантские контакты выражен интерес; полномочий внутреннего руководства не установлено",
+            "operating_context": "EXILE_CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-IRQ-Иракск",
+            "region": "ASIA",
+            "polity": "IRQ",
+            "party_ru": "Иракская коммунистическая партия",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Политические репрессии и подпольное положение исключают уверенное утверждение об ответе ЦК",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-MYS-Коммун",
+            "region": "ASIA",
+            "polity": "MYS",
+            "party_ru": "Коммунистическая партия Малайи",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Связь с руководством вооружённого подполья не установлена; участие не подтверждено",
+            "operating_context": "ARMED_UNDERGROUND",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-PHL-Коммун",
+            "region": "ASIA",
+            "polity": "PHL",
+            "party_ru": "Коммунистическая партия Филиппин (PKP, образована в 1930 году)",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Разгром повстанческих сетей осложняет связь; нет полномочного подтверждения",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-MMR-Коммун",
+            "region": "ASIA",
+            "polity": "MMR",
+            "party_ru": "Коммунистические партии и фракции Бирмы",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Распавшееся на конкурирующие течения движение не имеет единого подтверждённого ответа",
+            "operating_context": "FRAGMENTED_CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-NPL-Коммун",
+            "region": "ASIA",
+            "polity": "NPL",
+            "party_ru": "Коммунистическая партия Непала",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Из-за запретов и неопределённости каналов ответ партийного руководства не подтверждён",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-SYR-Сирийс",
+            "region": "ASIA",
+            "polity": "SYR",
+            "party_ru": "Сирийская коммунистическая партия",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Интерес к антиколониальной повестке и мирной политике при сохранении национальной независимости",
+            "operating_context": "RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-TUR-Коммун",
+            "region": "ASIA",
+            "polity": "TUR",
+            "party_ru": "Коммунистическая партия Турции",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Подпольный характер организации исключает объявление состава делегации без отдельного подтверждения",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-LAO-Лаосск",
+            "region": "ASIA",
+            "polity": "LAO",
+            "party_ru": "Лаосская народно-революционная партия (организация 1955 года)",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "Заявлений о поддержке московского центра или составе делегации не получено",
+            "operating_context": "UNDERGROUND",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-ZAF-Южно-А",
+            "region": "AFRICA",
+            "polity": "ZAF",
+            "party_ru": "Южно-Африканская коммунистическая партия (SACP)",
+            "status": "CHANNEL_ACKNOWLEDGEMENT",
+            "reply": "Подпольные круги положительно оценивают антирасистскую солидарность; официальной поездки или делегации нет",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-DZA-Алжирс",
+            "region": "AFRICA",
+            "polity": "DZA",
+            "party_ru": "Алжирская коммунистическая партия",
+            "status": "NO_VERIFIED_REPLY",
+            "reply": "На фоне войны и запрета организации связь с уполномоченным руководством не подтверждена",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-SDN-Суданс",
+            "region": "AFRICA",
+            "polity": "SDN",
+            "party_ru": "Суданское движение за национальное освобождение (коммунистическая организация)",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Интерес к обсуждению антиколониализма, независимости и профсоюзной работы без признания наднационального командования",
+            "operating_context": "RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-AUS-Коммун",
+            "region": "OCEANIA",
+            "polity": "AUS",
+            "party_ru": "Коммунистическая партия Австралии",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Интерес к координации рабочего движения и противодействию антикоммунизму при независимой политике в Австралии",
+            "operating_context": "OPEN_RESTRICTED",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-NZL-Коммун",
+            "region": "OCEANIA",
+            "polity": "NZL",
+            "party_ru": "Коммунистическая партия Новой Зеландии",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Готова к обмену материалами и разговору о роли региона; полномочия центрального органа должны быть ограничены",
+            "operating_context": "OPEN",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-ESP-Коммун",
+            "region": "EUROPE",
+            "polity": "ESP",
+            "party_ru": "Коммунистическая партия Испании (PCE)",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Эмигрантские структуры заинтересованы, особенно в антифашистской повестке; внутреннее движение действует в условиях диктатуры",
+            "operating_context": "EXILE_CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-PRT-Португ",
+            "region": "EUROPE",
+            "polity": "PRT",
+            "party_ru": "Португальская коммунистическая партия (PCP)",
+            "status": "CHANNEL_ACKNOWLEDGEMENT",
+            "reply": "Узкие подпольные каналы приветствуют солидарность без подтверждения представительства",
+            "operating_context": "CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-GRC-Коммун",
+            "region": "EUROPE",
+            "polity": "GRC",
+            "party_ru": "Коммунистическая партия Греции (KKE)",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Эмигрантские партийные круги готовы обсуждать помощь преследуемым и равноправие партий",
+            "operating_context": "EXILE_CLANDESTINE",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          },
+          {
+            "party_id": "NPC1955-AUT-Коммун",
+            "region": "EUROPE",
+            "polity": "AUT",
+            "party_ru": "Коммунистическая партия Австрии",
+            "status": "ACCEPT_CONSULTATIONS",
+            "reply": "Готова к подготовительным встречам, особо выделяя нейтралитет Австрии и мирную политику",
+            "operating_context": "OPEN",
+            "membership": "NONE",
+            "conference_commitment": "PREPARATORY_CONSULTATION_ONLY"
+          },
+          {
+            "party_id": "NPC1955-BEL-Коммун",
+            "region": "EUROPE",
+            "polity": "BEL",
+            "party_ru": "Коммунистическая партия Бельгии",
+            "status": "INTERESTED_WITH_TERMS",
+            "reply": "Согласна обсуждать мир и трудовые права при сохранении самостоятельности национальных партий",
+            "operating_context": "OPEN",
+            "membership": "NONE",
+            "conference_commitment": "NOT_COMMITTED"
+          }
+        ],
+        "player_party_responses_pending": [
+          "CHN",
+          "YUG"
+        ],
+        "organization_established": false,
+        "formal_members": [],
+        "financial_effect_G_billion": 0,
+        "scientific_bonus": 0,
+        "economic_bonus": 0
+      },
+      "regional_extension_note": "The additional 41 NPC outcomes supplement the original 14 NPC responses. They are not memberships, treaties, confirmed conference participation, or financial effects."
+    },
+    {
+      "id": "IND-1955-INDUSTRIAL-FOREIGN-SUPPLIERS",
+      "kind": "NONBINDING_TRADE_TALKS",
+      "stage": "INTEREST_NO_CONTRACT",
+      "participants": [
+        "IND"
+      ],
+      "signed_investment_G_billion": 0,
+      "visibility": "COUNTRY_PRIVATE"
+    },
+    {
+      "id": "FRA-FRG-1955-SAAR",
+      "kind": "DIPLOMATIC_QUESTION",
+      "stage": "UNRESOLVED_NO_SOVEREIGNTY_TRANSFER",
+      "participants": [
+        "FRA",
+        "FRG"
+      ],
+      "visibility": "PUBLIC"
+    }
+  ],
+  "watchpoints": [
+    "Германский вопрос и полномочия союзников",
+    "Алжирский конфликт",
+    "Напряжённость в Тайваньском проливе",
+    "Суэцкий вопрос и вывод британских войск",
+    "Формирование союзов в Европе",
+    "Вопрос деколонизации"
+  ],
+  "source_policy": "Реальное положение на 01.01.1955, последующие исторические события НЕ предрешены.",
+  "version": "1.0-start-candidate",
+  "global_pre_start_institutions": [
+    "Бреттон-Вудская система и контроль за обменными курсами",
+    "НАТО (1949)",
+    "СЕАТО (1954)",
+    "ООН",
+    "ГАТТ",
+    "ЕОУС (1951)",
+    "Действующие режимы оккупационных и союзнических прав на германских территориях"
+  ],
+  "world_process_rules": [
+    "Не переносить исторические кризисы после 1955 как обязательные события",
+    "Применять международные эффекты однократно и к обеим затронутым игровым сторонам",
+    "Независимые страны и зависимые территории не обязательно имеют полную 49-параметровую статистику"
+  ],
+  "campaign_id": "VPI1955_MAIN",
+  "scope_note": "Сохраняется исторический фон 01.01.1955; будущие события не гарантированы. Договоры и процессы с даты старта судятся в RP.",
+  "country_ids_reference": "legacy URS and FRG as original JSON country IDs; sheet aliases SUN and DEU",
+  "international_obligations_policy": "Международные договоры и передача ресурсов учитываются однократно в world и проецируются в состояния участников, без независимого дублирования.",
+  "release_id": "VPI1955-1956-TURN1-R1",
+  "treaties_registry_note": "The treaties array tracks explicitly recorded player-level bilateral/multilateral game obligations; pre-1955 alliances, organizations and international institutions are listed separately in global_pre_start_institutions and international_organizations. Empty treaty actions array is not proof that no pre-1955 agreements existed.",
+  "process_registry_note": "Country-level pre-1955 ongoing processes are preserved in each country_state.active_processes; global watchpoints in world.watchpoints are not post-1955 guaranteed events.",
+  "turn_1955_approved": {
+    "archive_commit": "fdf527b15289942a3371fd675f45665968447983",
+    "total_post_count": 41,
+    "year_closed": true,
+    "public_world_chronicle": "WORLD-1955-YEAR-END-NEW-COURSES",
+    "approved_country_events": [
+      "USA-1955-ENDYEAR-INTERNAL",
+      "CHN-1955-ENDYEAR-AGRARIAN",
+      "IND-1955-ENDYEAR-INDUSTRY",
+      "YUG-1955-ENDYEAR-RAIL",
+      "FRA-1955-ENDYEAR-CABINET"
+    ],
+    "confidential_urs_event": "URS-1955-FIFTH-INTERNATIONAL-NPC-RESPONSES",
+    "publication_not_verified": true
+  }
+}
