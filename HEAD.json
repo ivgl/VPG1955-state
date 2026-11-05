@@ -4,8 +4,8 @@
   "year": 1956,
   "start_date": "1956-01-01",
   "release_id": "VPI1955-1956-TURN1-R1",
-  "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_CORRECTED.json",
-  "manifest_sha256": "6634fd754069181cac6f411e8050c2b05e0de74e2fc44ac13c5d140581049a62",
+  "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_FIFTH_INTL_CORRECTED.json",
+  "manifest_sha256": "c5a47f608af1ce8901c1a7ee79a43756b54098f96ad7cc7b37f974928c1a649b",
   "official": true,
   "phase": "RECEIVING",
   "status": "OFFICIAL_1956_RECEIVING",
@@ -19,14 +19,14 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://github.com/ivgl/VPG1955-state/tree/main/releases/1956",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "2026-11-05: JPN next upper-house historical reference 1956-07-08; lower-house regular game election assigned 1959-02-22 (following four-year term); real 1958-05-22 was snap and is not guaranteed. National mechanics and economics unchanged.",
+  "updated_note": "2026-11-05: JPN next upper-house historical reference 1956-07-08; lower-house regular game election assigned 1959-02-22 (following four-year term); real 1958-05-22 was snap and is not guaranteed. National mechanics and economics unchanged. 2026-11-05: archive-approved Fifth International 41 additional regional NPC consultation replies synchronized into private canonical world, URS process and effect ledger (zero numeric effects).",
   "storage": {
     "provider": "github",
     "repository": "ivgl/VPG1955-state",
     "visibility": "private",
     "branch": "main",
-    "current_manifest": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_CORRECTED.json",
-    "current_world": "releases/1956/world_1956.json",
+    "current_manifest": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_FIFTH_INTL_CORRECTED.json",
+    "current_world": "releases/1956/patches/world_1956_fifth_intl_regional_sync_2026-11-05.json",
     "country_directory": "releases/1956/countries/",
     "mechanics_directory": "releases/1956/modules/",
     "effective_date": "2026-10-27",
@@ -35,7 +35,7 @@
     "administrator_approval_required": true,
     "automatic_adjudication": false,
     "automatic_state_update": false,
-    "current_manifest_sha256": "6634fd754069181cac6f411e8050c2b05e0de74e2fc44ac13c5d140581049a62",
+    "current_manifest_sha256": "c5a47f608af1ce8901c1a7ee79a43756b54098f96ad7cc7b37f974928c1a649b",
     "military_game_baseline_approved": true,
     "public_mechanics_approved": 12,
     "source_of_truth": "GitHub_PRIVATE_RELEASE"
@@ -109,6 +109,18 @@
       "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_CORRECTED.json",
       "manifest_sha256": "6634fd754069181cac6f411e8050c2b05e0de74e2fc44ac13c5d140581049a62",
       "previous_manifest_sha256": "f18af24ec977d2b23952227a5060d38ef06ff5395799732696f36d1ec76bfd26"
+    },
+    {
+      "date": "2026-11-05",
+      "scope": "Canonical nonnumeric synchronization of already-approved archive addendum: Fifth International 41 regional NPC consultation responses. Corrective 1956 manifest, preserve parent effect, no double counting.",
+      "phase": "RECEIVING",
+      "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_FIFTH_INTL_CORRECTED.json",
+      "manifest_sha256": "c5a47f608af1ce8901c1a7ee79a43756b54098f96ad7cc7b37f974928c1a649b",
+      "previous_manifest_sha256": "6634fd754069181cac6f411e8050c2b05e0de74e2fc44ac13c5d140581049a62",
+      "effect_id": "URS-1955-DIP-FIFTH-INTL-REGIONAL-NPC-CANON-SYNC-01",
+      "source_archive_addendum": "turns/1955/verdicts/final/URS_FIFTH_INTL_REGIONAL_NPC_RESPONSES_ADDENDUM_2026-11-05.json",
+      "financial_effect_G_billion": 0,
+      "no_game_system_change": true
     }
   ],
   "drive_metadata_status": "ARCHIVED_PROVENANCE_ONLY; all subsequent authoritative country, modules, world and manifest reads must use GitHub.",
@@ -156,5 +168,23 @@
     "judging_begin": "2026-11-08T00:00:00+03:00",
     "new_mechanics_update": "PENDING_SEPARATE_ADMIN_WORK"
   },
-  "manifest_revision": "JPN_1956_ELECTION_DATES_AND_POLITICS_TEXT_2026_11_05"
+  "manifest_revision": "URS_FIFTH_INTL_41_REGIONAL_NPC_RESPONSES_CANON_SYNC_2026_11_05",
+  "fifth_international_regional_correction": {
+    "effect_id": "URS-1955-DIP-FIFTH-INTL-REGIONAL-NPC-CANON-SYNC-01",
+    "origin_archive_effect_id": "URS-1955-DIP-FIFTH-INTL-REGIONAL-RESPONSES-01",
+    "archive_source": "turns/1955/verdicts/final/URS_FIFTH_INTL_REGIONAL_NPC_RESPONSES_ADDENDUM_2026-11-05.json",
+    "additional_organizations": 41,
+    "year_of_approved_npc_replies": 1955,
+    "recorded_state_year": 1956,
+    "world_ref": "releases/1956/patches/world_1956_fifth_intl_regional_sync_2026-11-05.json",
+    "urs_ref": "releases/1956/patches/URS_fifth_intl_regional_sync_2026-11-05.json",
+    "ledger_ref": "releases/1956/patches/effects_1955_applied_JPN_fifth_intl_sync_2026-11-05.json",
+    "financial_effect_G_billion": 0,
+    "no_formal_members": true,
+    "player_responses_pending": [
+      "CHN",
+      "YUG"
+    ],
+    "privacy": "COUNTRY_URS_PRIVATE"
+  }
 }
