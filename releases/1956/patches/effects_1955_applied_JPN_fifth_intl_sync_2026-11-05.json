@@ -1,0 +1,190 @@
+{
+  "schema": "VPI1955_EFFECT_LEDGER_1955_v1",
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1955,
+  "release_id": "VPI1955-1956-TURN1-R1",
+  "approved_by_admin": "2026-11-05",
+  "effects": [
+    {
+      "effect_id": "URS-1955-ANNUAL-NUMERIC-CLOSE-01",
+      "country_id": "URS",
+      "applied_year": 1955,
+      "recognized_in_1956_opening_snapshot": true,
+      "applied_once": true,
+      "source_archive": "turns/1955/posts/index.json",
+      "source_approved_models": [
+        "VPI1955_ECONOMIC_SUMMARY_CORRECTED_PRECISION_2026-11-04.md",
+        "VPI1955_NON_ECONOMIC_EFFECTS_FINAL_DRAFT_2026-11-04.md"
+      ],
+      "realized_1955_growth_pct": 5.05,
+      "additional_growth_pp": 0.05,
+      "functional_expense_G_billion": 0.827,
+      "index_deltas": {
+        "science_technology_index": 0.1
+      },
+      "notes": null
+    },
+    {
+      "effect_id": "FRG-1955-ANNUAL-NUMERIC-CLOSE-01",
+      "country_id": "FRG",
+      "applied_year": 1955,
+      "recognized_in_1956_opening_snapshot": true,
+      "applied_once": true,
+      "source_archive": "turns/1955/posts/index.json",
+      "source_approved_models": [
+        "VPI1955_ECONOMIC_SUMMARY_CORRECTED_PRECISION_2026-11-04.md",
+        "VPI1955_NON_ECONOMIC_EFFECTS_FINAL_DRAFT_2026-11-04.md"
+      ],
+      "realized_1955_growth_pct": 7,
+      "additional_growth_pp": 0,
+      "functional_expense_G_billion": 4,
+      "index_deltas": {},
+      "notes": null
+    },
+    {
+      "effect_id": "JPN-1955-ANNUAL-NUMERIC-CLOSE-01",
+      "country_id": "JPN",
+      "applied_year": 1955,
+      "recognized_in_1956_opening_snapshot": true,
+      "applied_once": true,
+      "source_archive": "turns/1955/posts/index.json",
+      "source_approved_models": [
+        "VPI1955_ECONOMIC_SUMMARY_CORRECTED_PRECISION_2026-11-04.md",
+        "VPI1955_NON_ECONOMIC_EFFECTS_FINAL_DRAFT_2026-11-04.md"
+      ],
+      "realized_1955_growth_pct": 7,
+      "additional_growth_pp": 0,
+      "functional_expense_G_billion": 0,
+      "index_deltas": {
+        "institutional_capacity_index": 0.1
+      },
+      "notes": null
+    },
+    {
+      "effect_id": "CHN-1955-ANNUAL-NUMERIC-CLOSE-01",
+      "country_id": "CHN",
+      "applied_year": 1955,
+      "recognized_in_1956_opening_snapshot": true,
+      "applied_once": true,
+      "source_archive": "turns/1955/posts/index.json",
+      "source_approved_models": [
+        "VPI1955_ECONOMIC_SUMMARY_CORRECTED_PRECISION_2026-11-04.md",
+        "VPI1955_NON_ECONOMIC_EFFECTS_FINAL_DRAFT_2026-11-04.md"
+      ],
+      "realized_1955_growth_pct": 5.7,
+      "additional_growth_pp": 0.2,
+      "functional_expense_G_billion": 0.53,
+      "index_deltas": {
+        "institutional_capacity_index": 0.1,
+        "real_household_income_index": 0.4
+      },
+      "notes": "0.07 G$ rural credit principal counted as a recoverable asset, excluded from functional expenses"
+    },
+    {
+      "effect_id": "IND-1955-ANNUAL-NUMERIC-CLOSE-01",
+      "country_id": "IND",
+      "applied_year": 1955,
+      "recognized_in_1956_opening_snapshot": true,
+      "applied_once": true,
+      "source_archive": "turns/1955/posts/index.json",
+      "source_approved_models": [
+        "VPI1955_ECONOMIC_SUMMARY_CORRECTED_PRECISION_2026-11-04.md",
+        "VPI1955_NON_ECONOMIC_EFFECTS_FINAL_DRAFT_2026-11-04.md"
+      ],
+      "realized_1955_growth_pct": 3.6,
+      "additional_growth_pp": 0,
+      "functional_expense_G_billion": 0.786571429,
+      "index_deltas": {
+        "institutional_capacity_index": 0.1
+      },
+      "notes": "0.106286 G$ loan disbursement excluded from functional expenses"
+    },
+    {
+      "effect_id": "YUG-1955-ANNUAL-NUMERIC-CLOSE-01",
+      "country_id": "YUG",
+      "applied_year": 1955,
+      "recognized_in_1956_opening_snapshot": true,
+      "applied_once": true,
+      "source_archive": "turns/1955/posts/index.json",
+      "source_approved_models": [
+        "VPI1955_ECONOMIC_SUMMARY_CORRECTED_PRECISION_2026-11-04.md",
+        "VPI1955_NON_ECONOMIC_EFFECTS_FINAL_DRAFT_2026-11-04.md"
+      ],
+      "realized_1955_growth_pct": 5.1,
+      "additional_growth_pp": 0.1,
+      "functional_expense_G_billion": 1.02,
+      "index_deltas": {
+        "science_technology_index": 0.1
+      },
+      "notes": null
+    },
+    {
+      "effect_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "country_id": "URS",
+      "applied_year": 1955,
+      "applied_once": true,
+      "effect_kind": "DIPLOMATIC_NPC_PROCESS",
+      "source_archive": "turns/1955/verdicts/final/URS_FIFTH_INTERNATIONAL_1955_ADMIN_APPROVED.json",
+      "macro_extra_pp": 0,
+      "financial_effect_G_billion": 0,
+      "requires_player_approval_to_join": [
+        "CHN",
+        "YUG"
+      ],
+      "organization_created": false
+    },
+    {
+      "effect_id": "JPN-1955-PARLIAMENT-REALIGNMENT-01",
+      "country_id": "JPN",
+      "applied_year": 1955,
+      "recognized_in_1956_opening_snapshot": true,
+      "applied_once": true,
+      "effect_kind": "POLITICAL_NPC",
+      "source_archive": "turns/1955/verdicts/final/JPN_1955_PARLIAMENTARY_REALIGNMENT_APPROVED_2026-11-05.json",
+      "approved_date": "2026-11-05",
+      "governing_force": "Либерально-демократическая партия Японии",
+      "last_election": "1955-02-27",
+      "house_1956": {
+        "total": 467,
+        "majority": 234,
+        "LDP": 298,
+        "JSP": 155,
+        "other": 14
+      },
+      "gdp_change": 0,
+      "spending_change_G_billion": 0,
+      "mechanics_rule_changes": 0
+    },
+    {
+      "effect_id": "URS-1955-DIP-FIFTH-INTL-REGIONAL-NPC-CANON-SYNC-01",
+      "country_id": "URS",
+      "applied_year": 1955,
+      "canonical_recorded_year": 1956,
+      "applied_once": true,
+      "effect_kind": "NON_NUMERIC_DIPLOMATIC_STATE_CORRECTION",
+      "archive_addendum_effect_id": "URS-1955-DIP-FIFTH-INTL-REGIONAL-RESPONSES-01",
+      "parent_effect_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "source_archive": "turns/1955/verdicts/final/URS_FIFTH_INTL_REGIONAL_NPC_RESPONSES_ADDENDUM_2026-11-05.json",
+      "source_original": "turns/1955/posts/originals/URS_CC_FIFTH_INTERNATIONAL_admin_paste_2026_11_04.md",
+      "world_process_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "country_process_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "additional_npc_organizations": 41,
+      "response_counts": {
+        "INTERESTED_WITH_TERMS": 16,
+        "CHANNEL_ACKNOWLEDGEMENT": 7,
+        "NO_VERIFIED_REPLY": 14,
+        "ACCEPT_CONSULTATIONS": 4
+      },
+      "macro_extra_pp": 0,
+      "financial_effect_G_billion": 0,
+      "organization_created": false,
+      "formal_members_count": 0,
+      "requires_player_approval_to_join": [
+        "CHN",
+        "YUG"
+      ],
+      "visibility": "COUNTRY_URS_PRIVATE",
+      "no_duplicate_economic_or_diplomatic_effects": true
+    }
+  ]
+}
