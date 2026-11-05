@@ -4,8 +4,8 @@
   "year": 1956,
   "start_date": "1956-01-01",
   "release_id": "VPI1955-1956-TURN1-R1",
-  "manifest_path": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_FIFTH_INTL_CORRECTED.json",
-  "manifest_sha256": "c5a47f608af1ce8901c1a7ee79a43756b54098f96ad7cc7b37f974928c1a649b",
+  "manifest_path": "releases/1956/manifest_1956_NEGOTIATION_FORMAT_RC1_0_2026_11_05.json",
+  "manifest_sha256": "33b9f5deb871c97d4de3a429f68e29e98004b9304157066e3aa44f021939bd3c",
   "official": true,
   "phase": "RECEIVING",
   "status": "OFFICIAL_1956_RECEIVING",
@@ -19,13 +19,13 @@
   "approval_record": "Explicit user request in chat to update HEAD and sync canonical states on 2026-10-18",
   "release_folder_url": "https://github.com/ivgl/VPG1955-state/tree/main/releases/1956",
   "head_update_policy": "Only after final approval, manifest verification, checked country/world files; 1977 HEAD must remain unmodified.",
-  "updated_note": "2026-11-05: JPN next upper-house historical reference 1956-07-08; lower-house regular game election assigned 1959-02-22 (following four-year term); real 1958-05-22 was snap and is not guaranteed. National mechanics and economics unchanged. 2026-11-05: archive-approved Fifth International 41 additional regional NPC consultation replies synchronized into private canonical world, URS process and effect ledger (zero numeric effects).",
+  "updated_note": "2026-11-05: JPN next upper-house historical reference 1956-07-08; lower-house regular game election assigned 1959-02-22 (following four-year term); real 1958-05-22 was snap and is not guaranteed. National mechanics and economics unchanged. 2026-11-05: archive-approved Fifth International 41 additional regional NPC consultation replies synchronized into private canonical world, URS process and effect ledger (zero numeric effects). 2026-11-05: RC1.0 procedural patch requires mutual negotiation visibility confirmation at start of private threads; no change to world/country data or phase.",
   "storage": {
     "provider": "github",
     "repository": "ivgl/VPG1955-state",
     "visibility": "private",
     "branch": "main",
-    "current_manifest": "releases/1956/manifest_1956_JPN_POLITICS_ELECTIONS_FIFTH_INTL_CORRECTED.json",
+    "current_manifest": "releases/1956/manifest_1956_NEGOTIATION_FORMAT_RC1_0_2026_11_05.json",
     "current_world": "releases/1956/patches/world_1956_fifth_intl_regional_sync_2026-11-05.json",
     "country_directory": "releases/1956/countries/",
     "mechanics_directory": "releases/1956/modules/",
@@ -35,7 +35,7 @@
     "administrator_approval_required": true,
     "automatic_adjudication": false,
     "automatic_state_update": false,
-    "current_manifest_sha256": "c5a47f608af1ce8901c1a7ee79a43756b54098f96ad7cc7b37f974928c1a649b",
+    "current_manifest_sha256": "33b9f5deb871c97d4de3a429f68e29e98004b9304157066e3aa44f021939bd3c",
     "military_game_baseline_approved": true,
     "public_mechanics_approved": 12,
     "source_of_truth": "GitHub_PRIVATE_RELEASE"
@@ -121,11 +121,23 @@
       "source_archive_addendum": "turns/1955/verdicts/final/URS_FIFTH_INTL_REGIONAL_NPC_RESPONSES_ADDENDUM_2026-11-05.json",
       "financial_effect_G_billion": 0,
       "no_game_system_change": true
+    },
+    {
+      "date": "2026-11-05",
+      "scope": "Procedural RC1.0 negotiation-format patch: each side confirms OPEN or CLOSED at the opening of private thread; does not alter country/world payloads, macroeconomics, effects, phase or game year.",
+      "phase": "RECEIVING",
+      "year": 1956,
+      "authorized_by": "ADMIN_EXPLICIT_USER_REQUEST",
+      "rules_document_sha256": "21f7b41bd108c1ac36fe17affdbf6875a19309fe5b9b756f1f171dd7c1daaa8f",
+      "previous_manifest_sha256": "c5a47f608af1ce8901c1a7ee79a43756b54098f96ad7cc7b37f974928c1a649b",
+      "manifest_path": "releases/1956/manifest_1956_NEGOTIATION_FORMAT_RC1_0_2026_11_05.json",
+      "manifest_sha256": "33b9f5deb871c97d4de3a429f68e29e98004b9304157066e3aa44f021939bd3c",
+      "public_discord_notice": "DRAFT_REQUIRES_MANUAL_POST"
     }
   ],
   "drive_metadata_status": "ARCHIVED_PROVENANCE_ONLY; all subsequent authoritative country, modules, world and manifest reads must use GitHub.",
   "rules_document": "docs/rules_RC1.0.md",
-  "rules_document_sha256": "81018017e8675c79bf0e8a0ef2efd067d8cb972e3bf43c229ad2bf46a1e923c8",
+  "rules_document_sha256": "21f7b41bd108c1ac36fe17affdbf6875a19309fe5b9b756f1f171dd7c1daaa8f",
   "registration_status": "OPEN",
   "public_receiving_opens_at": "2026-11-05T00:00:00+03:00",
   "public_receiving_closes_at": "2026-11-07T23:59:59+03:00",
@@ -186,5 +198,13 @@
       "YUG"
     ],
     "privacy": "COUNTRY_URS_PRIVATE"
+  },
+  "negotiation_format_patch": {
+    "status": "APPROVED_IN_CANONICAL_RULES",
+    "date": "2026-11-05",
+    "document": "docs/patches/NEGOTIATIONS_FORMAT_RC1.0_2026-11-05.md",
+    "effective": "New negotiation threads after announcement; ongoing threads confirm before next substantial exchange",
+    "requires_confirmation": "BOTH_PARTIES_IN_SAME_PRIVATE_THREAD",
+    "public_discord_notice": "NOT_POSTED_BY_ASSISTANT"
   }
 }
